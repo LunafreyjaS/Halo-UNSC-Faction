@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Gun Nut - Halo AM Sniper</name>
-	<author>Harkon</author>
+	<name>HALO Armory</name>
+	<author>Harkon,JangoDSoul</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
-	<packageId>Harkon.GunNut.HaloAMSniper</packageId>
+	<packageId>Harkon.GunNut.HALOArmory</packageId>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
 	<description>
-	Welcome to Gun Nut!
+	_
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
