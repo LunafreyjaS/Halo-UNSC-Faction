@@ -51,7 +51,7 @@
                     </value>
                 </li>
 
-                <!-- == Advanced Sniper Rifle == -->
+                <!-- == AM Sniper Rifle == -->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GNHA_AMSniper</defName>
                     <statBases>
