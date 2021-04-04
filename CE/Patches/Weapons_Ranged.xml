@@ -12,7 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[defName = "GN_Halo_AMSniper"]/tools
+				    /Defs/ThingDef[defName = "GNHA_AMSniper"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -53,7 +53,7 @@
 
                 <!-- == Advanced Sniper Rifle == -->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_Halo_AMSniper</defName>
+                    <defName>GNHA_AMSniper</defName>
                     <statBases>
                         <WorkToMake>48000</WorkToMake>
                         <SightsEfficiency>3.5</SightsEfficiency>
@@ -75,7 +75,7 @@
                         <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
                         <warmupTime>3</warmupTime>
                         <range>96</range>
-                        <soundCast>GN_Shot_Halo_AMSniper</soundCast>
+                        <soundCast>GNHA_Shot_AMSniper</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>11</muzzleFlashScale>
                     </Properties>
