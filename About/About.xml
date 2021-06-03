@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>HALO Armory</name>
+	<name>[HRK] HALO - UNSC Faction</name>
 	<author>Harkon,JangoDSoul</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
-	<packageId>Harkon.GunNut.HALOArmory</packageId>
+	<packageId>Harkon.Halo.UNSCFaction</packageId>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
 	<description>
 	_
 	</description>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</downloadUrl>
+		</li>
+	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>CETeam.CombatExtended</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>VanillaExpanded.VWEC</li>
-		<li>VanillaExpanded.VWE</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>		
 	</loadAfter>
 </ModMetaData>
