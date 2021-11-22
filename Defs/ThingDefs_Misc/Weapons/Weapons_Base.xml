@@ -11,5 +11,9 @@
         <weaponTags Inherit="False">
             <li>HRK_UNSC_Gun</li>
         </weaponTags>
+        <recipeMaker Inherit="False">
+        </recipeMaker>
+        <costList Inherit="False">
+        </costList>
     </ThingDef>
 </Defs>
