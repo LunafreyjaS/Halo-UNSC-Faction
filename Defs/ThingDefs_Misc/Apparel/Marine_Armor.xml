@@ -3,46 +3,27 @@
 <Defs>
 
     <!-- Helmet -->
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
-        <defName>GNHA_MarineHelmet</defName>
+    <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
+        <defName>HRK_UNSC_MarineHelmet</defName>
         <label>Marine helmet</label>
         <description>_</description>
-        <techLevel>Spacer</techLevel>
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Marine/Marine_Helmet_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.9, 0.9)</drawSize>
         </graphicData>
-        <tradeTags>
-            <li>HiTechArmor</li>
-        </tradeTags>
         <generateCommonality>2</generateCommonality>
         <statBases>
-            <WorkToMake>26250</WorkToMake>
-            <MaxHitPoints>180</MaxHitPoints>
-            <Mass>2</Mass>
+            <WorkToMake>15750</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.6</ArmorRating_Heat>
+            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>6</EquipDelay>
+            <EquipDelay>2</EquipDelay>
         </statBases>
-        <costList>
-            <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>50</Plasteel>
-        </costList>
         <apparel>
             <bodyPartGroups>
                 <li>FullHead</li>
@@ -55,57 +36,37 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>HRK_UNSC_MarineHelmet</li>
+            </tags>
         </apparel>
-        <thingSetMakerTags>
-            <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>        
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
 
     <!-- Armor -->
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>GNHA_MarineArmor</defName>
+    <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
+        <defName>HRK_UNSC_MarineArmor</defName>
         <label>Marine Armor</label>
         <description>_</description>
-        <techLevel>Spacer</techLevel>
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Marine/Marine_Armor_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconScale>1.25</uiIconScale>
         <generateCommonality>2</generateCommonality>
         <statBases>
-            <WorkToMake>75000</WorkToMake>
-            <MaxHitPoints>400</MaxHitPoints>
-            <Mass>15</Mass>
+            <WorkToMake>45000</WorkToMake>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Mass>9</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.6</ArmorRating_Heat>
-            <Insulation_Cold>36</Insulation_Cold>
-            <Insulation_Heat>12</Insulation_Heat>
-            <EquipDelay>17</EquipDelay>
+            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Insulation_Cold>32</Insulation_Cold>
+            <Insulation_Heat>9</Insulation_Heat>
+            <EquipDelay>11</EquipDelay>
         </statBases>
-        <tradeTags>
-            <li>HiTechArmor</li>
-        </tradeTags>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <costList>
-            <ComponentSpacer>6</ComponentSpacer>
-            <Plasteel>150</Plasteel>
-            <Uranium>50</Uranium>
-        </costList>
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
@@ -113,8 +74,6 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
                 <li>Legs</li>
-                <li>Hands</li>
-                <li>Feet</li>
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/Marine/Marine_Armor</wornGraphicPath>
             <layers>
@@ -125,10 +84,13 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>HRK_UNSC_MarineArmor</li>
+            </tags>
         </apparel>
-        <thingSetMakerTags>
-            <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>        
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
 
 </Defs>
