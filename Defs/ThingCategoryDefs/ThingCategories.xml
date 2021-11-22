@@ -2,8 +2,20 @@
 
 <Defs>
     <ThingCategoryDef>
-        <defName>HRK_Category_UNSC</defName>
-        <label>UNSC Weaponry</label>
+        <defName>HRK_Category_UNSC_Weapons</defName>
+        <label>UNSC</label>
         <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+
+     <ThingCategoryDef>
+        <defName>HRK_Category_UNSC_Armor</defName>
+        <label>UNSC</label>
+        <parent>ApparelArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>HRK_Category_UNSC_Headgear</defName>
+        <label>UNSC</label>
+        <parent>ArmorHeadgear</parent>
     </ThingCategoryDef>
 </Defs>
