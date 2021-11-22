@@ -58,10 +58,7 @@
         </apparel>
         <thingSetMakerTags>
             <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>
-        <comps>
-            <li Class="CompProperties_BiocodableApparel"/>
-        </comps>
+        </thingSetMakerTags>        
     </ThingDef>
 
     <!-- Armor -->
@@ -131,10 +128,7 @@
         </apparel>
         <thingSetMakerTags>
             <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>
-        <comps>
-            <li Class="CompProperties_BiocodableApparel"/>
-        </comps>
+        </thingSetMakerTags>        
     </ThingDef>
 
 </Defs>
