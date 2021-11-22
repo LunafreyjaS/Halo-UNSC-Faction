@@ -26,7 +26,7 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_UNSC_BR55_AR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>    
+    </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>HRK_UNSC_Interact_BR55_AR</soundInteract>
     <statBases>
@@ -79,6 +79,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_AR</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M6G_Pistol ====== -->
@@ -147,6 +150,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_Pistol</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M7_SMG ====== -->
@@ -218,6 +224,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_SMG</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M7S_SMG ====== -->
@@ -273,6 +282,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_SMG</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M41_RL ====== -->
@@ -348,6 +360,9 @@
         <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_RL</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M90_Shotgun ====== -->
@@ -420,6 +435,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_Shotgun</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M319_GL ====== -->
@@ -495,6 +513,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_GL</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M392_DMR ====== -->
@@ -567,6 +588,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_AR</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== M739_LMG ====== -->
@@ -638,6 +662,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_LMG</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== MA5B_AR ====== -->
@@ -710,6 +737,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_AR</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== MA37_AR ====== -->
@@ -779,6 +809,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_AR</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== SRS99_AM ====== -->
@@ -854,6 +887,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_Sniper</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- ====== SpartanLaser ====== -->
@@ -934,6 +970,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>HRK_UNSC_SpartanLaser</li>
+    </weaponTags>
   </ThingDef>
 
 </Defs>
