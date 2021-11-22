@@ -12,12 +12,12 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Chairman Chief</leaderTitle>
-        <fixedLeaderKinds>
+        <!--<fixedLeaderKinds>
             <li>HRK_UNSC_ChairmanChief</li>
-        </fixedLeaderKinds>
+        </fixedLeaderKinds>-->
         <factionIconPath>World/UNSCColony</factionIconPath>
-        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <factionNameMaker>HRK_UNSC_NamerFaction</factionNameMaker>
+        <settlementNameMaker>HRK_UNSC_NamerFactionBases</settlementNameMaker>
         <techLevel>Spacer</techLevel>
         <disallowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
@@ -181,7 +181,7 @@
 
     <FactionDef ParentName="HRK_UNSC_FactionBase">
         <defName>HRK_UNSC_Faction</defName>
-        <label>united nations space command</label>
+        <label>United Nations Space Command</label>
         <description>KEKW</description>
         <colorSpectrum>
             <li>(0.27, 0.40, 0.74)</li>
