@@ -75,7 +75,8 @@
             <EquipDelay>14</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+            <MoveSpeed>-0.2</MoveSpeed>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
