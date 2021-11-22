@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <ThingDef Name="HRK_UNSC_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <thingCategories Inherit="False">
+            <li>HRK_Category_UNSC</li>
+        </thingCategories>
+        <thingSetMakerTags Inherit="False">
+        </thingSetMakerTags>
+        <weaponTags Inherit="False">
+            <li>HRK_UNSC_Gun</li>
+        </weaponTags>
+    </ThingDef>
+</Defs>
