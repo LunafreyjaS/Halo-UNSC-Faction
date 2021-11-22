@@ -12,9 +12,9 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Chairman Chief</leaderTitle>
-        <!--<fixedLeaderKinds>
-            <li>HRK_UNSC_ChairmanChief</li>
-        </fixedLeaderKinds>-->
+        <fixedLeaderKinds>
+            <li>HRK_UNSC_Leader</li>
+        </fixedLeaderKinds>
         <factionIconPath>World/UNSCColony</factionIconPath>
         <factionNameMaker>HRK_UNSC_NamerFaction</factionNameMaker>
         <settlementNameMaker>HRK_UNSC_NamerFactionBases</settlementNameMaker>
@@ -50,7 +50,19 @@
                 <categories>
                     <li>Offworld</li>
                 </categories>
-                <commonality>1.00</commonality>
+                <commonality>0.7</commonality>
+            </li>
+            <li>
+                <categories>
+                    <li>Pirate</li>
+                </categories>
+                <commonality>0.1</commonality>
+            </li>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                </categories>
+                <commonality>0.2</commonality>
             </li>
         </backstoryFilters>
         <geneticVariance>0.8</geneticVariance>
@@ -76,30 +88,55 @@
         </maxPawnCostPerTotalPointsCurve>
         <pawnGroupMakers>
             <li>
-                <!-- Normal fights, standard mix -->
                 <kindDef>Combat</kindDef>
                 <options>
-                    <Villager>5</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Grenadier_Destructive>1.5</Grenadier_Destructive>
-                    <Mercenary_Slasher>7</Mercenary_Slasher>
-                    <Mercenary_Gunner>10</Mercenary_Gunner>
-                    <Mercenary_Elite>10</Mercenary_Elite>
-                    <Town_Councilman>10</Town_Councilman>
+                    <HRK_UNSC_MarineGunner>20</HRK_UNSC_MarineGunner>
+                    <HRK_UNSC_MarineGunner_Acidifier>20</HRK_UNSC_MarineGunner_Acidifier>
+                    <HRK_UNSC_MarineHeavy>10</HRK_UNSC_MarineHeavy>
+                    <HRK_UNSC_MarineHeavy_Acidifier>10</HRK_UNSC_MarineHeavy_Acidifier>
+                    <HRK_UNSC_MarineElite>10</HRK_UNSC_MarineElite>
+                    <HRK_UNSC_MarineElite_Acidifier>10</HRK_UNSC_MarineElite_Acidifier>
+                    <HRK_UNSC_ODSTGunner>10</HRK_UNSC_ODSTGunner>
+                    <HRK_UNSC_ODSTGunner_Acidifier>10</HRK_UNSC_ODSTGunner_Acidifier>
+                    <HRK_UNSC_ODSTHeavy>5</HRK_UNSC_ODSTHeavy>
+                    <HRK_UNSC_ODSTHeavy_Acidifier>5</HRK_UNSC_ODSTHeavy_Acidifier>
+                    <HRK_UNSC_ODSTElite>5</HRK_UNSC_ODSTElite>
+                    <HRK_UNSC_ODSTElite_Acidifier>5</HRK_UNSC_ODSTElite_Acidifier>
+                    <HRK_UNSC_MjolnirGunner>2</HRK_UNSC_MjolnirGunner>
+                    <HRK_UNSC_MjolnirGunner_Acidifier>2</HRK_UNSC_MjolnirGunner_Acidifier>
+                    <HRK_UNSC_MjolnirHeavy>1</HRK_UNSC_MjolnirHeavy>
+                    <HRK_UNSC_MjolnirHeavy_Acidifier>1</HRK_UNSC_MjolnirHeavy_Acidifier>
+                    <HRK_UNSC_MjolnirElite>1</HRK_UNSC_MjolnirElite>
+                    <HRK_UNSC_MjolnirElite_Acidifier>1</HRK_UNSC_MjolnirElite_Acidifier>
                 </options>
             </li>
             <li>
-                <kindDef>Peaceful</kindDef>
+                <kindDef>Settlement</kindDef>
                 <options>
-                    <Villager>20</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Town_Councilman>10</Town_Councilman>
+                    <HRK_UNSC_MarineGunner>20</HRK_UNSC_MarineGunner>
+                    <HRK_UNSC_MarineGunner_Acidifier>20</HRK_UNSC_MarineGunner_Acidifier>
+                    <HRK_UNSC_MarineHeavy>10</HRK_UNSC_MarineHeavy>
+                    <HRK_UNSC_MarineHeavy_Acidifier>10</HRK_UNSC_MarineHeavy_Acidifier>
+                    <HRK_UNSC_MarineElite>10</HRK_UNSC_MarineElite>
+                    <HRK_UNSC_MarineElite_Acidifier>10</HRK_UNSC_MarineElite_Acidifier>
+                    <HRK_UNSC_ODSTGunner>10</HRK_UNSC_ODSTGunner>
+                    <HRK_UNSC_ODSTGunner_Acidifier>10</HRK_UNSC_ODSTGunner_Acidifier>
+                    <HRK_UNSC_ODSTHeavy>5</HRK_UNSC_ODSTHeavy>
+                    <HRK_UNSC_ODSTHeavy_Acidifier>5</HRK_UNSC_ODSTHeavy_Acidifier>
+                    <HRK_UNSC_ODSTElite>5</HRK_UNSC_ODSTElite>
+                    <HRK_UNSC_ODSTElite_Acidifier>5</HRK_UNSC_ODSTElite_Acidifier>
+                    <HRK_UNSC_MjolnirGunner>2</HRK_UNSC_MjolnirGunner>
+                    <HRK_UNSC_MjolnirGunner_Acidifier>2</HRK_UNSC_MjolnirGunner_Acidifier>
+                    <HRK_UNSC_MjolnirHeavy>1</HRK_UNSC_MjolnirHeavy>
+                    <HRK_UNSC_MjolnirHeavy_Acidifier>1</HRK_UNSC_MjolnirHeavy_Acidifier>
+                    <HRK_UNSC_MjolnirElite>1</HRK_UNSC_MjolnirElite>
+                    <HRK_UNSC_MjolnirElite_Acidifier>1</HRK_UNSC_MjolnirElite_Acidifier>
                 </options>
             </li>
             <li>
                 <kindDef>Trader</kindDef>
                 <traders>
-                    <Town_Trader>1</Town_Trader>
+                    <HRK_UNSC_Trader>1</HRK_UNSC_Trader>
                 </traders>
                 <carriers>
                     <Muffalo>6</Muffalo>
@@ -108,53 +145,13 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
-                    <Villager>3</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Grenadier_Destructive>1.5</Grenadier_Destructive>
-                    <Mercenary_Slasher>7</Mercenary_Slasher>
-                    <Mercenary_Gunner>10</Mercenary_Gunner>
-                    <Mercenary_Elite>10</Mercenary_Elite>
+                    <HRK_UNSC_MarineGunner>20</HRK_UNSC_MarineGunner>
+                    <HRK_UNSC_MarineGunner_Acidifier>20</HRK_UNSC_MarineGunner_Acidifier>
+                    <HRK_UNSC_MarineHeavy>10</HRK_UNSC_MarineHeavy>
+                    <HRK_UNSC_MarineHeavy_Acidifier>10</HRK_UNSC_MarineHeavy_Acidifier>
+                    <HRK_UNSC_MarineElite>10</HRK_UNSC_MarineElite>
+                    <HRK_UNSC_MarineElite_Acidifier>10</HRK_UNSC_MarineElite_Acidifier>
                 </guards>
-            </li>
-            <li>
-                <kindDef>Settlement</kindDef>
-                <options>
-                    <Villager>10</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Grenadier_Destructive>1.5</Grenadier_Destructive>
-                    <Mercenary_Slasher>7</Mercenary_Slasher>
-                    <Mercenary_Gunner>10</Mercenary_Gunner>
-                    <Mercenary_Elite>10</Mercenary_Elite>
-                    <Town_Councilman>10</Town_Councilman>
-                </options>
-            </li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">
-                <kindDef>Miners</kindDef>
-                <commonality>1</commonality>
-                <options>
-                    <Miner>1</Miner>
-                </options>
-            </li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">
-                <kindDef>Hunters</kindDef>
-                <commonality>1</commonality>
-                <options>
-                    <Hunter>1</Hunter>
-                </options>
-            </li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">
-                <kindDef>Loggers</kindDef>
-                <commonality>1</commonality>
-                <options>
-                    <Logger>1</Logger>
-                </options>
-            </li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">
-                <kindDef>Farmers</kindDef>
-                <commonality>1</commonality>
-                <options>
-                    <Farmer>1</Farmer>
-                </options>
             </li>
         </pawnGroupMakers>
         <settlementTexturePath>World/UNSCColony</settlementTexturePath>
