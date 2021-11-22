@@ -1,10 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
 <Defs>
+
     <ThingDef Name="HRK_UNSC_ArmorHelmetMakeableBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories Inherit="False">
             <li>HRK_Category_UNSC_Headgear</li>
         </thingCategories>
         <thingSetMakerTags Inherit="False">
+            <li>RewardStandardHighFreq</li>
         </thingSetMakerTags>
         <weaponTags Inherit="False">
         </weaponTags>
@@ -29,6 +33,7 @@
             <li>HRK_Category_UNSC_Armor</li>
         </thingCategories>
         <thingSetMakerTags Inherit="False">
+            <li>RewardStandardHighFreq</li>
         </thingSetMakerTags>
         <weaponTags Inherit="False">
         </weaponTags>
