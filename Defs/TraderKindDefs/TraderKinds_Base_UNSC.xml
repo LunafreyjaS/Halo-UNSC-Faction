@@ -2,7 +2,7 @@
 <Defs>
 
   <TraderKindDef>
-    <defName>RE_Base_Alliance_Standard</defName>
+    <defName>HRK_Base_UNSC_Standard</defName>
     <stockGenerators>
 
       <!-- Resources -->
@@ -13,10 +13,6 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
         <countRange>40~90</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>RE_PrefabComponent</thingDef>
-        <countRange>30~80</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
@@ -87,7 +83,9 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <excludedCategories><li>EggsFertilized</li></excludedCategories>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
         <thingDefCountRange>2~4</thingDefCountRange>
         <totalPriceRange>400~800</totalPriceRange>
       </li>
@@ -108,10 +106,6 @@
         <categoryDef>Drugs</categoryDef>
         <thingDefCountRange>3~4</thingDefCountRange>
         <totalPriceRange>700~1500</totalPriceRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>RE_MediGel</thingDef>
-        <countRange>10~15</countRange>
       </li>
 
       <!-- Techprints -->
@@ -138,14 +132,9 @@
         <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
-        <tradeTag>RE_AllianceGun</tradeTag>
+        <tradeTag>HRK_UNSC_Weapon</tradeTag>
         <thingDefCountRange>2~4</thingDefCountRange>
         <countRange>1~2</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>RE_AllianceGunLight</tradeTag>
-        <thingDefCountRange>2~3</thingDefCountRange>
-        <countRange>1~3</countRange>
       </li>
 
       <!-- Apparel -->
@@ -153,16 +142,9 @@
         <countRange>10~16</countRange>
       </li>
       <li Class="StockGenerator_Tag">
-        <tradeTag>RE_SpacerApparel</tradeTag>
+        <tradeTag>HRK_UNSC_Armor</tradeTag>
         <thingDefCountRange>3~6</thingDefCountRange>
         <countRange>2~4</countRange>
-      </li>
-
-      <!-- Implants -->
-      <li Class="StockGenerator_Tag">
-        <tradeTag>RE_Implant</tradeTag>
-        <thingDefCountRange>2~5</thingDefCountRange>
-        <countRange>1~1</countRange>
       </li>
 
       <!-- Buildings -->
@@ -183,10 +165,6 @@
         <thingDef>Telescope</thingDef>
         <countRange>0~1</countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>RE_AllianceTerminal</thingDef>
-        <countRange>1~2</countRange>
-      </li>
 
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
@@ -199,8 +177,8 @@
         <thingDefCountRange>1~4</thingDefCountRange>
         <countRange>1~2</countRange>
         <excludedThingDefs>
-          <li>Luciferium</li> <!-- already handled by drugs -->
-          <li>ComponentSpacer</li> <!-- already handled by single def -->
+          <li>Luciferium</li>          <!-- already handled by drugs -->
+          <li>ComponentSpacer</li>          <!-- already handled by single def -->
         </excludedThingDefs>
         <customCountRanges>
           <MedicineUltratech>2~15</MedicineUltratech>
@@ -213,12 +191,10 @@
         <tradeTagsSell>
           <li>AnimalFarm</li>
           <li>AnimalPet</li>
-          <li>RE_AnimalRE</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
-		  <li>RE_AnimalRE</li>
         </tradeTagsBuy>
         <kindCountRange>2~4</kindCountRange>
         <countRange>3~8</countRange>
@@ -226,10 +202,18 @@
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>ImplantEmpireCommon</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>ImplantEmpireRoyal</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>MusicalInstrument</tag>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 

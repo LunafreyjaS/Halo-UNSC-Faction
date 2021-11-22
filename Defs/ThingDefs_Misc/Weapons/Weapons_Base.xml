@@ -16,5 +16,9 @@
         <costList>
             <Steel>1</Steel>
         </costList>
+        <tradeTags Inherit="False">
+			<li>HRK_UNSC_Weapon</li>
+            <li>HRK_UNSC_Armor</li>			
+		</tradeTags>
     </ThingDef>
 </Defs>

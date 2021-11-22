@@ -2,10 +2,10 @@
 <Defs>
 
   <TraderKindDef>
-    <defName>RE_Visitor_Alliance_Standard</defName>
+    <defName>HRK_Visitor_UNSC_Standard</defName>
     <label>trader</label>
     <stockGenerators>
-      
+
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
@@ -29,20 +29,12 @@
           <li>Chocolate</li>
         </thingDefs>
       </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>RE_PrefabComponent</thingDef>
-        <countRange>1~7</countRange>
-      </li>
-      
+
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
         <thingDefCountRange>-1~1</thingDefCountRange>
         <totalPriceRange>100~300</totalPriceRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>RE_MediGel</thingDef>
-        <countRange>0~1</countRange>
       </li>
 
       <!-- Techprints -->
@@ -54,17 +46,17 @@
           </li>
         </countChances>
       </li>
-      
+
       <!-- Weapons -->
       <li Class="StockGenerator_Tag">
-        <tradeTag>RE_AllianceGunLight</tradeTag>
+        <tradeTag>HRK_UNSC_Weapon</tradeTag>
         <thingDefCountRange>1~1</thingDefCountRange>
         <countRange>0~1</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Tag">
-        <tradeTag>RE_SpacerApparel</tradeTag>
+        <tradeTag>HRK_UNSC_Armor</tradeTag>
         <thingDefCountRange>1~1</thingDefCountRange>
         <countRange>0~1</countRange>
       </li>
@@ -74,21 +66,25 @@
 
       <!-- Buildings -->
       <!-- none -->
-      
+
       <!-- Exotic -->
       <!-- none -->
-      
+
       <!-- Slaves -->
       <!-- none -->
-      
+
       <!-- Animals -->
       <!-- none -->
-      
+
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
-      
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>MusicalInstrument</tag>
+      </li>
+
     </stockGenerators>
   </TraderKindDef>
 
