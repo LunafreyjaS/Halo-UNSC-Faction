@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <PawnKindDef Name="HRK_UNSC_PawnBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>HRK_UNSC_Faction</defaultFactionType>
+        <chemicalAddictionChance>0.1</chemicalAddictionChance>
+        <invNutrition>2.55</invNutrition>
+        <itemQuality>Normal</itemQuality>
+        <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+        <maxGenerationAge>65</maxGenerationAge>
+        <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+        <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+        <biocodeWeaponChance>0.1</biocodeWeaponChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </PawnKindDef>
+
+</Defs>
