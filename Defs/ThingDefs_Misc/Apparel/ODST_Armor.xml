@@ -3,46 +3,34 @@
 <Defs>
 
     <!-- Helmet -->
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
-        <defName>GNHA_ODSTHelmet</defName>
-        <label>ODST helmet</label>
+    <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
+        <defName>HRK_UNSC_ODSTHelmet</defName>
+        <label>ODST Helmet</label>
         <description>_</description>
-        <techLevel>Spacer</techLevel>
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/ODST/ODST_Helmet_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.9, 0.9)</drawSize>
         </graphicData>
+        <uiIconScale>1.25</uiIconScale>
         <tradeTags>
             <li>HiTechArmor</li>
         </tradeTags>
         <generateCommonality>2</generateCommonality>
         <statBases>
-            <WorkToMake>26250</WorkToMake>
-            <MaxHitPoints>180</MaxHitPoints>
-            <Mass>2</Mass>
+            <WorkToMake>21000</WorkToMake>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>1.5</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.6</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.54</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>6</EquipDelay>
+            <EquipDelay>4</EquipDelay>
         </statBases>
-        <costList>
-            <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>50</Plasteel>
-        </costList>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
                 <li>FullHead</li>
@@ -55,57 +43,40 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>HRK_UNSC_ODSTHelmet</li>
+            </tags>
         </apparel>
-        <thingSetMakerTags>
-            <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>        
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
 
     <!-- Armor -->
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>GNHA_ODSTArmor</defName>
+    <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
+        <defName>HRK_UNSC_ODSTArmor</defName>
         <label>ODST Armor</label>
         <description>_</description>
-        <techLevel>Spacer</techLevel>
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/ODST/ODST_Armor_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconScale>1.25</uiIconScale>
         <generateCommonality>2</generateCommonality>
         <statBases>
-            <WorkToMake>75000</WorkToMake>
-            <MaxHitPoints>400</MaxHitPoints>
-            <Mass>15</Mass>
+            <WorkToMake>60000</WorkToMake>
+            <MaxHitPoints>340</MaxHitPoints>
+            <Mass>12</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.6</ArmorRating_Heat>
-            <Insulation_Cold>36</Insulation_Cold>
-            <Insulation_Heat>12</Insulation_Heat>
-            <EquipDelay>17</EquipDelay>
+            <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.54</ArmorRating_Heat>
+            <Insulation_Cold>34</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>14</EquipDelay>
         </statBases>
-        <tradeTags>
-            <li>HiTechArmor</li>
-        </tradeTags>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <costList>
-            <ComponentSpacer>6</ComponentSpacer>
-            <Plasteel>150</Plasteel>
-            <Uranium>50</Uranium>
-        </costList>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
@@ -113,8 +84,6 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
                 <li>Legs</li>
-                <li>Hands</li>
-                <li>Feet</li>
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/ODST/ODST_Armor</wornGraphicPath>
             <layers>
@@ -125,10 +94,13 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>HRK_UNSC_ODSTArmor</li>
+            </tags>
         </apparel>
-        <thingSetMakerTags>
-            <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>        
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
 
 </Defs>
