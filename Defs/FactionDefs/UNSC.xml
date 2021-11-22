@@ -64,7 +64,7 @@
             <li>HRK_Base_UNSC_Standard</li>
         </baseTraderKinds>
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
-        <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+        <raidLootMaker>HRK_UNSC_RaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
             <points>
                 <li>(0,35)</li>
@@ -161,7 +161,7 @@
     </FactionDef>
 
     <ThingSetMakerDef>
-        <defName>RE_AllianceRaidLootMaker</defName>
+        <defName>HRK_UNSC_RaidLootMaker</defName>
         <root Class="ThingSetMaker_MarketValue">
             <fixedParams>
                 <filter>
@@ -169,11 +169,9 @@
                         <li>Silver</li>
                         <li>MedicineIndustrial</li>
                         <li>ComponentIndustrial</li>
-                        <li>RE_PrefabComponent</li>
                         <li>ComponentSpacer</li>
                         <li>MealSurvivalPack</li>
                         <li>Neutroamine</li>
-                        <li>RE_MediGel</li>
                         <li>MedicineUltratech</li>
                     </thingDefs>
                 </filter>
@@ -181,31 +179,16 @@
         </root>
     </ThingSetMakerDef>
 
-    <FactionDef ParentName="RE_AllianceFactionBase">
-        <defName>RE_SystemsAlliance</defName>
-        <label>systems alliance</label>
-        <description>These people have arrived to this rimworld fairly recently, in a major colonization mission launched by Systems Alliance. They sport powerful ultra technology, and are known to use element zero to power their settlements and propel their spacecraft.\n\nThey maintain cold but relatively friendly relations with natives and other space-faring civilizations.\n\nSystems Alliance holds reason, economy and exploration in high regard.</description>
+    <FactionDef ParentName="HRK_UNSC_FactionBase">
+        <defName>HRK_UNSC_Faction</defName>
+        <label>united nations space command</label>
+        <description>KEKW</description>
         <colorSpectrum>
             <li>(0.27, 0.40, 0.74)</li>
             <li>(0.28, 0.44, 0.72)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>11</configurationListOrderPriority>
-        <modExtensions>
-            <li Class="KCSG.FactionSettlement">
-                <useStructureLayout>True</useStructureLayout>
-                <chooseFromlayouts>
-                    <li>AllianceFactionColony1</li>
-                    <li>AllianceFactionColony2</li>
-                    <li>AllianceFactionColony3</li>
-                    <li>AllianceFactionColony4</li>
-                    <li>AllianceFactionColony5</li>
-                    <li>AllianceFactionColony6</li>
-                    <li>AllianceFactionColony7</li>
-                    <li>AllianceFactionColony8</li>
-                </chooseFromlayouts>
-            </li>
-        </modExtensions>
     </FactionDef>
 
 </Defs>
