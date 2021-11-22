@@ -1,0 +1,49 @@
+<Defs>
+    <ThingDef Name="HRK_UNSC_ArmorHelmetMakeableBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <thingCategories Inherit="False">
+            <li>HRK_Category_UNSC_Headgear</li>
+        </thingCategories>
+        <thingSetMakerTags Inherit="False">
+        </thingSetMakerTags>
+        <weaponTags Inherit="False">
+        </weaponTags>
+        <recipeMaker Inherit="False">
+        </recipeMaker>
+        <costList>
+            <Steel>1</Steel>
+        </costList>
+        <tradeTags Inherit="False">
+            <li>HRK_UNSC_Armor</li>
+        </tradeTags>
+        <apparel>
+            <tags Inherit="False">
+                <li>HRK_UNSC_Helmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef Name="HRK_UNSC_ArmorMachineableBase" ParentName="ArmorMachineableBase" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <thingCategories Inherit="False">
+            <li>HRK_Category_UNSC_Armor</li>
+        </thingCategories>
+        <thingSetMakerTags Inherit="False">
+        </thingSetMakerTags>
+        <weaponTags Inherit="False">
+        </weaponTags>
+        <recipeMaker Inherit="False">
+        </recipeMaker>
+        <costList>
+            <Steel>1</Steel>
+        </costList>
+        <tradeTags Inherit="False">
+            <li>HRK_UNSC_Armor</li>
+        </tradeTags>
+        <apparel>
+            <tags Inherit="False">
+                <li>HRK_UNSC_Armor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>
