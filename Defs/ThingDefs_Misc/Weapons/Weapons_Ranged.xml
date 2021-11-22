@@ -511,7 +511,7 @@
     <label>M392 DMR</label>
     <description>The M392 is an air-cooled, magazine-fed, gas-operated select-fire bullpup rifle that fires 7.62×51mm ammunition. It accepts a fifteen-round detachable box magazine similar. The weapon has a mounted EVOS-D optic capable of 3× magnification. The weapon's fire selector switch (located above the grip) has three settings: SAFE, FIRE, and AUTO. The magazine release button is located directly above the magazine well, behind the trigger. The weapon has an ejection port on either side so it may be used comfortably by a right- or left-handed shooter.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_UNSC_Bullet_M392_DMR</texPath>
+      <texPath>Things/Weapons/HRK_UNSC_M392_DMR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>HRK_UNSC_Interact_M392_DMR</soundInteract>
@@ -849,7 +849,7 @@
     <defName>HRK_UNSC_Bullet_SpartanLaser</defName>
     <label>M6 Spartan Laser burn</label>
     <graphicData>
-      <texPath>Things/Item/Projectiles/Laser_Large</texPath>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
