@@ -301,7 +301,13 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_UNSC_M41_RL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
     <equippedAngleOffset>45</equippedAngleOffset>
     <statBases>
       <MarketValue>5000</MarketValue>
@@ -609,7 +615,7 @@
         <range>28</range>
         <burstShotCount>7</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_M739_LMG</soundCast>
+        <soundCast>HRK_UNSC_Shot_M739_LMG</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
@@ -875,7 +881,13 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_UNSC_SpartanLaser</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>HRK_UNSC_Interact_SpartanLaser</soundInteract>
     <statBases>
