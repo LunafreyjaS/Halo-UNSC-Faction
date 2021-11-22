@@ -3,29 +3,14 @@
 <Defs>
 
     <!-- Helmet -->
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
-        <defName>GNHA_MjolnirHelmet</defName>
+    <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
+        <defName>HRK_UNSC_MjolnirHelmet</defName>
         <label>Mjolnir helmet</label>
         <description>_</description>
-        <techLevel>Spacer</techLevel>
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Mjolnir/Mjolnir_Helmet_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.9, 0.9)</drawSize>
         </graphicData>
-        <tradeTags>
-            <li>HiTechArmor</li>
-        </tradeTags>
         <generateCommonality>2</generateCommonality>
         <statBases>
             <WorkToMake>26250</WorkToMake>
@@ -39,10 +24,6 @@
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>6</EquipDelay>
         </statBases>
-        <costList>
-            <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>50</Plasteel>
-        </costList>
         <apparel>
             <bodyPartGroups>
                 <li>FullHead</li>
@@ -55,33 +36,24 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>HRK_UNSC_MjolnirHelmet</li>
+            </tags>
         </apparel>
-        <thingSetMakerTags>
-            <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>        
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
     </ThingDef>
 
     <!-- Armor -->
-    <ThingDef ParentName="ArmorMachineableBase">
-        <defName>GNHA_MjolnirArmor</defName>
+    <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
+        <defName>HRK_UNSC_MjolnirArmor</defName>
         <label>Mjolnir Armor</label>
         <description>_</description>
-        <techLevel>Spacer</techLevel>
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Mjolnir/Mjolnir_Armor_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconScale>1.25</uiIconScale>
         <generateCommonality>2</generateCommonality>
         <statBases>
             <WorkToMake>75000</WorkToMake>
@@ -95,17 +67,9 @@
             <Insulation_Heat>12</Insulation_Heat>
             <EquipDelay>17</EquipDelay>
         </statBases>
-        <tradeTags>
-            <li>HiTechArmor</li>
-        </tradeTags>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
-        <costList>
-            <ComponentSpacer>6</ComponentSpacer>
-            <Plasteel>150</Plasteel>
-            <Uranium>50</Uranium>
-        </costList>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.8</MoveSpeed>
+        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
@@ -113,8 +77,6 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
                 <li>Legs</li>
-                <li>Hands</li>
-                <li>Feet</li>
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/Mjolnir/Mjolnir_Armor</wornGraphicPath>
             <layers>
@@ -125,10 +87,28 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <tags>
+                <li>HRK_UNSC_MjolnirArmor</li>
+            </tags>
         </apparel>
-        <thingSetMakerTags>
-            <li>RewardStandardHighFreq</li>
-        </thingSetMakerTags>        
+        <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+            <li Class="VFECore.CompProperties_ShieldBubble">
+				<compClass>VFECore.CompShieldBubble</compClass>
+				<blockRangedAttack>true</blockRangedAttack>
+				<blockMeleeAttack>false</blockMeleeAttack>
+				<showWhenDrafted>true</showWhenDrafted>
+				<showOnHostiles>true</showOnHostiles>
+				<showOnNeutralInCombat>true</showOnNeutralInCombat>
+				<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+				<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+				<EnergyShieldEnergyMax>120</EnergyShieldEnergyMax>
+				<minShieldSize>1.4</minShieldSize>
+				<maxShieldSize>1.8</maxShieldSize>
+				<disableRotation>true</disableRotation>
+			</li>
+        </comps>
     </ThingDef>
 
 </Defs>
