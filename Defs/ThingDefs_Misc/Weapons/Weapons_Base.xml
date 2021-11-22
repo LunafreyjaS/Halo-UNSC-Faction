@@ -4,12 +4,11 @@
     <ThingDef Name="HRK_UNSC_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories Inherit="False">
-            <li>HRK_Category_UNSC</li>
+            <li>HRK_Category_UNSC_Weapons</li>
         </thingCategories>
         <thingSetMakerTags Inherit="False">
         </thingSetMakerTags>
-        <weaponTags Inherit="False">
-            <li>HRK_UNSC_Gun</li>
+        <weaponTags Inherit="False">            
         </weaponTags>
         <recipeMaker Inherit="False">
         </recipeMaker>
@@ -17,8 +16,7 @@
             <Steel>1</Steel>
         </costList>
         <tradeTags Inherit="False">
-			<li>HRK_UNSC_Weapon</li>
-            <li>HRK_UNSC_Armor</li>			
+			<li>HRK_UNSC_Weapon</li>            	
 		</tradeTags>
     </ThingDef>
 </Defs>
