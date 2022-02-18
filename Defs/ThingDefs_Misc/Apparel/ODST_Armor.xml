@@ -6,7 +6,7 @@
     <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
         <defName>HRK_UNSC_ODSTHelmet</defName>
         <label>ODST Helmet</label>
-        <description>_</description>
+        <description>The standard helmet worn by Orbital Drop Shock Troopers, which was originally designed for use with the MJOLNIR system Like the Beta-5 Division MP helmet, the ODST helmet is enclosed and can provide oxygen for fifteen minutes; unlike the Beta-5 Division MP helmet, however, the ODST helmet features a distinct, more rounded visor. This version is made of titanium and is coated with a heat-dispersing material; the inside of the helmet is lined with padding to provide comfort for the user. The visor is capable of polarizing, fully obscuring the user's face, or depolarizing, becoming nearly transparent, at the user's whim; the visor is generally colored silver-blue, though infrequently red, dark orange, silver, black, and golden polarization are also possible.</description>
         <graphicData>
             <texPath>Things/Apparel/ODST/ODST_Helmet_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -56,7 +56,7 @@
     <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
         <defName>HRK_UNSC_ODSTArmor</defName>
         <label>ODST Armor</label>
-        <description>_</description>
+        <description>The ODST body armor is a signature piece of equipment used by the Orbital Drop Shock Troopers. The suit, which is produced by Misriah Armory, is vacuum-rated and is capable of extra-vehicular activity for fifteen minutes The armor provides numerous advantages in the field, including ballistic protection, temperature control, as well as thermal insulation against extreme temperatures experienced during atmospheric entry and thermal protection from Covenant energy weapons.</description>
         <graphicData>
             <texPath>Things/Apparel/ODST/ODST_Armor_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>

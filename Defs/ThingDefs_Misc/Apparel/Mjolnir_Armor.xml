@@ -6,7 +6,7 @@
     <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
         <defName>HRK_UNSC_MjolnirHelmet</defName>
         <label>Mjolnir helmet</label>
-        <description>_</description>
+        <description>Created parallel to the SPARTAN-II program by the Office of Naval Intelligence's Materials Group, the Mjolnir armor is the most advanced piece of tactical military hardware in human hands. Each suit alone costs as much as a small starship The battlesuit is a sealed system, capable of extra-vehicular activity for a limited amount of time or operations in a toxic atmosphere. It is hardened against EMP and radiation, and has filters that are completely effective at removing toxins and bacteria from the local atmosphere. Between the external armor and the internal padding is the most devastating weapon the suit carries: a layer of polymerized lithium niobocene, a liquid metal crystal that deforms along a preferred axis when exposed to an electric charge. Woven by molecular tools into a capillary system, this layer is amorphous, yet amplifies force, doubling lifting capability and increasing reaction time by a factor of five.</description>
         <graphicData>
             <texPath>Things/Apparel/Mjolnir/Mjolnir_Helmet_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -49,7 +49,7 @@
     <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
         <defName>HRK_UNSC_MjolnirArmor</defName>
         <label>Mjolnir Armor</label>
-        <description>_</description>
+        <description>Created parallel to the SPARTAN-II program by the Office of Naval Intelligence's Materials Group, the Mjolnir armor is the most advanced piece of tactical military hardware in human hands. Each suit alone costs as much as a small starship The battlesuit is a sealed system, capable of extra-vehicular activity for a limited amount of time or operations in a toxic atmosphere. It is hardened against EMP and radiation, and has filters that are completely effective at removing toxins and bacteria from the local atmosphere. Between the external armor and the internal padding is the most devastating weapon the suit carries: a layer of polymerized lithium niobocene, a liquid metal crystal that deforms along a preferred axis when exposed to an electric charge. Woven by molecular tools into a capillary system, this layer is amorphous, yet amplifies force, doubling lifting capability and increasing reaction time by a factor of five.</description>
         <graphicData>
             <texPath>Things/Apparel/Mjolnir/Mjolnir_Armor_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>

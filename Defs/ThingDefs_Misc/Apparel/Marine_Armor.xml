@@ -6,7 +6,7 @@
     <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
         <defName>HRK_UNSC_MarineHelmet</defName>
         <label>Marine helmet</label>
-        <description>_</description>
+        <description>All iterations of the BDU feature one of several versions of the standard-issue CH252 helmet, which is painted to match the corresponding body armor. The helmet may be mounted with various accessories, such as a holographic tactical eyepiece, a helmet recorder, a boom microphone, polarized tactical goggles, a flashlight, or a night vision device. Marines sometimes wear balaclavas with their helmets, both in frigid and temperate climates. In hazardous situations, gas masks such as the S90 gas mask are worn.</description>
         <graphicData>
             <texPath>Things/Apparel/Marine/Marine_Helmet_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -53,7 +53,7 @@
     <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
         <defName>HRK_UNSC_MarineArmor</defName>
         <label>Marine Armor</label>
-        <description>_</description>
+        <description>The Marine BDU is equipped with one of various models of ballistic armor at multiple points, including the torso, the shoulders, and the shins. Some versions incorporate armor for the forearms, thighs, and groin as well. The armor is resilient against traditional ballistic weaponry though it is easily damaged by plasma weaponry. While different iterations of the BDU feature different armor models, all possess roughly equivalent durability. Lighter body armor, such as the ballistic assault vest, is used in lieu of standard-issue gear during some operations.</description>
         <graphicData>
             <texPath>Things/Apparel/Marine/Marine_Armor_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
