@@ -613,13 +613,13 @@
   <ThingDef ParentName="HRK_UNSC_BaseHumanMakeableGun">
     <defName>HRK_UNSC_M739_LMG</defName>
     <label>M739 SAW</label>
-    <description>_</description>
+    <description>The M739 Light Machine Gun (M739 LMG) is a squad automatic weapon (SAW) used by the UNSC Armed Forces. Designed and manufactured by Misriah Armory, the M739 is used in protracted engagements where sustained or suppressive fire is required. The weapon is fed ammunition by a 72-round belt in a drum magazine.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_UNSC_M739_LMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Interact_M739_LMG</soundInteract>
+    <soundInteract>HRK_UNSC_Interact_M739_LMG</soundInteract>
     <statBases>
       <MarketValue>1200</MarketValue>
       <WorkToMake>55000</WorkToMake>
