@@ -664,5 +664,107 @@
             </li>
         </subSounds>
     </SoundDef>
+
+    <!-- ====== VK78_Commando ====== -->
+    <SoundDef>
+        <defName>HRK_UNSC_Interact_VK78_Commando</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>HRK_UNSC_VK78_Commando/Reload</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_UNSC_Shot_VK78_Commando</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>HRK_UNSC_VK78_Commando/Shot</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- ====== MK50_Sidekick ====== -->
+    <SoundDef>
+        <defName>HRK_UNSC_Interact_MK50_Sidekick</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>HRK_UNSC_MK50_Sidekick/Reload</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_UNSC_Shot_MK50_Sidekick</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>HRK_UNSC_MK50_Sidekick/Shot</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
     
 </Defs>
