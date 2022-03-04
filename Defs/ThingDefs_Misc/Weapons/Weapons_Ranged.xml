@@ -975,4 +975,151 @@
     </weaponTags>
   </ThingDef>
 
+  <!-- ====== VK78_Commando ====== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_UNSC_Bullet_VK78_Commando</defName>
+    <label>VK78 Commando bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_UNSC_BaseHumanMakeableGun">
+    <defName>HRK_UNSC_VK78_Commando</defName>
+    <label>VK78 Commando</label>
+    <description>The VK78 fires 6.5 mm rounds on automatic, and is fitted via rail-mounting with a recon sight-style optical Sight that can magnify up to at least 2x. It is distinctive among human rifles in that it does not share the common bullpup configuration of weapons like the MA40 assault rifle and BR75 battle rifle. The design of the weapon emphasizes ergonomics and reliability.</description>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_UNSC_VK78_Commando</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>HRK_UNSC_Interact_VK78_Commando</soundInteract>
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.8</Mass>
+      <AccuracyTouch>0.68</AccuracyTouch>
+      <AccuracyShort>0.83</AccuracyShort>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.77</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_UNSC_Bullet_VK78_Commando</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>36</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>HRK_UNSC_Shot_VK78_Commando</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>HRK_UNSC_AR</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ====== MK50_Sidekick ====== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_UNSC_Bullet_MK50_Sidekick</defName>
+    <label>MK50 Sidekick bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_UNSC_BaseHumanMakeableGun">
+    <defName>HRK_UNSC_MK50_Sidekick</defName>
+    <label>MK50 Sidekick</label>
+    <description>_</description>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_UNSC_MK50_Sidekick</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>HRK_UNSC_Interact_MK50_Sidekick</soundInteract>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_UNSC_Bullet_MK50_Sidekick</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>23.9</range>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>HRK_UNSC_Shot_MK50_Sidekick</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>HRK_UNSC_Pistol</li>
+    </weaponTags>
+  </ThingDef>
+
+
 </Defs>
