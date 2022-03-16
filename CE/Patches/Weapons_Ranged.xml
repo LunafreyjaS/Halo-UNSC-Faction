@@ -102,7 +102,7 @@
                     defName = "HRK_UNSC_M319_GL" or
                     defName = "HRK_UNSC_SpartanLaser" or
                     defName = "HRK_UNSC_BR55_AR" or
-                    defName = "HRK_UNSC_BR55_AR" or
+                    defName = "HRK_UNSC_BR55_AR"
                     ]/tools
                 </xpath>
                 <value>
@@ -121,9 +121,412 @@
                 </value>
             </li>
 
-            <!-- == AM Sniper Rifle == 
+            <!-- HRK_UNSC_MK50_Sidekick -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>GNHA_AMSniper</defName>
+                <defName>HRK_UNSC_MK50_Sidekick</defName>
+                <statBases>
+                    <WorkToMake>9000</WorkToMake>
+                    <SightsEfficiency>0.7</SightsEfficiency>
+                    <ShotSpread>0.5</ShotSpread>
+                    <SwayFactor>1.10</SwayFactor>
+                    <Bulk>2.10</Bulk>
+                    <Mass>1.05</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_500SWMagnum_FMJ</defaultProjectile>
+                    <warmupTime>0.7</warmupTime>
+                    <range>12</range>
+                    <burstShotCount>3</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <soundCast>HRK_UNSC_Shot_MK50_Sidekick</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>8</magazineSize>
+                    <reloadTime>1.90</reloadTime>
+                    <ammoSet>AmmoSet_500SWMagnum</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aimedBurstShotCount>1</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_OneHandedWeapon</li>
+                </weaponTags>
+            </li>
+
+            <!-- HRK_UNSC_M6G_Pistol -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_M6G_Pistol</defName>
+                <statBases>
+                    <WorkToMake>9000</WorkToMake>
+                    <SightsEfficiency>0.7</SightsEfficiency>
+                    <ShotSpread>0.5</ShotSpread>
+                    <SwayFactor>1.10</SwayFactor>
+                    <Bulk>2.10</Bulk>
+                    <Mass>1.05</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_500SWMagnum_FMJ</defaultProjectile>
+                    <warmupTime>0.7</warmupTime>
+                    <range>12</range>
+                    <burstShotCount>3</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <soundCast>HRK_UNSC_Shot_M6G_Pistol</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>8</magazineSize>
+                    <reloadTime>1.90</reloadTime>
+                    <ammoSet>AmmoSet_500SWMagnum</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aimedBurstShotCount>1</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_OneHandedWeapon</li>
+                </weaponTags>
+            </li>
+
+            <!-- HRK_UNSC_M7_SMG -->
+            <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                <defName>HRK_UNSC_M7_SMG</defName>
+                <statBases>
+                    <WorkToMake>18000</WorkToMake>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <ShotSpread>0.14</ShotSpread>
+                    <SwayFactor>1.24</SwayFactor>
+                    <Bulk>3.75</Bulk>
+                    <Mass>1.8</Mass>
+                    <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_5x23mmCaseless_FMJ</defaultProjectile>
+                    <warmupTime>0.6</warmupTime>
+                    <range>26</range>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                    <soundCast>HRK_UNSC_Shot_M7_SMG</soundCast>
+                    <soundCastTail>GunTail_Light</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilPattern>Regular</recoilPattern>
+                    <recoilAmount>1.17</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>60</magazineSize>
+                    <reloadTime>3.5</reloadTime>
+                    <ammoSet>AmmoSet_5x23mmCaseless</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_OneHandedWeapon</li>
+                </weaponTags>
+            </li>
+
+            <!-- HRK_UNSC_M7S_SMG -->
+            <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                <defName>HRK_UNSC_M7S_SMG</defName>
+                <statBases>
+                    <WorkToMake>18000</WorkToMake>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <ShotSpread>0.14</ShotSpread>
+                    <SwayFactor>1.24</SwayFactor>
+                    <Bulk>3.75</Bulk>
+                    <Mass>1.8</Mass>
+                    <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_5x23mmCaseless_FMJ</defaultProjectile>
+                    <warmupTime>0.6</warmupTime>
+                    <range>26</range>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                    <soundCast>HRK_UNSC_Shot_M7S_SMG</soundCast>
+                    <soundCastTail>GunTail_Light</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilPattern>Regular</recoilPattern>
+                    <recoilAmount>1.17</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>60</magazineSize>
+                    <reloadTime>3.5</reloadTime>
+                    <ammoSet>AmmoSet_5x23mmCaseless</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_OneHandedWeapon</li>
+                </weaponTags>
+            </li>
+
+            <!-- HRK_UNSC_MA5B_AR -->
+            <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                <defName>HRK_UNSC_MA5B_AR</defName>
+                <statBases>
+                    <WorkToMake>31000</WorkToMake>
+                    <SightsEfficiency>1.1</SightsEfficiency>
+                    <ShotSpread>0.08</ShotSpread>
+                    <SwayFactor>1.32</SwayFactor>
+                    <Bulk>8</Bulk>
+                    <Mass>3.8</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
+                    <warmupTime>1</warmupTime>
+                    <range>55</range>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <soundCast>HRK_UNSC_Shot_MA5B_AR</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilPattern>Regular</recoilPattern>
+                    <recoilAmount>1.8</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>32</magazineSize>
+                    <reloadTime>3.5</reloadTime>
+                    <ammoSet>AmmoSet_762x51mmUNSC</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+            </li>
+
+            <!-- HRK_UNSC_MA37_AR -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_MA37_AR</defName>
+                <statBases>
+                    <WorkToMake>48000</WorkToMake>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <ShotSpread>0.10</ShotSpread>
+                    <SwayFactor>1.30</SwayFactor>
+                    <Bulk>7</Bulk>
+                    <Mass>4.32</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <recoilAmount>1.51</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                    <warmupTime>1.0</warmupTime>
+                    <range>48</range>
+                    <soundCast>HRK_UNSC_Shot_MA37_AR</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>32</magazineSize>
+                    <reloadTime>4.5</reloadTime>
+                    <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li>
+
+            <!-- HRK_UNSC_BR55_AR -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_BR55_AR</defName>
+                <statBases>
+                    <WorkToMake>44000</WorkToMake>
+                    <SightsEfficiency>1.2</SightsEfficiency>
+                    <ShotSpread>0.06</ShotSpread>
+                    <SwayFactor>1.23</SwayFactor>
+                    <Bulk>6</Bulk>
+                    <Mass>5</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <recoilAmount>1.35</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_95x40mm_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <warmupTime>1</warmupTime>
+                    <range>55</range>
+                    <soundCast>HRK_UNSC_Shot_BR55_AR</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>36</magazineSize>
+                    <reloadTime>4.00</reloadTime>
+                    <ammoSet>AmmoSet_95x40mm</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li>
+
+            <!-- == HRK_UNSC_M392_DMR == -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_M392_DMR</defName>
+                <statBases>
+                    <WorkToMake>42000</WorkToMake>
+                    <SightsEfficiency>1.5</SightsEfficiency>
+                    <ShotSpread>0.10</ShotSpread>
+                    <SwayFactor>1.40</SwayFactor>
+                    <Bulk>11.9</Bulk>
+                    <Mass>4.75</Mass>
+                    <RangedWeapon_Cooldown>0.48</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+                    <warmupTime>1</warmupTime>
+                    <range>62</range>
+                    <soundCast>HRK_UNSC_Shot_M392_DMR</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>14</magazineSize>
+                    <reloadTime>4</reloadTime>
+                    <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li>
+
+            <!-- HRK_UNSC_VK78_Commando -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_VK78_Commando</defName>
+                <statBases>
+                    <WorkToMake>42000</WorkToMake>
+                    <SightsEfficiency>1.5</SightsEfficiency>
+                    <ShotSpread>0.10</ShotSpread>
+                    <SwayFactor>1.40</SwayFactor>
+                    <Bulk>11.9</Bulk>
+                    <Mass>4.75</Mass>
+                    <RangedWeapon_Cooldown>0.48</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+                    <warmupTime>1</warmupTime>
+                    <range>62</range>
+                    <soundCast>HRK_UNSC_Shot_VK78_Commando</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>14</magazineSize>
+                    <reloadTime>4</reloadTime>
+                    <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li>
+
+            <!-- HRK_UNSC_M90_Shotgun -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_M90_Shotgun</defName>
+                <statBases>
+                    <WorkToMake>44000</WorkToMake>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <ShotSpread>0.5</ShotSpread>
+                    <SwayFactor>1.9</SwayFactor>
+                    <Bulk>9.0</Bulk>
+                    <Mass>4.0</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+                    <warmupTime>0.7</warmupTime>
+                    <range>18</range>
+                    <soundCast>HRK_UNSC_Shot_M90_Shotgun</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>6</magazineSize>
+                    <reloadTime>1.7</reloadTime>
+                    <reloadOneAtATime>True</reloadOneAtATime>
+                    <ammoSet>AmmoSet_12Gauge</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li>
+
+            <!-- HRK_UNSC_M739_LMG -->
+            <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                <defName>HRK_UNSC_M739_LMG</defName>
+                <statBases>
+                    <WorkToMake>56000</WorkToMake>
+                    <SightsEfficiency>1.1</SightsEfficiency>
+                    <ShotSpread>0.06</ShotSpread>
+                    <SwayFactor>1.43</SwayFactor>
+                    <Bulk>12</Bulk>
+                    <Mass>6</Mass>
+                    <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
+                    <warmupTime>1.25</warmupTime>
+                    <range>62</range>
+                    <burstShotCount>10</burstShotCount>
+                    <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                    <soundCast>HRK_UNSC_Shot_M739_LMG</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilPattern>Mounted</recoilPattern>
+                    <recoilAmount>1.33</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>128</magazineSize>
+                    <reloadTime>6.0</reloadTime>
+                    <ammoSet>AmmoSet_762x51mmUNSC</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aimedBurstShotCount>5</aimedBurstShotCount>
+                </FireModes>
+            </li>
+
+            <!-- HRK_UNSC_SRS99_AM -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_SRS99_AM</defName>
                 <statBases>
                     <WorkToMake>48000</WorkToMake>
                     <SightsEfficiency>3.5</SightsEfficiency>
@@ -133,31 +536,114 @@
                     <Mass>9</Mass>
                     <RangedWeapon_Cooldown>1.28</RangedWeapon_Cooldown>
                 </statBases>
-                <costList>
-                    <Steel>60</Steel>
-                    <Plasteel>40</Plasteel>
-                    <ComponentIndustrial>8</ComponentIndustrial>
-                    <Chemfuel>10</Chemfuel>
-                </costList>
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
                     <warmupTime>3</warmupTime>
                     <range>96</range>
-                    <soundCast>GNHA_Shot_AMSniper</soundCast>
+                    <soundCast>HRK_UNSC_Shot_SRS99_AM</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>11</muzzleFlashScale>
                 </Properties>
                 <AmmoUser>
                     <magazineSize>4</magazineSize>
                     <reloadTime>5.6</reloadTime>
-                    <ammoSet>AmmoSet_145x114mm_Halo</ammoSet>
+                    <ammoSet>AmmoSet_145x114mm</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>
                 </FireModes>
-            </li> -->
+            </li>
+
+            <!-- HRK_UNSC_M319_GL -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_M319_GL</defName>
+                <statBases>
+                    <WorkToMake>12000</WorkToMake>
+                    <Mass>3</Mass>
+                    <Bulk>7.0</Bulk>
+                    <SwayFactor>1</SwayFactor>
+                    <ShotSpread>0.12</ShotSpread>
+                    <SightsEfficiency>1.1</SightsEfficiency>
+                    <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_40mmGrenade_UNSCHEDP</defaultProjectile>
+                    <burstShotCount>1</burstShotCount>
+                    <warmupTime>1.1</warmupTime>
+                    <range>55</range>
+                    <ai_AvoidFriendlyFireRadius>4</ai_AvoidFriendlyFireRadius>
+                    <minRange>4</minRange>
+                    <soundCast>HRK_UNSC_Shot_M319_GL</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>14</muzzleFlashScale>
+                    <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                </Properties>
+                <AmmoUser>
+                    <reloadOneAtATime>true</reloadOneAtATime>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>2</reloadTime>
+                    <ammoSet>AmmoSet_40mmGrenade</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+            </li>
+
+            <!-- HRK_UNSC_M41_RL -->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UNSC_M41_RL</defName>
+                <statBases>
+                    <WorkToMake>45000</WorkToMake>
+                    <Mass>8</Mass>
+                    <Bulk>12.0</Bulk>
+                    <SwayFactor>2</SwayFactor>
+                    <ShotSpread>0.03</ShotSpread>
+                    <SightsEfficiency>2</SightsEfficiency>
+                    <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <Steel>100</Steel>
+                    <Chemfuel>30</Chemfuel>
+                    <Plasteel>20</Plasteel>
+                    <ComponentIndustrial>7</ComponentIndustrial>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_M41Rocket_HEAT</defaultProjectile>
+                    <burstShotCount>1</burstShotCount>
+                    <warmupTime>2</warmupTime>
+                    <range>62</range>
+                    <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                    <minRange>4</minRange>
+                    <soundCast>HRK_UNSC_Shot_M41_RL</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>14</muzzleFlashScale>
+                    <onlyManualCast>True</onlyManualCast>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                        <canTargetPawns>true</canTargetPawns>
+                    </targetParams>
+                </Properties>
+                <AmmoUser>
+                    <reloadOneAtATime>true</reloadOneAtATime>
+                    <magazineSize>2</magazineSize>
+                    <reloadTime>4</reloadTime>
+                    <ammoSet>AmmoSet_M41Rocket</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+            </li>
 
         </operations>
     </Operation>
