@@ -15,7 +15,7 @@
         <fixedLeaderKinds>
             <li>HRK_UNSC_Leader</li>
         </fixedLeaderKinds>
-        <factionIconPath>World/UNSCColony</factionIconPath>
+        <factionIconPath>World/HRK_UNSC_ColonyIcon</factionIconPath>
         <factionNameMaker>HRK_UNSC_NamerFaction</factionNameMaker>
         <settlementNameMaker>HRK_UNSC_NamerFactionBases</settlementNameMaker>
         <techLevel>Spacer</techLevel>
@@ -154,7 +154,7 @@
                 </guards>
             </li>
         </pawnGroupMakers>
-        <settlementTexturePath>World/UNSCColony</settlementTexturePath>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     </FactionDef>
 
     <ThingSetMakerDef>
@@ -181,8 +181,7 @@
         <label>United Nations Space Command</label>
         <description>KEKW</description>
         <colorSpectrum>
-            <li>(0.27, 0.40, 0.74)</li>
-            <li>(0.28, 0.44, 0.72)</li>
+            <li>(0.78, 0.79, 0.71)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>11</configurationListOrderPriority>
