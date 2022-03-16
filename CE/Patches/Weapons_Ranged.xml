@@ -1,95 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
 
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Combat Extended</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
+            <!--===== TOOLS FOR THE TOOL GOD =====-->
 
-                <!--===== TOOLS FOR THE TOOL GOD =====-->
-                <li Class="PatchOperationReplace">
-                    <xpath>
-				    /Defs/ThingDef[defName = "GNHA_AMSniper"]/tools
-                    </xpath>
-                    <value>
-                        <tools>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>stock</label>
-                                <capacities>
-                                    <li>Blunt</li>
-                                </capacities>
-                                <power>8</power>
-                                <cooldownTime>1.55</cooldownTime>
-                                <chanceFactor>1.5</chanceFactor>
-                                <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
-                            </li>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>barrel</label>
-                                <capacities>
-                                    <li>Blunt</li>
-                                </capacities>
-                                <power>5</power>
-                                <cooldownTime>2.02</cooldownTime>
-                                <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
-                            </li>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>muzzle</label>
-                                <capacities>
-                                    <li>Poke</li>
-                                </capacities>
-                                <power>8</power>
-                                <cooldownTime>1.55</cooldownTime>
-                                <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
-                            </li>
-                        </tools>
-                    </value>
-                </li>
+            <!--===== TOOLS Handguns =====-->
+            <li Class="PatchOperationReplace">
+                <xpath>
+				    /Defs/ThingDef[
+                    defName = "HRK_UNSC_M6G_Pistol" or
+                    defName = "HRK_UNSC_M7_SMG" or
+                    defName = "HRK_UNSC_M7S_SMG" or
+                    defName = "HRK_UNSC_MK50_Sidekick"
+                    ]/tools
+                </xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>grip</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>2</power>
+                            <cooldownTime>1.54</cooldownTime>
+                            <chanceFactor>1.5</chanceFactor>
+                            <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>muzzle</label>
+                            <capacities>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>2</power>
+                            <cooldownTime>1.54</cooldownTime>
+                            <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
 
-                <!-- == AM Sniper Rifle == -->
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GNHA_AMSniper</defName>
-                    <statBases>
-                        <WorkToMake>48000</WorkToMake>
-                        <SightsEfficiency>3.5</SightsEfficiency>
-                        <ShotSpread>0.5</ShotSpread>
-                        <SwayFactor>1.9</SwayFactor>
-                        <Bulk>16</Bulk>
-                        <Mass>9</Mass>
-                        <RangedWeapon_Cooldown>1.28</RangedWeapon_Cooldown>
-                    </statBases>
-                    <costList>
-                        <Steel>60</Steel>
-                        <Plasteel>40</Plasteel>
-                        <ComponentIndustrial>8</ComponentIndustrial>
-                        <Chemfuel>10</Chemfuel>
-                    </costList>
-                    <Properties>
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <hasStandardCommand>true</hasStandardCommand>
-                        <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
-                        <warmupTime>3</warmupTime>
-                        <range>96</range>
-                        <soundCast>GNHA_Shot_AMSniper</soundCast>
-                        <soundCastTail>GunTail_Heavy</soundCastTail>
-                        <muzzleFlashScale>11</muzzleFlashScale>
-                    </Properties>
-                    <AmmoUser>
-                        <magazineSize>4</magazineSize>
-                        <reloadTime>5.6</reloadTime>
-                        <ammoSet>AmmoSet_145x114mm_Halo</ammoSet>
-                    </AmmoUser>
-                    <FireModes>
-                        <aiAimMode>AimedShot</aiAimMode>
-                    </FireModes>
-                </li>
+            <!--===== TOOLS Rifles =====-->
+            <li Class="PatchOperationReplace">
+                <xpath>
+				    /Defs/ThingDef[
+                    defName = "HRK_UNSC_BR55_AR" or
+                    defName = "HRK_UNSC_M90_Shotgun" or
+                    defName = "HRK_UNSC_M392_DMR" or
+                    defName = "HRK_UNSC_M739_LMG" or
+                    defName = "HRK_UNSC_MA5B_AR" or
+                    defName = "HRK_UNSC_MA37_AR" or
+                    defName = "HRK_UNSC_SRS99_AM" or
+                    defName = "HRK_UNSC_VK78_Commando"
+                    ]/tools
+                </xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>stock</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>1.55</cooldownTime>
+                            <chanceFactor>1.5</chanceFactor>
+                            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>barrel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>5</power>
+                            <cooldownTime>2.02</cooldownTime>
+                            <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>muzzle</label>
+                            <capacities>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>1.55</cooldownTime>
+                            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
 
-            </operations>
-        </match>
+            <!--===== TOOLS Heavy =====-->
+            <li Class="PatchOperationReplace">
+                <xpath>
+				   /Defs/ThingDef[
+                    defName = "HRK_UNSC_M41_RL" or
+                    defName = "HRK_UNSC_M319_GL" or
+                    defName = "HRK_UNSC_SpartanLaser" or
+                    defName = "HRK_UNSC_BR55_AR" or
+                    defName = "HRK_UNSC_BR55_AR" or
+                    ]/tools
+                </xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>barrel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>10</power>
+                            <cooldownTime>2.44</cooldownTime>
+                            <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+
+            <!-- == AM Sniper Rifle == 
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>GNHA_AMSniper</defName>
+                <statBases>
+                    <WorkToMake>48000</WorkToMake>
+                    <SightsEfficiency>3.5</SightsEfficiency>
+                    <ShotSpread>0.5</ShotSpread>
+                    <SwayFactor>1.9</SwayFactor>
+                    <Bulk>16</Bulk>
+                    <Mass>9</Mass>
+                    <RangedWeapon_Cooldown>1.28</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <Steel>60</Steel>
+                    <Plasteel>40</Plasteel>
+                    <ComponentIndustrial>8</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+                    <warmupTime>3</warmupTime>
+                    <range>96</range>
+                    <soundCast>GNHA_Shot_AMSniper</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>11</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>4</magazineSize>
+                    <reloadTime>5.6</reloadTime>
+                    <ammoSet>AmmoSet_145x114mm_Halo</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+            </li> -->
+
+        </operations>
     </Operation>
 </Patch>
