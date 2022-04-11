@@ -2,9 +2,9 @@
 
 <Defs>
 
-    <PawnKindDef Name="HRK_UNSC_PawnBase" Abstract="True">
+    <PawnKindDef Name="HALO_UNSC_PawnBase" Abstract="True">
         <race>Human</race>
-        <defaultFactionType>HRK_UNSC_Faction</defaultFactionType>
+        <defaultFactionType>HALO_UNSC_Faction</defaultFactionType>
         <chemicalAddictionChance>0.1</chemicalAddictionChance>
         <invNutrition>2.55</invNutrition>
         <itemQuality>Normal</itemQuality>

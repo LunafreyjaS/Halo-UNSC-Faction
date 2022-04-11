@@ -3,7 +3,7 @@
 <Defs>
 
   <TraderKindDef>
-    <defName>HRK_Trader_UNSC_CombatSupplier</defName>
+    <defName>HALO_Trader_UNSC_CombatSupplier</defName>
     <label>combat supplier</label>
     <stockGenerators>
 
@@ -42,14 +42,14 @@
 
       <!-- Weapons -->
       <li Class="StockGenerator_Tag">
-        <tradeTag>HRK_UNSC_Weapon</tradeTag>
+        <tradeTag>HALO_UNSC_Weapon</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
         <countRange>2~5</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Tag">
-        <tradeTag>HRK_UNSC_Armor</tradeTag>
+        <tradeTag>HALO_UNSC_Armor</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
         <countRange>2~5</countRange>
       </li>

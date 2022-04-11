@@ -4,7 +4,7 @@
 
     <!-- ====== BR55_AR ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_BR55_AR</defName>
+        <defName>HALO_UNSC_Interact_BR55_AR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -12,7 +12,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_BR55_AR/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_BR55_AR/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -29,7 +29,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_BR55_AR</defName>
+        <defName>HALO_UNSC_Shot_BR55_AR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -37,7 +37,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_BR55_AR/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_BR55_AR/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -55,7 +55,7 @@
 
     <!-- ====== M6G_Pistol ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M6G_Pistol</defName>
+        <defName>HALO_UNSC_Interact_M6G_Pistol</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -63,7 +63,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M6G_Pistol/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M6G_Pistol/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -80,7 +80,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M6G_Pistol</defName>
+        <defName>HALO_UNSC_Shot_M6G_Pistol</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -88,7 +88,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M6G_Pistol/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M6G_Pistol/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -106,7 +106,7 @@
 
     <!-- ====== M7_SMG ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M7_SMG</defName>
+        <defName>HALO_UNSC_Interact_M7_SMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -114,7 +114,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M7_SMG/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M7_SMG/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -131,7 +131,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M7_SMG</defName>
+        <defName>HALO_UNSC_Shot_M7_SMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -139,7 +139,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M7_SMG/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M7_SMG/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -157,7 +157,7 @@
 
     <!-- ====== M7S_SMG ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M7S_SMG</defName>
+        <defName>HALO_UNSC_Interact_M7S_SMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -165,7 +165,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M7S_SMG/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M7S_SMG/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -182,7 +182,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M7S_SMG</defName>
+        <defName>HALO_UNSC_Shot_M7S_SMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -190,7 +190,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M7S_SMG/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M7S_SMG/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -208,7 +208,7 @@
 
     <!-- ====== M41_RL ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M41_RL</defName>
+        <defName>HALO_UNSC_Interact_M41_RL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -216,7 +216,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M41_RL/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M41_RL/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -233,7 +233,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M41_RL</defName>
+        <defName>HALO_UNSC_Shot_M41_RL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -241,7 +241,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M41_RL/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M41_RL/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -259,7 +259,7 @@
 
     <!-- ====== M90_Shotgun ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M90_Shotgun</defName>
+        <defName>HALO_UNSC_Interact_M90_Shotgun</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -267,7 +267,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M90_Shotgun/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M90_Shotgun/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -284,7 +284,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M90_Shotgun</defName>
+        <defName>HALO_UNSC_Shot_M90_Shotgun</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -292,7 +292,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M90_Shotgun/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M90_Shotgun/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -310,7 +310,7 @@
 
     <!-- ====== M319_GL ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M319_GL</defName>
+        <defName>HALO_UNSC_Interact_M319_GL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -318,7 +318,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M319_GL/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M319_GL/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -335,7 +335,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M319_GL</defName>
+        <defName>HALO_UNSC_Shot_M319_GL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -343,7 +343,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M319_GL/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M319_GL/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -361,7 +361,7 @@
 
     <!-- ====== M392_DMR ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M392_DMR</defName>
+        <defName>HALO_UNSC_Interact_M392_DMR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -369,7 +369,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M392_DMR/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M392_DMR/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -386,7 +386,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M392_DMR</defName>
+        <defName>HALO_UNSC_Shot_M392_DMR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -394,7 +394,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M392_DMR/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M392_DMR/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -412,7 +412,7 @@
 
     <!-- ====== M739_LMG ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_M739_LMG</defName>
+        <defName>HALO_UNSC_Interact_M739_LMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -420,7 +420,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M739_LMG/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M739_LMG/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -437,7 +437,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_M739_LMG</defName>
+        <defName>HALO_UNSC_Shot_M739_LMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -445,7 +445,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_M739_LMG/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_M739_LMG/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -463,7 +463,7 @@
 
     <!-- ====== MA5B_AR ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_MA5B_AR</defName>
+        <defName>HALO_UNSC_Interact_MA5B_AR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -471,7 +471,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_MA5B_AR/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MA5B_AR/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -488,7 +488,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_MA5B_AR</defName>
+        <defName>HALO_UNSC_Shot_MA5B_AR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -496,7 +496,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_MA5B_AR/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MA5B_AR/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -514,7 +514,7 @@
 
     <!-- ====== MA37_AR ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_MA37_AR</defName>
+        <defName>HALO_UNSC_Interact_MA37_AR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -522,7 +522,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_MA37_AR/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MA37_AR/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -539,7 +539,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_MA37_AR</defName>
+        <defName>HALO_UNSC_Shot_MA37_AR</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -547,7 +547,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_MA37_AR/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MA37_AR/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -565,7 +565,7 @@
 
     <!-- ====== SRS99_AM ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_SRS99_AM</defName>
+        <defName>HALO_UNSC_Interact_SRS99_AM</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -573,7 +573,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_SRS99_AM/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_SRS99_AM/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -590,7 +590,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_SRS99_AM</defName>
+        <defName>HALO_UNSC_Shot_SRS99_AM</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -598,7 +598,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_SRS99_AM/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_SRS99_AM/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -616,7 +616,7 @@
 
     <!-- ====== SpartanLaser ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_SpartanLaser</defName>
+        <defName>HALO_UNSC_Interact_SpartanLaser</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -624,7 +624,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_SpartanLaser/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_SpartanLaser/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -641,7 +641,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_SpartanLaser</defName>
+        <defName>HALO_UNSC_Shot_SpartanLaser</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -649,7 +649,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_SpartanLaser/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_SpartanLaser/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -667,7 +667,7 @@
 
     <!-- ====== VK78_Commando ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_VK78_Commando</defName>
+        <defName>HALO_UNSC_Interact_VK78_Commando</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -675,7 +675,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_VK78_Commando/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_VK78_Commando/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -692,7 +692,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_VK78_Commando</defName>
+        <defName>HALO_UNSC_Shot_VK78_Commando</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -700,7 +700,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_VK78_Commando/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_VK78_Commando/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -718,7 +718,7 @@
 
     <!-- ====== MK50_Sidekick ====== -->
     <SoundDef>
-        <defName>HRK_UNSC_Interact_MK50_Sidekick</defName>
+        <defName>HALO_UNSC_Interact_MK50_Sidekick</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -726,7 +726,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_MK50_Sidekick/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MK50_Sidekick/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -743,7 +743,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_UNSC_Shot_MK50_Sidekick</defName>
+        <defName>HALO_UNSC_Shot_MK50_Sidekick</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -751,7 +751,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HRK_UNSC_MK50_Sidekick/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MK50_Sidekick/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>

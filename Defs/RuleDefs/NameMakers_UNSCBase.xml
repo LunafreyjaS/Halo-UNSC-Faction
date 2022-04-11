@@ -2,7 +2,7 @@
 <Defs>
 
   <RulePackDef>
-    <defName>HRK_UNSC_NamerFactionBases</defName>
+    <defName>HALO_UNSC_NamerFactionBases</defName>
     <rulePack>
       <rulesStrings>
 		<li>name->[nameB] military outpost</li>		

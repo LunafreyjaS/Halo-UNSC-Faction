@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<!-- ====== SpartanLaser ====== -->
+<ThingDef ParentName="BaseBullet">
+    <defName>HALO_UNSC_Bullet_SpartanLaser</defName>
+    <label>M6 Spartan Laser burn</label>
+    <graphicData>
+        <texPath>Things/Projectile/Bullet_Big</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+        <damageDef>Bomb</damageDef>
+        <damageAmountBase>35</damageAmountBase>
+        <explosionRadius>0.5</explosionRadius>
+        <speed>130</speed>
+    </projectile>
+</ThingDef>
+
+<ThingDef ParentName="HALO_UNSC_BaseHumanMakeableGun">
+    <defName>HALO_UNSC_SpartanLaser</defName>
+    <label>M6 Spartan Laser</label>
+    <description>The Weapon/Anti-Vehicle Model 6 Grindell/Galilean Nonlinear Rifle (W/AV M6 G/GNR), colloquially known as the Spartan Laser, is a man-portable and vehicle-mounted solid-state directed-energy anti-vehicle weapon used by the United Nations Space Command. It is one of the few directed energy weapons fielded by UNSC forces, aside from the pulse lasers used by Office of Naval Intelligence prowlers and the X23 NNEMP Cannon used by Gremlin Combat Support Vehicles.</description>
+    <graphicData>
+        <texPath>Things/Weapons/HALO_UNSC_SpartanLaser</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.2</drawSize>
+    </graphicData>
+    <comps>
+        <li>
+            <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+        </li>
+    </comps>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>HALO_UNSC_Interact_SpartanLaser</soundInteract>
+    <statBases>
+        <MarketValue>3000</MarketValue>
+        <WorkToMake>85000</WorkToMake>
+        <Mass>20.4</Mass>
+        <AccuracyTouch>0.35</AccuracyTouch>
+        <AccuracyShort>0.60</AccuracyShort>
+        <AccuracyMedium>0.85</AccuracyMedium>
+        <AccuracyLong>0.88</AccuracyLong>
+        <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>HALO_UNSC_Bullet_SpartanLaser</defaultProjectile>
+            <forcedMissRadius>0.01</forcedMissRadius>
+            <warmupTime>3</warmupTime>
+            <range>35</range>
+            <burstShotCount>1</burstShotCount>
+            <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+            <soundCast>HALO_UNSC_Shot_SpartanLaser</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>18</muzzleFlashScale>
+        </li>
+    </verbs>
+    <recipeMaker>
+        <researchPrerequisite>HALO_Research_UNSC_Lasers</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+    </recipeMaker>
+    <costList>
+        <Plasteel>50</Plasteel>
+        <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <tools>
+        <li>
+            <label>stock</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+            <label>barrel</label>
+            <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>HALO_UNSC_SpartanLaser</li>
+    </weaponTags>
+</ThingDef>
+
+</Defs>

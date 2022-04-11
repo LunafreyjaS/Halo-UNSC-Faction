@@ -133,7 +133,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_M41Rocket_HEAT</defName>
 		<label>make M19 HEAT rockets x5</label>
 		<description>Craft 5 M19 HEAT rockets.</description>
@@ -177,7 +177,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_M41Rocket_HE</defName>
 		<label>make M21 Anti-personnel rockets x5</label>
 		<description>Craft 5 M21 Anti-personnel rockets.</description>

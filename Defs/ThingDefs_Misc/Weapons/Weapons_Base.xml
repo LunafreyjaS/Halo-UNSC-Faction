@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-    <ThingDef Name="HRK_UNSC_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+    <ThingDef Name="HALO_UNSC_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
         <techLevel>Spacer</techLevel>
         <thingCategories Inherit="False">
-            <li>HRK_Category_UNSC_Weapons</li>
+            <li>HALO_Category_UNSC_Weapons</li>
         </thingCategories>
         <thingSetMakerTags Inherit="False">
         </thingSetMakerTags>
-        <weaponTags Inherit="False">            
+        <weaponTags Inherit="False">
         </weaponTags>
-        <recipeMaker Inherit="False">
-        </recipeMaker>
-        <costList>
-            <Steel>1</Steel>
-        </costList>
+        <recipeMaker>            
+            <recipeUsers Inherit="False">
+                <li>FabricationBench</li>
+            </recipeUsers>
+        </recipeMaker>        
         <tradeTags Inherit="False">
-			<li>HRK_UNSC_Weapon</li>            	
-		</tradeTags>
+            <li>HALO_UNSC_Weapon</li>
+        </tradeTags>
     </ThingDef>
 </Defs>

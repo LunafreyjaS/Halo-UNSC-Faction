@@ -3,15 +3,26 @@
 <Defs>
 
     <!-- Helmet -->
-    <ThingDef ParentName="HRK_UNSC_ArmorHelmetMakeableBase">
-        <defName>HRK_UNSC_MarineHelmet</defName>
-        <label>Marine helmet</label>
+    <ThingDef Name="HALO_UNSC_MarineHelmetBase" ParentName="HALO_UNSC_ArmorHelmetMakeableBase">
+        <defName>HALO_UNSC_MarineHelmet_Regular</defName>
+        <label>UNSC Marine helmet</label>
         <description>All iterations of the BDU feature one of several versions of the standard-issue CH252 helmet, which is painted to match the corresponding body armor. The helmet may be mounted with various accessories, such as a holographic tactical eyepiece, a helmet recorder, a boom microphone, polarized tactical goggles, a flashlight, or a night vision device. Marines sometimes wear balaclavas with their helmets, both in frigid and temperate climates. In hazardous situations, gas masks such as the S90 gas mask are worn.</description>
         <graphicData>
-            <texPath>Things/Apparel/Marine/Marine_Helmet_UI</texPath>
+            <texPath>Things/Apparel/Marine/Helmet/Regular/Marine_HelmetRegular_UI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
         </graphicData>
         <generateCommonality>2</generateCommonality>
+        <recipeMaker>
+            <researchPrerequisite>HALO_Research_UNSC_MarineArmor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+        </costList>
         <statBases>
             <WorkToMake>15750</WorkToMake>
             <MaxHitPoints>120</MaxHitPoints>
@@ -31,7 +42,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/Marine/Marine_Helmet</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Marine/Helmet/Regular/Marine_HelmetRegular</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -40,7 +51,7 @@
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
-                <li>HRK_UNSC_MarineHelmet</li>
+                <li>HALO_UNSC_MarineHelmet</li>
             </tags>
         </apparel>
         <comps>
@@ -48,9 +59,96 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
+        <defName>HALO_UNSC_MarineHelmet_Advanced</defName>
+        <label>UNSC Advanced marine helmet</label>
+        <graphicData>
+            <texPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced_UI</texPath>
+        </graphicData>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+        </costList>
+        <statBases>
+            <WorkToMake>15750</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
+        <defName>HALO_UNSC_MarineHelmet_Marksman</defName>
+        <label>UNSC Marksman marine helmet</label>
+        <graphicData>
+            <texPath>Things/Apparel/Marine/Helmet/Marksman/Marine_HelmetMarksman_UI</texPath>
+        </graphicData>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+        </costList>
+        <statBases>
+            <WorkToMake>15750</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Marine/Helmet/Marksman/Marine_HelmetMarksman</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
+        <defName>HALO_UNSC_MarineHelmet_Reinforced</defName>
+        <label>UNSC Reinforced marine helmet</label>
+        <graphicData>
+            <texPath>Things/Apparel/Marine/Helmet/Reinforced/Marine_HelmetReinforced_UI</texPath>
+        </graphicData>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+        </costList>
+        <statBases>
+            <WorkToMake>15750</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Marine/Helmet/Reinforced/Marine_HelmetReinforced</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
     <!-- Armor -->
-    <ThingDef ParentName="HRK_UNSC_ArmorMachineableBase">
-        <defName>HRK_UNSC_MarineArmor</defName>
+    <ThingDef ParentName="HALO_UNSC_ArmorMachineableBase">
+        <defName>HALO_UNSC_MarineArmor</defName>
         <label>Marine Armor</label>
         <description>The Marine BDU is equipped with one of various models of ballistic armor at multiple points, including the torso, the shoulders, and the shins. Some versions incorporate armor for the forearms, thighs, and groin as well. The armor is resilient against traditional ballistic weaponry though it is easily damaged by plasma weaponry. While different iterations of the BDU feature different armor models, all possess roughly equivalent durability. Lighter body armor, such as the ballistic assault vest, is used in lieu of standard-issue gear during some operations.</description>
         <graphicData>
@@ -58,6 +156,16 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <generateCommonality>2</generateCommonality>
+        <recipeMaker>
+            <researchPrerequisite>HALO_Research_UNSC_MarineArmor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+        </costList>
         <statBases>
             <WorkToMake>45000</WorkToMake>
             <MaxHitPoints>280</MaxHitPoints>
@@ -91,7 +199,7 @@
             </defaultOutfitTags>
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
-                <li>HRK_UNSC_MarineArmor</li>
+                <li>HALO_UNSC_MarineArmor</li>
             </tags>
         </apparel>
         <comps>

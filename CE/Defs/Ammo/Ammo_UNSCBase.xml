@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RecipeDef Name="HRK_UNSC_AmmoRecipeBase" ParentName="AmmoRecipeBase" Abstract="true">
+    <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

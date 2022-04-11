@@ -2,7 +2,7 @@
 <Defs>
 
 	<RulePackDef>
-		<defName>HRK_UNSC_NamerFaction</defName>
+		<defName>HALO_UNSC_NamerFaction</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>name->The 1th UNSC fleet</li>

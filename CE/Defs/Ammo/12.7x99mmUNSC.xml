@@ -3,8 +3,8 @@
 <Defs>
 
   <ThingCategoryDef>
-    <defName>Ammo127x99mm</defName>
-    <label>12.7x99mm</label>
+    <defName>Ammo127x99mmUNSC</defName>
+    <label>12.7x99mm UNSC</label>
     <parent>AmmoHighCaliber</parent>
     <iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
   </ThingCategoryDef>
@@ -12,19 +12,19 @@
   <!-- ==================== AmmoSet ========================== -->
 
   <CombatExtended.AmmoSetDef>
-    <defName>AmmoSet_127x99mm</defName>
-    <label>12.7x99mm</label>
+    <defName>AmmoSet_127x99mmUNSC</defName>
+    <label>12.7x99mm UNSC</label>
     <ammoTypes>
-      <Ammo_127x99mm_FMJ>Bullet_127x99mm_FMJ</Ammo_127x99mm_FMJ>
-      <Ammo_127x99mm_Incendiary>Bullet_127x99mm_Incendiary</Ammo_127x99mm_Incendiary>
-      <Ammo_127x99mm_HE>Bullet_127x99mm_HE</Ammo_127x99mm_HE>
-      <Ammo_127x99mm_Sabot>Bullet_127x99mm_Sabot</Ammo_127x99mm_Sabot>
+      <Ammo_127x99mmUNSC_FMJ>Bullet_127x99mmUNSC_FMJ</Ammo_127x99mmUNSC_FMJ>
+      <Ammo_127x99mmUNSC_Incendiary>Bullet_127x99mmUNSC_Incendiary</Ammo_127x99mmUNSC_Incendiary>
+      <Ammo_127x99mmUNSC_HE>Bullet_127x99mmUNSC_HE</Ammo_127x99mmUNSC_HE>
+      <Ammo_127x99mmUNSC_Sabot>Bullet_127x99mmUNSC_Sabot</Ammo_127x99mmUNSC_Sabot>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
 
   <!-- ==================== Ammo ========================== -->
 
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Ammo127x99mmBase" ParentName="SmallAmmoBase" Abstract="True">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Ammo127x99mmUNSCBase" ParentName="SmallAmmoBase" Abstract="True">
     <description>Large caliber bullet used by many UNSC heavy machine guns.</description>
     <statBases>
       <Mass>0.115</Mass>
@@ -35,14 +35,14 @@
       <li>CE_AutoEnableCrafting</li>
     </tradeTags>
     <thingCategories>
-      <li>Ammo127x99mm</li>
+      <li>Ammo127x99mmUNSC</li>
     </thingCategories>
     <stackLimit>5000</stackLimit>
   </ThingDef>
 
-  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmBase">
-    <defName>Ammo_127x99mm_FMJ</defName>
-    <label>12.7x99mm cartridge (FMJ)</label>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmUNSCBase">
+    <defName>Ammo_127x99mmUNSC_FMJ</defName>
+    <label>12.7x99mm UNSC cartridge (FMJ)</label>
     <graphicData>
       <texPath>Things/Ammo/HighCaliber/FMJ</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -51,12 +51,12 @@
       <MarketValue>0.48</MarketValue>
     </statBases>
     <ammoClass>FullMetalJacket</ammoClass>
-    <cookOffProjectile>Bullet_127x99mm_FMJ</cookOffProjectile>
+    <cookOffProjectile>Bullet_127x99mmUNSC_FMJ</cookOffProjectile>
   </ThingDef>
 
-  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmBase">
-    <defName>Ammo_127x99mm_Incendiary</defName>
-    <label>12.7x99mm cartridge (AP-I)</label>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmUNSCBase">
+    <defName>Ammo_127x99mmUNSC_Incendiary</defName>
+    <label>12.7x99mm UNSC cartridge (AP-I)</label>
     <graphicData>
       <texPath>Things/Ammo/HighCaliber/Incendiary</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -66,12 +66,12 @@
       <Mass>0.112</Mass>
     </statBases>
     <ammoClass>IncendiaryAP</ammoClass>
-    <cookOffProjectile>Bullet_127x99mm_Incendiary</cookOffProjectile>
+    <cookOffProjectile>Bullet_127x99mmUNSC_Incendiary</cookOffProjectile>
   </ThingDef>
 
-  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmBase">
-    <defName>Ammo_127x99mm_HE</defName>
-    <label>12.7x99mm cartridge (AP-HE)</label>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmUNSCBase">
+    <defName>Ammo_127x99mmUNSC_HE</defName>
+    <label>12.7x99mm UNSC cartridge (AP-HE)</label>
     <graphicData>
       <texPath>Things/Ammo/HighCaliber/HE</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -80,12 +80,12 @@
       <MarketValue>1</MarketValue>
     </statBases>
     <ammoClass>ExplosiveAP</ammoClass>
-    <cookOffProjectile>Bullet_127x99mm_HE</cookOffProjectile>
+    <cookOffProjectile>Bullet_127x99mmUNSC_HE</cookOffProjectile>
   </ThingDef>
 
-  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmBase">
-    <defName>Ammo_127x99mm_Sabot</defName>
-    <label>12.7x99mm cartridge (Sabot)</label>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x99mmUNSCBase">
+    <defName>Ammo_127x99mmUNSC_Sabot</defName>
+    <label>12.7x99mm UNSC cartridge (Sabot)</label>
     <graphicData>
       <texPath>Things/Ammo/HighCaliber/Sabot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -95,14 +95,14 @@
       <Mass>0.095</Mass>
     </statBases>
     <ammoClass>Sabot</ammoClass>
-    <cookOffProjectile>Bullet_127x99mm_Sabot</cookOffProjectile>
+    <cookOffProjectile>Bullet_127x99mmUNSC_Sabot</cookOffProjectile>
   </ThingDef>
 
   <!-- ================== Projectiles ================== -->
 
   <ThingDef ParentName="Base50BMGBullet">
-    <defName>Bullet_127x99mm_FMJ</defName>
-    <label>12.7x99mm bullet (FMJ)</label>
+    <defName>Bullet_127x99mmUNSC_FMJ</defName>
+    <label>12.7x99mm UNSC bullet (FMJ)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>40</damageAmountBase>
       <armorPenetrationSharp>18</armorPenetrationSharp>
@@ -111,8 +111,8 @@
   </ThingDef>
 
   <ThingDef ParentName="Base50BMGBullet">
-    <defName>Bullet_127x99mm_Incendiary</defName>
-    <label>12.7x99mm bullet (AP-I)</label>
+    <defName>Bullet_127x99mmUNSC_Incendiary</defName>
+    <label>12.7x99mm UNSC bullet (AP-I)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>25</damageAmountBase>
       <armorPenetrationSharp>36</armorPenetrationSharp>
@@ -127,8 +127,8 @@
   </ThingDef>
 
   <ThingDef ParentName="Base50BMGBullet">
-    <defName>Bullet_127x99mm_HE</defName>
-    <label>12.7x99mm bullet (AP-HE)</label>
+    <defName>Bullet_127x99mmUNSC_HE</defName>
+    <label>12.7x99mm UNSC bullet (AP-HE)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>40</damageAmountBase>
       <armorPenetrationSharp>18</armorPenetrationSharp>
@@ -143,8 +143,8 @@
   </ThingDef>
 
   <ThingDef ParentName="Base50BMGBullet">
-    <defName>Bullet_127x99mm_Sabot</defName>
-    <label>12.7x99mm bullet (Sabot)</label>
+    <defName>Bullet_127x99mmUNSC_Sabot</defName>
+    <label>12.7x99mm UNSC bullet (Sabot)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>19</damageAmountBase>
       <armorPenetrationSharp>55</armorPenetrationSharp>
@@ -155,11 +155,11 @@
 
   <!-- ==================== Recipes ========================== -->
 
-  <RecipeDef ParentName="UNAmmoRecipeBase">
-    <defName>MakeAmmo_127x99mm_FMJ</defName>
-    <label>make 12.7x99mm (FMJ) cartridge x200</label>
-    <description>Craft 200 12.7x99mm (FMJ) cartridges.</description>
-    <jobString>Making 12.7x99mm (FMJ) cartridges.</jobString>
+  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+    <defName>MakeAmmo_127x99mmUNSC_FMJ</defName>
+    <label>make 12.7x99mm UNSC (FMJ) cartridge x200</label>
+    <description>Craft 200 12.7x99mm UNSC (FMJ) cartridges.</description>
+    <jobString>Making 12.7x99mm UNSC (FMJ) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -176,16 +176,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_127x99mm_FMJ>200</Ammo_127x99mm_FMJ>
+      <Ammo_127x99mmUNSC_FMJ>200</Ammo_127x99mmUNSC_FMJ>
     </products>
     <workAmount>6000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-    <defName>MakeAmmo_127x99mm_Incendiary</defName>
-    <label>make 12.7x99mm (AP-I) cartridge x200</label>
-    <description>Craft 200 12.7x99mm (AP-I) cartridges.</description>
-    <jobString>Making 12.7x99mm (AP-I) cartridges.</jobString>
+  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+    <defName>MakeAmmo_127x99mmUNSC_Incendiary</defName>
+    <label>make 12.7x99mm UNSC (AP-I) cartridge x200</label>
+    <description>Craft 200 12.7x99mm UNSC (AP-I) cartridges.</description>
+    <jobString>Making 12.7x99mm UNSC (AP-I) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -211,16 +211,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_127x99mm_Incendiary>200</Ammo_127x99mm_Incendiary>
+      <Ammo_127x99mmUNSC_Incendiary>200</Ammo_127x99mmUNSC_Incendiary>
     </products>
     <workAmount>8200</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-    <defName>MakeAmmo_127x99mm_HE</defName>
-    <label>make 12.7x99mm (AP-HE) cartridge x200</label>
-    <description>Craft 200 12.7x99mm (HE) cartridges.</description>
-    <jobString>Making 12.7x99mm (HE) cartridges.</jobString>
+  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+    <defName>MakeAmmo_127x99mmUNSC_HE</defName>
+    <label>make 12.7x99mm UNSC (AP-HE) cartridge x200</label>
+    <description>Craft 200 12.7x99mm UNSC (HE) cartridges.</description>
+    <jobString>Making 12.7x99mm UNSC (HE) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -246,16 +246,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_127x99mm_HE>200</Ammo_127x99mm_HE>
+      <Ammo_127x99mmUNSC_HE>200</Ammo_127x99mmUNSC_HE>
     </products>
     <workAmount>10800</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-    <defName>MakeAmmo_127x99mm_Sabot</defName>
-    <label>make 12.7x99mm (Sabot) cartridge x200</label>
-    <description>Craft 200 12.7x99mm (Sabot) cartridges.</description>
-    <jobString>Making 12.7x99mm (Sabot) cartridges.</jobString>
+  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+    <defName>MakeAmmo_127x99mmUNSC_Sabot</defName>
+    <label>make 12.7x99mm UNSC (Sabot) cartridge x200</label>
+    <description>Craft 200 12.7x99mm UNSC (Sabot) cartridges.</description>
+    <jobString>Making 12.7x99mm UNSC (Sabot) cartridges.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -290,7 +290,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_127x99mm_Sabot>200</Ammo_127x99mm_Sabot>
+      <Ammo_127x99mmUNSC_Sabot>200</Ammo_127x99mmUNSC_Sabot>
     </products>
     <workAmount>8000</workAmount>
   </RecipeDef>

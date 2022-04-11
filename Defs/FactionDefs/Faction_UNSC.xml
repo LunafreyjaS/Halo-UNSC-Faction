@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <FactionDef ParentName="FactionBase" Name="HRK_UNSC_FactionBase" Abstract="True">
+    <FactionDef ParentName="FactionBase" Name="HALO_UNSC_FactionBase" Abstract="True">
         <pawnSingular>colonist</pawnSingular>
         <pawnsPlural>colonists</pawnsPlural>
-        <categoryTag>HRK_UNSC_FactionTag</categoryTag>
+        <categoryTag>HALO_UNSC_FactionTag</categoryTag>
         <listOrderPriority>30</listOrderPriority>
         <settlementGenerationWeight>0.8</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -13,11 +13,11 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Chairman Chief</leaderTitle>
         <fixedLeaderKinds>
-            <li>HRK_UNSC_Leader</li>
+            <li>HALO_UNSC_Leader</li>
         </fixedLeaderKinds>
-        <factionIconPath>World/HRK_UNSC_ColonyIcon</factionIconPath>
-        <factionNameMaker>HRK_UNSC_NamerFaction</factionNameMaker>
-        <settlementNameMaker>HRK_UNSC_NamerFactionBases</settlementNameMaker>
+        <factionIconPath>World/HALO_UNSC_ColonyIcon</factionIconPath>
+        <factionNameMaker>HALO_UNSC_NamerFaction</factionNameMaker>
+        <settlementNameMaker>HALO_UNSC_NamerFactionBases</settlementNameMaker>
         <techLevel>Spacer</techLevel>
         <disallowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
@@ -67,16 +67,16 @@
         </backstoryFilters>
         <geneticVariance>0.8</geneticVariance>
         <caravanTraderKinds>
-            <li>HRK_Trader_UNSC_CombatSupplier</li>
+            <li>HALO_Trader_UNSC_CombatSupplier</li>
         </caravanTraderKinds>
         <visitorTraderKinds>
-            <li>HRK_Visitor_UNSC_Standard</li>
+            <li>HALO_Visitor_UNSC_Standard</li>
         </visitorTraderKinds>
         <baseTraderKinds>
-            <li>HRK_Base_UNSC_Standard</li>
+            <li>HALO_Base_UNSC_Standard</li>
         </baseTraderKinds>
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
-        <raidLootMaker>HRK_UNSC_RaidLootMaker</raidLootMaker>
+        <raidLootMaker>HALO_UNSC_RaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
             <points>
                 <li>(0,35)</li>
@@ -90,53 +90,53 @@
             <li>
                 <kindDef>Combat</kindDef>
                 <options>
-                    <HRK_UNSC_MarineGunner>20</HRK_UNSC_MarineGunner>
-                    <HRK_UNSC_MarineGunner_Acidifier>20</HRK_UNSC_MarineGunner_Acidifier>
-                    <HRK_UNSC_MarineHeavy>10</HRK_UNSC_MarineHeavy>
-                    <HRK_UNSC_MarineHeavy_Acidifier>10</HRK_UNSC_MarineHeavy_Acidifier>
-                    <HRK_UNSC_MarineElite>10</HRK_UNSC_MarineElite>
-                    <HRK_UNSC_MarineElite_Acidifier>10</HRK_UNSC_MarineElite_Acidifier>
-                    <HRK_UNSC_ODSTGunner>10</HRK_UNSC_ODSTGunner>
-                    <HRK_UNSC_ODSTGunner_Acidifier>10</HRK_UNSC_ODSTGunner_Acidifier>
-                    <HRK_UNSC_ODSTHeavy>5</HRK_UNSC_ODSTHeavy>
-                    <HRK_UNSC_ODSTHeavy_Acidifier>5</HRK_UNSC_ODSTHeavy_Acidifier>
-                    <HRK_UNSC_ODSTElite>5</HRK_UNSC_ODSTElite>
-                    <HRK_UNSC_ODSTElite_Acidifier>5</HRK_UNSC_ODSTElite_Acidifier>
-                    <HRK_UNSC_MjolnirGunner>2</HRK_UNSC_MjolnirGunner>
-                    <HRK_UNSC_MjolnirGunner_Acidifier>2</HRK_UNSC_MjolnirGunner_Acidifier>
-                    <HRK_UNSC_MjolnirHeavy>1</HRK_UNSC_MjolnirHeavy>
-                    <HRK_UNSC_MjolnirHeavy_Acidifier>1</HRK_UNSC_MjolnirHeavy_Acidifier>
-                    <HRK_UNSC_MjolnirElite>1</HRK_UNSC_MjolnirElite>
-                    <HRK_UNSC_MjolnirElite_Acidifier>1</HRK_UNSC_MjolnirElite_Acidifier>
+                    <HALO_UNSC_MarineGunner>20</HALO_UNSC_MarineGunner>
+                    <HALO_UNSC_MarineGunner_Acidifier>20</HALO_UNSC_MarineGunner_Acidifier>
+                    <HALO_UNSC_MarineHeavy>10</HALO_UNSC_MarineHeavy>
+                    <HALO_UNSC_MarineHeavy_Acidifier>10</HALO_UNSC_MarineHeavy_Acidifier>
+                    <HALO_UNSC_MarineElite>10</HALO_UNSC_MarineElite>
+                    <HALO_UNSC_MarineElite_Acidifier>10</HALO_UNSC_MarineElite_Acidifier>
+                    <HALO_UNSC_ODSTGunner>10</HALO_UNSC_ODSTGunner>
+                    <HALO_UNSC_ODSTGunner_Acidifier>10</HALO_UNSC_ODSTGunner_Acidifier>
+                    <HALO_UNSC_ODSTHeavy>5</HALO_UNSC_ODSTHeavy>
+                    <HALO_UNSC_ODSTHeavy_Acidifier>5</HALO_UNSC_ODSTHeavy_Acidifier>
+                    <HALO_UNSC_ODSTElite>5</HALO_UNSC_ODSTElite>
+                    <HALO_UNSC_ODSTElite_Acidifier>5</HALO_UNSC_ODSTElite_Acidifier>
+                    <HALO_UNSC_MjolnirGunner>2</HALO_UNSC_MjolnirGunner>
+                    <HALO_UNSC_MjolnirGunner_Acidifier>2</HALO_UNSC_MjolnirGunner_Acidifier>
+                    <HALO_UNSC_MjolnirHeavy>1</HALO_UNSC_MjolnirHeavy>
+                    <HALO_UNSC_MjolnirHeavy_Acidifier>1</HALO_UNSC_MjolnirHeavy_Acidifier>
+                    <HALO_UNSC_MjolnirElite>1</HALO_UNSC_MjolnirElite>
+                    <HALO_UNSC_MjolnirElite_Acidifier>1</HALO_UNSC_MjolnirElite_Acidifier>
                 </options>
             </li>
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
-                    <HRK_UNSC_MarineGunner>20</HRK_UNSC_MarineGunner>
-                    <HRK_UNSC_MarineGunner_Acidifier>20</HRK_UNSC_MarineGunner_Acidifier>
-                    <HRK_UNSC_MarineHeavy>10</HRK_UNSC_MarineHeavy>
-                    <HRK_UNSC_MarineHeavy_Acidifier>10</HRK_UNSC_MarineHeavy_Acidifier>
-                    <HRK_UNSC_MarineElite>10</HRK_UNSC_MarineElite>
-                    <HRK_UNSC_MarineElite_Acidifier>10</HRK_UNSC_MarineElite_Acidifier>
-                    <HRK_UNSC_ODSTGunner>10</HRK_UNSC_ODSTGunner>
-                    <HRK_UNSC_ODSTGunner_Acidifier>10</HRK_UNSC_ODSTGunner_Acidifier>
-                    <HRK_UNSC_ODSTHeavy>5</HRK_UNSC_ODSTHeavy>
-                    <HRK_UNSC_ODSTHeavy_Acidifier>5</HRK_UNSC_ODSTHeavy_Acidifier>
-                    <HRK_UNSC_ODSTElite>5</HRK_UNSC_ODSTElite>
-                    <HRK_UNSC_ODSTElite_Acidifier>5</HRK_UNSC_ODSTElite_Acidifier>
-                    <HRK_UNSC_MjolnirGunner>2</HRK_UNSC_MjolnirGunner>
-                    <HRK_UNSC_MjolnirGunner_Acidifier>2</HRK_UNSC_MjolnirGunner_Acidifier>
-                    <HRK_UNSC_MjolnirHeavy>1</HRK_UNSC_MjolnirHeavy>
-                    <HRK_UNSC_MjolnirHeavy_Acidifier>1</HRK_UNSC_MjolnirHeavy_Acidifier>
-                    <HRK_UNSC_MjolnirElite>1</HRK_UNSC_MjolnirElite>
-                    <HRK_UNSC_MjolnirElite_Acidifier>1</HRK_UNSC_MjolnirElite_Acidifier>
+                    <HALO_UNSC_MarineGunner>20</HALO_UNSC_MarineGunner>
+                    <HALO_UNSC_MarineGunner_Acidifier>20</HALO_UNSC_MarineGunner_Acidifier>
+                    <HALO_UNSC_MarineHeavy>10</HALO_UNSC_MarineHeavy>
+                    <HALO_UNSC_MarineHeavy_Acidifier>10</HALO_UNSC_MarineHeavy_Acidifier>
+                    <HALO_UNSC_MarineElite>10</HALO_UNSC_MarineElite>
+                    <HALO_UNSC_MarineElite_Acidifier>10</HALO_UNSC_MarineElite_Acidifier>
+                    <HALO_UNSC_ODSTGunner>10</HALO_UNSC_ODSTGunner>
+                    <HALO_UNSC_ODSTGunner_Acidifier>10</HALO_UNSC_ODSTGunner_Acidifier>
+                    <HALO_UNSC_ODSTHeavy>5</HALO_UNSC_ODSTHeavy>
+                    <HALO_UNSC_ODSTHeavy_Acidifier>5</HALO_UNSC_ODSTHeavy_Acidifier>
+                    <HALO_UNSC_ODSTElite>5</HALO_UNSC_ODSTElite>
+                    <HALO_UNSC_ODSTElite_Acidifier>5</HALO_UNSC_ODSTElite_Acidifier>
+                    <HALO_UNSC_MjolnirGunner>2</HALO_UNSC_MjolnirGunner>
+                    <HALO_UNSC_MjolnirGunner_Acidifier>2</HALO_UNSC_MjolnirGunner_Acidifier>
+                    <HALO_UNSC_MjolnirHeavy>1</HALO_UNSC_MjolnirHeavy>
+                    <HALO_UNSC_MjolnirHeavy_Acidifier>1</HALO_UNSC_MjolnirHeavy_Acidifier>
+                    <HALO_UNSC_MjolnirElite>1</HALO_UNSC_MjolnirElite>
+                    <HALO_UNSC_MjolnirElite_Acidifier>1</HALO_UNSC_MjolnirElite_Acidifier>
                 </options>
             </li>
             <li>
                 <kindDef>Trader</kindDef>
                 <traders>
-                    <HRK_UNSC_Trader>1</HRK_UNSC_Trader>
+                    <HALO_UNSC_Trader>1</HALO_UNSC_Trader>
                 </traders>
                 <carriers>
                     <Muffalo>6</Muffalo>
@@ -145,12 +145,12 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
-                    <HRK_UNSC_MarineGunner>20</HRK_UNSC_MarineGunner>
-                    <HRK_UNSC_MarineGunner_Acidifier>20</HRK_UNSC_MarineGunner_Acidifier>
-                    <HRK_UNSC_MarineHeavy>10</HRK_UNSC_MarineHeavy>
-                    <HRK_UNSC_MarineHeavy_Acidifier>10</HRK_UNSC_MarineHeavy_Acidifier>
-                    <HRK_UNSC_MarineElite>10</HRK_UNSC_MarineElite>
-                    <HRK_UNSC_MarineElite_Acidifier>10</HRK_UNSC_MarineElite_Acidifier>
+                    <HALO_UNSC_MarineGunner>20</HALO_UNSC_MarineGunner>
+                    <HALO_UNSC_MarineGunner_Acidifier>20</HALO_UNSC_MarineGunner_Acidifier>
+                    <HALO_UNSC_MarineHeavy>10</HALO_UNSC_MarineHeavy>
+                    <HALO_UNSC_MarineHeavy_Acidifier>10</HALO_UNSC_MarineHeavy_Acidifier>
+                    <HALO_UNSC_MarineElite>10</HALO_UNSC_MarineElite>
+                    <HALO_UNSC_MarineElite_Acidifier>10</HALO_UNSC_MarineElite_Acidifier>
                 </guards>
             </li>
         </pawnGroupMakers>
@@ -158,7 +158,7 @@
     </FactionDef>
 
     <ThingSetMakerDef>
-        <defName>HRK_UNSC_RaidLootMaker</defName>
+        <defName>HALO_UNSC_RaidLootMaker</defName>
         <root Class="ThingSetMaker_MarketValue">
             <fixedParams>
                 <filter>
@@ -176,8 +176,8 @@
         </root>
     </ThingSetMakerDef>
 
-    <FactionDef ParentName="HRK_UNSC_FactionBase">
-        <defName>HRK_UNSC_Faction</defName>
+    <FactionDef ParentName="HALO_UNSC_FactionBase">
+        <defName>HALO_UNSC_Faction</defName>
         <label>United Nations Space Command</label>
         <description>KEKW</description>
         <colorSpectrum>

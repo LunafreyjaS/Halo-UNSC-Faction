@@ -10,7 +10,7 @@
       <xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 
       <value>
-        <li>HRK_UNSC_Faction</li>
+        <li>HALO_UNSC_Faction</li>
       </value>
     </match>
   </Operation>

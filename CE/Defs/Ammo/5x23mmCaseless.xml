@@ -4,7 +4,7 @@
 
 	<ThingCategoryDef>
 		<defName>Ammo5x23mmCaseless</defName>
-		<label>5x23mm Caseless</label>
+		<label>5x23mm caseless</label>
 		<parent>AmmoRifles</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
 	</ThingCategoryDef>
@@ -13,7 +13,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_5x23mmCaseless</defName>
-		<label>5x23mm Caseless</label>
+		<label>5x23mm caseless</label>
 		<ammoTypes>
 			<Ammo_5x23mmCaseless_FMJ>Bullet_5x23mmCaseless_FMJ</Ammo_5x23mmCaseless_FMJ>
 			<Ammo_5x23mmCaseless_AP>Bullet_5x23mmCaseless_AP</Ammo_5x23mmCaseless_AP>
@@ -40,7 +40,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="5x23mmCaselessBase">
 		<defName>Ammo_5x23mmCaseless_FMJ</defName>
-		<label>5x23mm Caseless cartridge (FMJ)</label>
+		<label>5x23mm caseless cartridge (FMJ)</label>
 		<graphicData>
 			<texPath>Things/Ammo/Rifle/FMJ</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -54,7 +54,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="5x23mmCaselessBase">
 		<defName>Ammo_5x23mmCaseless_AP</defName>
-		<label>5x23mm Caseless cartridge (AP)</label>
+		<label>5x23mm caseless cartridge (AP)</label>
 		<graphicData>
 			<texPath>Things/Ammo/Rifle/AP</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -68,7 +68,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="5x23mmCaselessBase">
 		<defName>Ammo_5x23mmCaseless_HP</defName>
-		<label>5x23mm Caseless cartridge (HP)</label>
+		<label>5x23mm caseless cartridge (HP)</label>
 		<graphicData>
 			<texPath>Things/Ammo/Rifle/HP</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -84,7 +84,7 @@
 
 	<ThingDef ParentName="BaseFN57x28mmBullet">
 		<defName>Bullet_5x23mmCaseless_FMJ</defName>
-		<label>5mm Caseless bullet (FMJ)</label>
+		<label>5mm caseless bullet (FMJ)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>11</damageAmountBase>
 			<armorPenetrationSharp>7</armorPenetrationSharp>
@@ -95,7 +95,7 @@
 
 	<ThingDef ParentName="BaseFN57x28mmBullet">
 		<defName>Bullet_5x23mmCaseless_AP</defName>
-		<label>5mm Caseless bullet (AP)</label>
+		<label>5mm caseless bullet (AP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>7</damageAmountBase>
 			<armorPenetrationSharp>14</armorPenetrationSharp>
@@ -106,7 +106,7 @@
 
 	<ThingDef ParentName="BaseFN57x28mmBullet">
 		<defName>Bullet_5x23mmCaseless_HP</defName>
-		<label>5mm Caseless bullet (HP)</label>
+		<label>5mm caseless bullet (HP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>15</damageAmountBase>
 			<armorPenetrationSharp>3.5</armorPenetrationSharp>
@@ -117,7 +117,7 @@
 
 	<ThingDef ParentName="BaseFN57x28mmBullet">
 		<defName>Bullet_5x23mmCaseless_Incendiary</defName>
-		<label>5mm Caseless bullet (AP-I)</label>
+		<label>5mm caseless bullet (AP-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>8</damageAmountBase>
 			<armorPenetrationSharp>12</armorPenetrationSharp>
@@ -134,7 +134,7 @@
 
 	<ThingDef ParentName="BaseFN57x28mmBullet">
 		<defName>Bullet_5x23mmCaseless_HE</defName>
-		<label>5mm Caseless bullet (HE)</label>
+		<label>5mm caseless bullet (HE)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
 			<armorPenetrationSharp>6</armorPenetrationSharp>
@@ -151,7 +151,7 @@
 
 	<ThingDef ParentName="BaseFN57x28mmBullet">
 		<defName>Bullet_5x23mmCaseless_Sabot</defName>
-		<label>5mm Caseless bullet (Sabot)</label>
+		<label>5mm caseless bullet (Sabot)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>6</damageAmountBase>
 			<armorPenetrationSharp>21</armorPenetrationSharp>
@@ -163,16 +163,25 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="UNAmmoRecipeBase">
+	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaseless_FMJ</defName>
-		<label>make 5x23mm Caseless (FMJ) cartridge x500</label>
-		<description>Craft 500 5x23mm Caseless (FMJ) cartridges.</description>
-		<jobString>Making 5x23mm Caseless (FMJ) cartridges.</jobString>
+		<label>make 5x23mm caseless (FMJ) cartridge x500</label>
+		<description>Craft 500 5x23mm caseless (FMJ) cartridges.</description>
+		<jobString>Making 5x23mm caseless (FMJ) cartridges.</jobString>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -181,6 +190,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -189,11 +199,11 @@
 		<workAmount>1500</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="UNAmmoRecipeBase">
+	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaseless_AP</defName>
-		<label>make 5x23mm Caseless (AP) cartridge x500</label>
-		<description>Craft 500 5x23mm Caseless (AP) cartridges.</description>
-		<jobString>Making 5x23mm Caseless (AP) cartridges.</jobString>
+		<label>make 5x23mm caseless (AP) cartridge x500</label>
+		<description>Craft 500 5x23mm caseless (AP) cartridges.</description>
+		<jobString>Making 5x23mm caseless (AP) cartridges.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -203,10 +213,20 @@
 				</filter>
 				<count>10</count>
 			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -215,11 +235,11 @@
 		<workAmount>1500</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="UNAmmoRecipeBase">
+	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaseless_HP</defName>
-		<label>make 5x23mm Caseless (HP) cartridge x500</label>
-		<description>Craft 500 5x23mm Caseless (HP) cartridges.</description>
-		<jobString>Making 5x23mm Caseless (HP) cartridges.</jobString>
+		<label>make 5x23mm caseless (HP) cartridge x500</label>
+		<description>Craft 500 5x23mm caseless (HP) cartridges.</description>
+		<jobString>Making 5x23mm caseless (HP) cartridges.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -229,10 +249,20 @@
 				</filter>
 				<count>10</count>
 			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
