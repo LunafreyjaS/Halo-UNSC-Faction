@@ -2,7 +2,7 @@
 
 <Defs>
 
-    <!--AIE486H-->
+    <!--AIE486H-->   
     <ThingDef ParentName="BuildingBase">
         <defName>HALO_UNSC_Turret_AIE486H</defName>
         <label>AIE486H</label>
@@ -91,9 +91,25 @@
         </researchPrerequisites>
     </ThingDef>
 
+    <ThingDef ParentName="BaseBullet">
+        <defName>HALO_UNSC_Bullet_AIE486H</defName>
+        <label>AIE-486H bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>32</damageAmountBase>
+            <armorPenetrationBase>0.60</armorPenetrationBase>
+            <speed>100</speed>
+            <stoppingPower>3</stoppingPower>
+        </projectile>
+    </ThingDef>
+
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>HALO_UNSC_TurretGun_AIE486H</defName>
-        <label>AIE486H Gun</label>
+        <label>AIE-486H Gun</label>
         <description>The AIE-486H Heavy Machine Gun is a standard gatling-style heavy machine gun, generally used on a tripod mount by UNSC forces, notably during latter stages of the Battle for Earth and the Battle of Installation 00.</description>
         <graphicData>
             <texPath>Things/Building/Turrets/AIE486H/HALO_UNSC_TurretGun_AIE486H</texPath>
@@ -114,12 +130,12 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HALO_UNSC_Bullet_BR55_AR</defaultProjectile>
+                <defaultProjectile>HALO_UNSC_Bullet_AIE486H</defaultProjectile>
                 <warmupTime>1.8</warmupTime>
                 <range>30.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>HALO_UNSC_Shot_BR55_AR</soundCast>
+                <soundCast>HALO_UNSC_Shot_AIE486H</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
@@ -216,6 +232,22 @@
         </researchPrerequisites>
     </ThingDef>
 
+    <ThingDef ParentName="BaseBullet">
+        <defName>HALO_UNSC_Bullet_M46Vulcan</defName>
+        <label>M46 Vulcan bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>32</damageAmountBase>
+            <armorPenetrationBase>0.60</armorPenetrationBase>
+            <speed>100</speed>
+            <stoppingPower>3</stoppingPower>
+        </projectile>
+    </ThingDef>
+
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>HALO_UNSC_TurretGun_M46Vulcan</defName>
         <label>M46 Vulcan Gun</label>
@@ -239,12 +271,12 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HALO_UNSC_Bullet_BR55_AR</defaultProjectile>
+                <defaultProjectile>HALO_UNSC_Bullet_M46Vulcan</defaultProjectile>
                 <warmupTime>1.8</warmupTime>
                 <range>30.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>HALO_UNSC_Shot_BR55_AR</soundCast>
+                <soundCast>HALO_UNSC_Shot_M46Vulcan</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
