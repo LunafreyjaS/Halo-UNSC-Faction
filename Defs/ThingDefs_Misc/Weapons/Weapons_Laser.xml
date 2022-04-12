@@ -6,7 +6,7 @@
     <ThingDef ParentName="BaseLaserGun" MayRequire="VanillaExpanded.VWEL">
         <defName>HALO_UNSC_SpartanLaser</defName>
         <thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
-        <label>M6 Spartan Laser</label>
+        <label>Spartan Laser</label>
         <description>The Weapon/Anti-Vehicle Model 6 Grindell/Galilean Nonlinear Rifle (W/AV M6 G/GNR), colloquially known as the Spartan Laser, is a man-portable and vehicle-mounted solid-state directed-energy anti-vehicle weapon used by the United Nations Space Command. It is one of the few directed energy weapons fielded by UNSC forces, aside from the pulse lasers used by Office of Naval Intelligence prowlers and the X23 NNEMP Cannon used by Gremlin Combat Support Vehicles.</description>
         <graphicData>
             <texPath>Things/Weapons/HALO_UNSC_SpartanLaser</texPath>
@@ -16,19 +16,18 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HALO_UNSC_Interact_SpartanLaser</soundInteract>
         <statBases>
-            <WorkToMake>120500</WorkToMake>
-            <MarketValue>3600</MarketValue>
-            <Mass>3.8</Mass>
-            <AccuracyTouch>0.64</AccuracyTouch>
-            <AccuracyShort>0.85</AccuracyShort>
-            <AccuracyMedium>0.92</AccuracyMedium>
-            <AccuracyLong>0.90</AccuracyLong>
+            <WorkToMake>110000</WorkToMake>
+            <Mass>3.7</Mass>
+            <AccuracyTouch>0.63</AccuracyTouch>
+            <AccuracyShort>0.86</AccuracyShort>
+            <AccuracyMedium>0.93</AccuracyMedium>
+            <AccuracyLong>0.92</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>65</Steel>
-            <Plasteel>70</Plasteel>
-            <ComponentSpacer>8</ComponentSpacer>
+            <Steel>35</Steel>
+            <Plasteel>75</Plasteel>
+            <ComponentSpacer>7</ComponentSpacer>
         </costList>
         <recipeMaker>
             <skillRequirements>
@@ -100,7 +99,7 @@
                 <power>6</power>
                 <cooldownTime>1.9</cooldownTime>
             </li>
-        </tools>        
+        </tools>
         <thingCategories Inherit="False">
             <li>HALO_Category_UNSC_Weapons</li>
         </thingCategories>
@@ -113,7 +112,7 @@
 
     <ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef" MayRequire="VanillaExpanded.VWEL">
         <defName>HALO_UNSC_Bullet_SpartanLaser</defName>
-        <label>precise laser shot</label>
+        <label>Spartan Laser shot</label>
         <description>A focused, long range laser beam.</description>
         <textures>
             <li>Things/Projectile/Shot_LaserSniperRifle</li>
