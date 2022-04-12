@@ -57,7 +57,11 @@
       <!-- Implants -->
 
       <!-- Buildings -->
-      <!-- none -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>HALO_UNSC_ResearchTerminal</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
 
       <!-- Exotic -->
       <!-- none -->
