@@ -179,12 +179,27 @@
     <FactionDef ParentName="HALO_UNSC_FactionBase">
         <defName>HALO_UNSC_Faction</defName>
         <label>United Nations Space Command</label>
-        <description>KEKW</description>
+        <description>The United Nations Space Command (UNSC) is the military, exploratory, and scientific agency of the Unified Earth Government (UEG) and has acted as the emergency governing body of the human race at large for a time.</description>
         <colorSpectrum>
             <li>(0.78, 0.79, 0.71)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-        <configurationListOrderPriority>11</configurationListOrderPriority>
+        <configurationListOrderPriority>20</configurationListOrderPriority>
+    </FactionDef>
+
+    <FactionDef ParentName="HALO_UNSC_FactionBase">
+        <defName>HALO_UNSC_Insurgents_Faction</defName>
+        <label>Insurrectionists</label>
+        <description>The Insurrectionists, also known as insurgents, and rebels, are groups of human individuals devoted to complete liberation from the influence of the Unified Earth Government and the United Nations Space Command.</description>
+        <pawnSingular>rebel</pawnSingular>
+        <pawnsPlural>rebels</pawnsPlural>
+        <leaderTitle>Insurgent leader</leaderTitle>
+        <factionIconPath>World/HALO_UNSC_Insurgents_ColonyIcon</factionIconPath>
+        <colorSpectrum>
+            <li>(0.96, 0.06, 0.06)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>21</configurationListOrderPriority>
     </FactionDef>
 
 </Defs>
