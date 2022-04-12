@@ -61,8 +61,7 @@
         <tradeTags>
             <li>HALO_UNSC_ResearchTerminal</li>
         </tradeTags>
-        <researchPrerequisites>
-            <li>HALO_Research_UNSC_PrecisionFirearms</li>
+        <researchPrerequisites Inherit="false">            
         </researchPrerequisites>
         <placeWorkers>
             <li>PlaceWorker_ShowFacilitiesConnections</li>
