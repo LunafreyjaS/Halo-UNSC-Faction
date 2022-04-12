@@ -121,5 +121,16 @@
 		</rulePack>
 	</RulePackDef>
 
+	<RulePackDef>
+		<defName>HALO_UNSC_Insurgents_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->United Rebel Front</li>
+				<li>name->Freedom and Liberation Party</li>
+				<li>name->Secessionist Union</li>
+				<li>name->New Colonial Alliance</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 
 </Defs>
