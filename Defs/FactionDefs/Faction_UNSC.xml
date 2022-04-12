@@ -195,6 +195,8 @@
         <pawnsPlural>rebels</pawnsPlural>
         <leaderTitle>Insurgent leader</leaderTitle>
         <factionIconPath>World/HALO_UNSC_Insurgents_ColonyIcon</factionIconPath>
+        <factionNameMaker>HALO_UNSC_Insurgents_NamerFaction</factionNameMaker>
+        <settlementNameMaker>HALO_UNSC_Insurgents_NamerFactionBases</settlementNameMaker>
         <colorSpectrum>
             <li>(0.96, 0.06, 0.06)</li>
         </colorSpectrum>
