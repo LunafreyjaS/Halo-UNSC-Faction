@@ -953,7 +953,7 @@
   <ThingDef ParentName="HALO_UNSC_BaseHumanMakeableGun">
     <defName>HALO_UNSC_SRS99_AM</defName>
     <label>SRS99</label>
-    <description>The SRS99 is a semi-automatic, gas-operated rifle that fires 14.5×114mm ammunition from a four-round detachable box magazine. The ejection port is on the right side of the weapon and the charging handle is on the left side. Unlike all other known models of the SRS99 series, this variant features a thumbhole stock instead of a pistol grip, and its body sports a black and navy blue finish in addition to the gray of its successors. The SRS99 is equipped with the Oracle N-variant scope, which can display green outlines of objects when not in active use.</description>
+    <description>The SRS99 is a semi-automatic, gas-operated rifle that fires 14.5x114mm ammunition from a four-round detachable box magazine. The ejection port is on the right side of the weapon and the charging handle is on the left side. Unlike all other known models of the SRS99 series, this variant features a thumbhole stock instead of a pistol grip, and its body sports a black and navy blue finish in addition to the gray of its successors. The SRS99 is equipped with the Oracle N-variant scope, which can display green outlines of objects when not in active use.</description>
     <graphicData>
       <texPath>Things/Weapons/HALO_UNSC_SRS99_AM</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1032,6 +1032,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
       <!-- Use default damage from explosion def -->
