@@ -5,7 +5,7 @@
     <!-- Helmet -->
     <ThingDef Name="HALO_UNSC_MarineHelmetBase" ParentName="HALO_UNSC_ArmorHelmetMakeableBase">
         <defName>HALO_UNSC_MarineHelmet_Regular</defName>
-        <label>UNSC Marine helmet</label>
+        <label>UNSC marine helmet</label>
         <description>All iterations of the BDU feature one of several versions of the standard-issue CH252 helmet, which is painted to match the corresponding body armor. The helmet may be mounted with various accessories, such as a holographic tactical eyepiece, a helmet recorder, a boom microphone, polarized tactical goggles, a flashlight, or a night vision device. Marines sometimes wear balaclavas with their helmets, both in frigid and temperate climates. In hazardous situations, gas masks such as the S90 gas mask are worn.</description>
         <graphicData>
             <texPath>Things/Apparel/Marine/Helmet/Regular/Marine_HelmetRegular_UI</texPath>
@@ -61,7 +61,7 @@
 
     <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
         <defName>HALO_UNSC_MarineHelmet_Advanced</defName>
-        <label>UNSC Advanced marine helmet</label>
+        <label>UNSC advanced marine helmet</label>
         <graphicData>
             <texPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced_UI</texPath>
         </graphicData>
@@ -90,7 +90,7 @@
 
     <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
         <defName>HALO_UNSC_MarineHelmet_Marksman</defName>
-        <label>UNSC Marksman marine helmet</label>
+        <label>UNSC marksman marine helmet</label>
         <graphicData>
             <texPath>Things/Apparel/Marine/Helmet/Marksman/Marine_HelmetMarksman_UI</texPath>
         </graphicData>
@@ -119,7 +119,7 @@
 
     <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
         <defName>HALO_UNSC_MarineHelmet_Reinforced</defName>
-        <label>UNSC Reinforced marine helmet</label>
+        <label>UNSC reinforced marine helmet</label>
         <graphicData>
             <texPath>Things/Apparel/Marine/Helmet/Reinforced/Marine_HelmetReinforced_UI</texPath>
         </graphicData>
