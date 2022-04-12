@@ -2,17 +2,17 @@
 
 <Defs>
 
-    <!-- ====== BR55_AR ====== -->
+    <!-- ====== BR55_BR ====== -->
     <SoundDef>
-        <defName>HALO_UNSC_Interact_BR55_AR</defName>
+        <defName>HALO_UNSC_Interact_BR55_BR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HALO_UNSC_BR55_AR/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_BR55_BR/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -29,15 +29,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HALO_UNSC_Shot_BR55_AR</defName>
+        <defName>HALO_UNSC_Shot_BR55_BR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HALO_UNSC_BR55_AR/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_BR55_BR/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -57,7 +57,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M6G_Pistol</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -82,7 +82,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M6G_Pistol</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -108,7 +108,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M7_SMG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -133,7 +133,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M7_SMG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -159,7 +159,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M7S_SMG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -184,7 +184,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M7S_SMG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -210,7 +210,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M41_RL</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -235,7 +235,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M41_RL</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -261,7 +261,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M90_Shotgun</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -286,7 +286,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M90_Shotgun</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -312,7 +312,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M319_GL</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -337,7 +337,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M319_GL</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -363,7 +363,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M392_DMR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -388,7 +388,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M392_DMR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -414,7 +414,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_M739_LMG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -439,7 +439,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M739_LMG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -465,7 +465,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_MA5B_AR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -490,7 +490,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_MA5B_AR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -516,7 +516,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_MA37_AR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -541,7 +541,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_MA37_AR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -567,7 +567,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_SRS99_AM</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -592,7 +592,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_SRS99_AM</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -618,7 +618,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Interact_SpartanLaser</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -643,7 +643,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_SpartanLaser</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -665,17 +665,17 @@
         </subSounds>
     </SoundDef>
 
-    <!-- ====== VK78_Commando ====== -->
+    <!-- ====== VK78_DMR ====== -->
     <SoundDef>
-        <defName>HALO_UNSC_Interact_VK78_Commando</defName>
+        <defName>HALO_UNSC_Interact_VK78_DMR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HALO_UNSC_VK78_Commando/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_VK78_DMR/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -692,15 +692,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HALO_UNSC_Shot_VK78_Commando</defName>
+        <defName>HALO_UNSC_Shot_VK78_DMR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HALO_UNSC_VK78_Commando/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_VK78_DMR/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -716,17 +716,17 @@
         </subSounds>
     </SoundDef>
 
-    <!-- ====== MK50_Sidekick ====== -->
+    <!-- ====== MK50_Pistol ====== -->
     <SoundDef>
-        <defName>HALO_UNSC_Interact_MK50_Sidekick</defName>
+        <defName>HALO_UNSC_Interact_MK50_Pistol</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HALO_UNSC_MK50_Sidekick/Reload</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MK50_Pistol/Reload</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -743,15 +743,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HALO_UNSC_Shot_MK50_Sidekick</defName>
+        <defName>HALO_UNSC_Shot_MK50_Pistol</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>HALO_UNSC_MK50_Sidekick/Shot</clipFolderPath>
+                        <clipFolderPath>HALO_UNSC_MK50_Pistol/Shot</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -770,7 +770,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_M46Vulcan</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -795,7 +795,7 @@
     <SoundDef>
         <defName>HALO_UNSC_Shot_AIE486H</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
