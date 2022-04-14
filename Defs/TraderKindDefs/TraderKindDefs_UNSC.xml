@@ -10,7 +10,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>1000~2200</countRange>
+        <countRange>10000~22000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -44,14 +44,14 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>HALO_UNSC_Weapon</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>2~5</countRange>
+        <countRange>6~12</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Tag">
         <tradeTag>HALO_UNSC_Armor</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>2~5</countRange>
+        <countRange>6~12</countRange>
       </li>
 
       <!-- Implants -->
