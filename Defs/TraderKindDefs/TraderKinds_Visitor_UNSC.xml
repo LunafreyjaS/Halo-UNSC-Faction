@@ -3,7 +3,7 @@
 
   <TraderKindDef>
     <defName>HALO_Visitor_UNSC_Standard</defName>
-    <label>trader</label>
+    <label>UNSC visitor</label>
     <stockGenerators>
 
       <!-- Resources -->

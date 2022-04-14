@@ -28,7 +28,7 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>           
+            <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>

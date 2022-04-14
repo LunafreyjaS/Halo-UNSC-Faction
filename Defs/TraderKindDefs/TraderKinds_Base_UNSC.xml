@@ -133,7 +133,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HALO_UNSC_Weapon</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
+        <thingDefCountRange>2~6</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
 
@@ -143,7 +143,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HALO_UNSC_Armor</tradeTag>
-        <thingDefCountRange>3~6</thingDefCountRange>
+        <thingDefCountRange>3~10</thingDefCountRange>
         <countRange>2~4</countRange>
       </li>
 
