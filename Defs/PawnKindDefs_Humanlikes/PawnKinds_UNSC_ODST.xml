@@ -117,6 +117,7 @@
     <apparelMoney>2500~3500</apparelMoney>
     <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
     <weaponMoney>1200~1500</weaponMoney>
+    <itemQuality>Good</itemQuality>
     <weaponTags>
       <li>HALO_UNSC_LMG</li>
       <li>HALO_UNSC_AR</li>

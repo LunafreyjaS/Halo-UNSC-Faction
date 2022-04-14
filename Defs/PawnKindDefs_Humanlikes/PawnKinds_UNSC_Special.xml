@@ -5,12 +5,10 @@
         <defName>HALO_UNSC_Leader</defName>
         <label>UNSC Leader</label>
         <initialResistanceRange>100</initialResistanceRange>
+        <itemQuality>Good</itemQuality>
         <techHediffsRequired>
             <li>DeathAcidifier</li>
         </techHediffsRequired>
-        <apparelRequired>
-            <li>HALO_UNSC_MjolnirHelmet</li>
-        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef ParentName="HALO_UNSC_PawnBase">
