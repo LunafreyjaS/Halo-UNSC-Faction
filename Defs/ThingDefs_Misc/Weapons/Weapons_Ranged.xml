@@ -1117,7 +1117,7 @@
     <defName>HALO_UNSC_Bullet_M319_GL</defName>
     <label>M319 grenade blast</label>
     <graphicData>
-      <texPath>Things/Projectile/ExplosiveCannonShot</texPath>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
