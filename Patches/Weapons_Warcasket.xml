@@ -21,14 +21,14 @@
                             </graphicData>
                             <soundInteract>Interact_Rifle</soundInteract>
                             <statBases>
-                                <MarketValue>2240</MarketValue>
-                                <WorkToMake>55000</WorkToMake>
-                                <Mass>45</Mass>
-                                <AccuracyTouch>0.15</AccuracyTouch>
-                                <AccuracyShort>0.25</AccuracyShort>
-                                <AccuracyMedium>0.25</AccuracyMedium>
-                                <AccuracyLong>0.18</AccuracyLong>
-                                <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+                                <MarketValue>1900</MarketValue>
+                                <WorkToMake>50000</WorkToMake>
+                                <Mass>35</Mass>
+                                <AccuracyTouch>0.55</AccuracyTouch>
+                                <AccuracyShort>0.64</AccuracyShort>
+                                <AccuracyMedium>0.55</AccuracyMedium>
+                                <AccuracyLong>0.45</AccuracyLong>
+                                <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
                             </statBases>
                             <weaponTags>
                                 <li>HALO_UNSC_M247H_Warcasket</li>
@@ -40,10 +40,10 @@
                                     <verbClass>Verb_Shoot</verbClass>
                                     <hasStandardCommand>true</hasStandardCommand>
                                     <defaultProjectile>HALO_UNSC_Bullet_M247H_Warcasket</defaultProjectile>
-                                    <warmupTime>3.1</warmupTime>
-                                    <range>30.9</range>
-                                    <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-                                    <burstShotCount>25</burstShotCount>
+                                    <warmupTime>1.2</warmupTime>
+                                    <range>33</range>
+                                    <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                                    <burstShotCount>6</burstShotCount>
                                     <soundCast>HALO_UNSC_Shot_AIE486H</soundCast>
                                     <soundCastTail>GunTail_Medium</soundCastTail>
                                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -94,9 +94,9 @@
                             </graphicData>
                             <projectile>
                                 <damageDef>Bullet</damageDef>
-                                <damageAmountBase>12</damageAmountBase>
-                                <stoppingPower>0.5</stoppingPower>
-                                <armorPenetrationBase>0.12</armorPenetrationBase>
+                                <damageAmountBase>21</damageAmountBase>
+                                <stoppingPower>1.5</stoppingPower>
+                                <armorPenetrationBase>0.38</armorPenetrationBase>
                                 <speed>46</speed>
                             </projectile>
                         </ThingDef>
@@ -114,13 +114,14 @@
                                 <texPath>Things/Weapons/Warcasket/HALO_UNSC_M247H_Warcasket_OnFloor</texPath>
                             </graphicData>
                             <costList>
-                                <Steel>240</Steel>
-                                <Plasteel>10</Plasteel>
+                                <Steel>130</Steel>
+                                <Plasteel>30</Plasteel>
                                 <ComponentIndustrial>8</ComponentIndustrial>
+                                <ComponentSpacer>2</ComponentSpacer>
                             </costList>
                             <statBases>
-                                <MarketValue>2240</MarketValue>
-                                <Mass>45</Mass>
+                                <MarketValue>1900</MarketValue>
+                                <Mass>35</Mass>
                                 <WorkToBuild>55000</WorkToBuild>
                             </statBases>
                             <comps>
@@ -128,6 +129,12 @@
                                     <weaponToEquip>HALO_UNSC_M247H_Warcasket</weaponToEquip>
                                 </li>
                             </comps>
+                            <tradeTags Inherit="false">
+                                <li>HALO_UNSC_Weapon</li>
+                            </tradeTags>
+                            <researchPrerequisites>
+                                <li>HALO_Research_UNSC_HeavyFirearms</li>
+                            </researchPrerequisites>
                         </ThingDef>
                     </value>
                 </li>

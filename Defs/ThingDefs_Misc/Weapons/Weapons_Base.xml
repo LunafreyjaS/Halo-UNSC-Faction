@@ -10,11 +10,11 @@
         </thingSetMakerTags>
         <weaponTags Inherit="False">
         </weaponTags>
-        <recipeMaker>            
+        <recipeMaker>
             <recipeUsers Inherit="False">
                 <li>FabricationBench</li>
             </recipeUsers>
-        </recipeMaker>        
+        </recipeMaker>
         <tradeTags Inherit="False">
             <li>HALO_UNSC_Weapon</li>
         </tradeTags>
