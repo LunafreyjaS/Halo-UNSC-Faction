@@ -16,28 +16,26 @@
         <recipeMaker>
             <researchPrerequisite>HALO_Research_UNSC_MarineArmor</researchPrerequisite>
             <skillRequirements>
-                <Crafting>7</Crafting>
+                <Crafting>6</Crafting>
             </skillRequirements>
         </recipeMaker>
         <costList>
             <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
+            <Plasteel>20</Plasteel>
+            <Steel>40</Steel>
         </costList>
         <statBases>
-            <WorkToMake>15750</WorkToMake>
-            <MaxHitPoints>120</MaxHitPoints>
-            <Mass>1</Mass>
-            <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <WorkToMake>19000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2</EquipDelay>
+            <EquipDelay>2.0</EquipDelay>
         </statBases>
-        <equippedStatOffsets>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
-        </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
                 <li>FullHead</li>
@@ -57,6 +55,9 @@
         <comps>
             <li Class="CompProperties_Biocodable"/>
         </comps>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        </equippedStatOffsets>
     </ThingDef>
 
     <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
@@ -67,22 +68,21 @@
         </graphicData>
         <costList>
             <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
+            <Plasteel>25</Plasteel>
+            <Steel>45</Steel>
         </costList>
         <statBases>
-            <WorkToMake>15750</WorkToMake>
+            <WorkToMake>19000</WorkToMake>
             <MaxHitPoints>120</MaxHitPoints>
-            <Mass>1</Mass>
-            <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2</EquipDelay>
+            <EquipDelay>2.0</EquipDelay>
         </statBases>
-        <equippedStatOffsets>
-        </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced</wornGraphicPath>
         </apparel>
@@ -96,21 +96,24 @@
         </graphicData>
         <costList>
             <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
+            <Steel>40</Steel>
         </costList>
         <statBases>
-            <WorkToMake>15750</WorkToMake>
-            <MaxHitPoints>120</MaxHitPoints>
-            <Mass>1</Mass>
-            <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <WorkToMake>19000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2</EquipDelay>
+            <EquipDelay>2.0</EquipDelay>
         </statBases>
         <equippedStatOffsets>
+            <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Marksman/Marine_HelmetMarksman</wornGraphicPath>
@@ -125,22 +128,21 @@
         </graphicData>
         <costList>
             <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
+            <Plasteel>25</Plasteel>
+            <Steel>50</Steel>
         </costList>
         <statBases>
-            <WorkToMake>15750</WorkToMake>
-            <MaxHitPoints>120</MaxHitPoints>
-            <Mass>1</Mass>
-            <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <WorkToMake>19000</WorkToMake>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>1.2</Mass>
+            <Flammability>0.45</Flammability>
+            <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.39</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.39</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2</EquipDelay>
+            <EquipDelay>2.0</EquipDelay>
         </statBases>
-        <equippedStatOffsets>
-        </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Reinforced/Marine_HelmetReinforced</wornGraphicPath>
         </apparel>
@@ -159,24 +161,25 @@
         <recipeMaker>
             <researchPrerequisite>HALO_Research_UNSC_MarineArmor</researchPrerequisite>
             <skillRequirements>
-                <Crafting>7</Crafting>
+                <Crafting>6</Crafting>
             </skillRequirements>
         </recipeMaker>
         <costList>
-            <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
+            <ComponentSpacer>3</ComponentSpacer>
+            <Plasteel>50</Plasteel>
+            <Steel>100</Steel>
         </costList>
         <statBases>
-            <WorkToMake>45000</WorkToMake>
-            <MaxHitPoints>280</MaxHitPoints>
-            <Mass>9</Mass>
-            <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.46</ArmorRating_Heat>
-            <Insulation_Cold>32</Insulation_Cold>
-            <Insulation_Heat>9</Insulation_Heat>
-            <EquipDelay>11</EquipDelay>
+            <WorkToMake>50000</WorkToMake>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Mass>8</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+            <Insulation_Cold>34</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>5.0</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
