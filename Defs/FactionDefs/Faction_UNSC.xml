@@ -24,26 +24,17 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>           
             <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
         </disallowedMemes>
         <structureMemeWeights>
-            <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
-            <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
             <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
-            <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
-            <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
-            <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
-            <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
         </structureMemeWeights>
         <backstoryFilters>
             <li>
@@ -180,6 +171,11 @@
         <defName>HALO_UNSC_Faction</defName>
         <label>United Nations Space Command</label>
         <description>The United Nations Space Command (UNSC) is the military, exploratory, and scientific agency of the Unified Earth Government (UEG) and has acted as the emergency governing body of the human race at large for a time.</description>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+        </requiredMemes>
         <colorSpectrum>
             <li>(0.78, 0.79, 0.71)</li>
         </colorSpectrum>
@@ -197,8 +193,14 @@
         <factionIconPath>World/HALO_UNSC_Insurgents_ColonyIcon</factionIconPath>
         <factionNameMaker>HALO_UNSC_Insurgents_NamerFaction</factionNameMaker>
         <settlementNameMaker>HALO_UNSC_Insurgents_NamerFactionBases</settlementNameMaker>
+        <permanentEnemy>true</permanentEnemy>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+        </requiredMemes>
         <colorSpectrum>
-            <li>(0.96, 0.06, 0.06)</li>
+            <li>(0.85, 0, 0)</li>
+            <li>(0.85, 0.7, 0.7)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>21</configurationListOrderPriority>
