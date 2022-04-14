@@ -2,7 +2,7 @@
 
 <Defs>
 
-    <!--AIE486H-->   
+    <!--AIE486H-->
     <ThingDef ParentName="BuildingBase">
         <defName>HALO_UNSC_Turret_AIE486H</defName>
         <label>AIE486H</label>
