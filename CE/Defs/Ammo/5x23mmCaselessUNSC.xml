@@ -163,7 +163,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaselessUNSC_FMJ</defName>
 		<label>make 5x23mm caseless UNSC (FMJ) cartridge x500</label>
 		<description>Craft 500 5x23mm caseless UNSC (FMJ) cartridges.</description>
@@ -198,7 +198,7 @@
 		<workAmount>1500</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaselessUNSC_AP</defName>
 		<label>make 5x23mm caseless UNSC (AP) cartridge x500</label>
 		<description>Craft 500 5x23mm caseless UNSC (AP) cartridges.</description>
@@ -233,7 +233,7 @@
 		<workAmount>1500</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaselessUNSC_Incendiary</defName>
 		<label>make 5x23mm caseless UNSC (AP-I) cartridge x500</label>
 		<description>Craft 500 5x23mm caseless UNSC (AP-I) cartridges.</description>
@@ -277,7 +277,7 @@
 		<workAmount>1500</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_5x23mmCaselessUNSC_HE</defName>
 		<label>make 5x23mm caseless UNSC (HE) cartridge x500</label>
 		<description>Craft 500 5x23mm caseless UNSC (HE) cartridges.</description>

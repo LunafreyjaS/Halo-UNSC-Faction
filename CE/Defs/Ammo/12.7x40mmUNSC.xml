@@ -12,7 +12,7 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_127x40mmUNSCUNSC</defName>
+		<defName>AmmoSet_127x40mmUNSC</defName>
 		<label>12.7x40mm UNSC</label>
 		<ammoTypes>
 			<Ammo_127x40mmUNSC_FMJ>Bullet_127x40mmUNSC_FMJ</Ammo_127x40mmUNSC_FMJ>

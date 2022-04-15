@@ -178,7 +178,7 @@
 		<workAmount>2400</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_10mmUNSC_HP</defName>
 		<label>make 10mm UNSC (HP) cartridge x500</label>
 		<description>Craft 500 10mm UNSC (HP) cartridges.</description>

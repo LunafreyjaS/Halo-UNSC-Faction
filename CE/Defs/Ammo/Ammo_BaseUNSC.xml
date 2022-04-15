@@ -2,7 +2,7 @@
 
 <Defs>
 
-  <RecipeDef Name="HRK_UNSC_AmmoRecipeBase" ParentName="AmmoRecipeBase" Abstract="true">
+  <RecipeDef Name="HALO_UNSC_AmmoRecipeBase" ParentName="AmmoRecipeBase" Abstract="true">
     <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
   </RecipeDef>
 

@@ -167,7 +167,7 @@
 
   <!-- ==================== Recipes ========================== -->
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_127x99mmUNSC_FMJ</defName>
     <label>make 12.7x99mm UNSC (FMJ) cartridge x200</label>
     <description>Craft 200 12.7x99mm UNSC (FMJ) cartridges.</description>
@@ -193,7 +193,7 @@
     <workAmount>6000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_127x99mmUNSC_Incendiary</defName>
     <label>make 12.7x99mm UNSC (AP-I) cartridge x200</label>
     <description>Craft 200 12.7x99mm UNSC (AP-I) cartridges.</description>
@@ -228,7 +228,7 @@
     <workAmount>8200</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_127x99mmUNSC_HE</defName>
     <label>make 12.7x99mm UNSC (AP-HE) cartridge x200</label>
     <description>Craft 200 12.7x99mm UNSC (HE) cartridges.</description>
@@ -263,7 +263,7 @@
     <workAmount>10800</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_127x99mmUNSC_Sabot</defName>
     <label>make 12.7x99mm UNSC (Sabot) cartridge x200</label>
     <description>Craft 200 12.7x99mm UNSC (Sabot) cartridges.</description>

@@ -328,7 +328,7 @@
     <workAmount>11000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_40x46mmGrenadeUNSC_Smoke</defName>
     <label>make 40x46mm UNSC smoke grenades x100</label>
     <description>Craft 100 40x46mm UNSC smoke grenades.</description>

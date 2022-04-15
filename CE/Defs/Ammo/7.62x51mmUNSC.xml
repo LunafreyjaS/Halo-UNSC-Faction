@@ -246,7 +246,7 @@
 		<workAmount>3400</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_762x51mmUNSC_Incendiary</defName>
 		<label>make 7.62x51mm UNSC (AP-I) cartridge x500</label>
 		<description>Craft 500 7.62x51mm UNSC (AP-I) cartridges.</description>

@@ -16,9 +16,8 @@
 		<label>9.5x40mm UNSC</label>
 		<ammoTypes>
 			<Ammo_95x40mmUNSC_FMJ>Bullet_95x40mmUNSC_FMJ</Ammo_95x40mmUNSC_FMJ>
-			<Ammo_95x40mmUNSC_AP>Bullet_95x40mmUNSC_AP</Ammo_95x40mmUNSC_AP>			
+			<Ammo_95x40mmUNSC_AP>Bullet_95x40mmUNSC_AP</Ammo_95x40mmUNSC_AP>
 			<Ammo_95x40mmUNSC_Incendiary>Bullet_95x40mmUNSC_Incendiary</Ammo_95x40mmUNSC_Incendiary>
-			<Ammo_95x40mmUNSC_HE>Bullet_95x40mmUNSC_HE</Ammo_95x40mmUNSC_HE>
 			<Ammo_95x40mmUNSC_Sabot>Bullet_95x40mmUNSC_Sabot</Ammo_95x40mmUNSC_Sabot>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
@@ -68,7 +67,7 @@
 		<ammoClass>ArmorPiercing</ammoClass>
 		<generateAllowChance>0.4</generateAllowChance>
 		<cookOffProjectile>Bullet_95x40mmUNSC_AP</cookOffProjectile>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="95x40mmUNSCBase">
 		<defName>Ammo_95x40mmUNSC_Incendiary</defName>
@@ -83,7 +82,7 @@
 		<ammoClass>IncendiaryAP</ammoClass>
 		<generateAllowChance>0.2</generateAllowChance>
 		<cookOffProjectile>Bullet_95x40mmUNSC_Incendiary</cookOffProjectile>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="95x40mmUNSCBase">
 		<defName>Ammo_95x40mmUNSC_Sabot</defName>
@@ -135,7 +134,7 @@
 			<armorPenetrationBlunt>80.72</armorPenetrationBlunt>
 			<speed>196</speed>
 		</projectile>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef ParentName="Base95x40mmUNSCBullet">
 		<defName>Bullet_95x40mmUNSC_Incendiary</defName>
@@ -152,7 +151,7 @@
 				</li>
 			</secondaryDamage>
 		</projectile>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef ParentName="Base95x40mmUNSCBullet">
 		<defName>Bullet_95x40mmUNSC_Sabot</defName>
@@ -167,7 +166,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_95x40mmUNSC_FMJ</defName>
 		<label>make 9.5x40mm UNSC (FMJ) cartridge x500</label>
 		<description>Craft 500 9.5x40mm UNSC (FMJ) cartridges.</description>
@@ -193,7 +192,7 @@
 		<workAmount>5000</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_95x40mmUNSC_AP</defName>
 		<label>make 9.5x40mm UNSC (AP) cartridge x500</label>
 		<description>Craft 500 9.5x40mm UNSC (AP) cartridges.</description>
@@ -217,9 +216,9 @@
 			<Ammo_95x40mmUNSC_AP>500</Ammo_95x40mmUNSC_AP>
 		</products>
 		<workAmount>5000</workAmount>
-	</RecipeDef>	
+	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_95x40mmUNSC_Incendiary</defName>
 		<label>make 9.5x40mm UNSC (AP-I) cartridge x500</label>
 		<description>Craft 500 9.5x40mm UNSC (AP-I) cartridges.</description>
@@ -253,8 +252,8 @@
 		</products>
 		<workAmount>6900</workAmount>
 	</RecipeDef>
-	
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_95x40mmUNSC_Sabot</defName>
 		<label>make 9.5x40mm UNSC (Sabot) cartridge x500</label>
 		<description>Craft 500 9.5x40mm UNSC (Sabot) cartridges.</description>

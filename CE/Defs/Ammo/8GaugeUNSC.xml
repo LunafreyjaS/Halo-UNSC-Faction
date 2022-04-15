@@ -212,7 +212,7 @@
 
   <!-- ==================== Recipe ========================== -->
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_8GaugeUNSC_Buck</defName>
     <label>make 8 gauge UNSC (Buck) shell x200</label>
     <description>Craft 200 8 gauge UNSC (Buck) shells.</description>
@@ -238,7 +238,7 @@
     <workAmount>2500</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_8GaugeUNSC_Slug</defName>
     <label>make 8 gauge UNSC (Slug) shell x200</label>
     <description>Craft 200 8 gauge UNSC (Slug) shells.</description>
@@ -264,7 +264,7 @@
     <workAmount>4000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_8GaugeUNSC_Flechette</defName>
     <label>make 8 gauge UNSC (Flechette) shell x200</label>
     <description>Craft 200 8 gauge UNSC (Flechette) shells.</description>
@@ -290,7 +290,7 @@
     <workAmount>9000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_8GaugeUNSC_ElectroSlug</defName>
     <label>make 8 gauge UNSC (EMP) shell x200</label>
     <description>Craft 200 8 gauge UNSC (EMP) shells.</description>
@@ -325,7 +325,7 @@
     <workAmount>9000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_8GaugeUNSC_PrometheumBuck</defName>
     <label>make 8 gauge UNSC (Prometheum) shell x200</label>
     <description>Craft 200 8 gauge UNSC (Prometheum) shells.</description>

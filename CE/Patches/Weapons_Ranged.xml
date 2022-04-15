@@ -10,10 +10,10 @@
             <li Class="PatchOperationReplace">
                 <xpath>
 				    /Defs/ThingDef[
-                    defName = "HRK_UNSC_M6G_Pistol" or
-                    defName = "HRK_UNSC_M7_SMG" or
-                    defName = "HRK_UNSC_M7S_SMG" or
-                    defName = "HRK_UNSC_MK50_Sidekick"
+                    defName = "HALO_UNSC_M6G_Pistol" or
+                    defName = "HALO_UNSC_M7_SMG" or
+                    defName = "HALO_UNSC_M7S_SMG" or
+                    defName = "HALO_UNSC_MK50_Pistol"
                     ]/tools
                 </xpath>
                 <value>
@@ -47,14 +47,14 @@
             <li Class="PatchOperationReplace">
                 <xpath>
 				    /Defs/ThingDef[
-                    defName = "HRK_UNSC_BR55_AR" or
-                    defName = "HRK_UNSC_M90_Shotgun" or
-                    defName = "HRK_UNSC_M392_DMR" or
-                    defName = "HRK_UNSC_M739_LMG" or
-                    defName = "HRK_UNSC_MA5B_AR" or
-                    defName = "HRK_UNSC_MA37_AR" or
-                    defName = "HRK_UNSC_SRS99_AM" or
-                    defName = "HRK_UNSC_VK78_Commando"
+                    defName = "HALO_UNSC_BR55_BR" or
+                    defName = "HALO_UNSC_M90_Shotgun" or
+                    defName = "HALO_UNSC_M392_DMR" or
+                    defName = "HALO_UNSC_M739_LMG" or
+                    defName = "HALO_UNSC_MA5B_AR" or
+                    defName = "HALO_UNSC_MA37_AR" or
+                    defName = "HALO_UNSC_SRS99_AM" or
+                    defName = "HALO_UNSC_VK78_DMR"
                     ]/tools
                 </xpath>
                 <value>
@@ -98,10 +98,8 @@
             <li Class="PatchOperationReplace">
                 <xpath>
 				   /Defs/ThingDef[
-                    defName = "HRK_UNSC_M41_RL" or
-                    defName = "HRK_UNSC_M319_GL" or                    
-                    defName = "HRK_UNSC_BR55_AR" or
-                    defName = "HRK_UNSC_BR55_AR"
+                    defName = "HALO_UNSC_M41_RL" or
+                    defName = "HALO_UNSC_M319_GL"  
                     ]/tools
                 </xpath>
                 <value>
@@ -120,9 +118,9 @@
                 </value>
             </li>
 
-            <!-- HRK_UNSC_MK50_Sidekick -->
+            <!-- HALO_UNSC_MK50_Pistol -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_MK50_Sidekick</defName>
+                <defName>HALO_UNSC_MK50_Pistol</defName>
                 <statBases>
                     <WorkToMake>9000</WorkToMake>
                     <SightsEfficiency>0.7</SightsEfficiency>
@@ -140,7 +138,7 @@
                     <range>12</range>
                     <burstShotCount>3</burstShotCount>
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                    <soundCast>HRK_UNSC_Shot_MK50_Sidekick</soundCast>
+                    <soundCast>HALO_UNSC_Shot_MK50_Pistol</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -158,9 +156,9 @@
                 </weaponTags>
             </li>
 
-            <!-- HRK_UNSC_M6G_Pistol -->
+            <!-- HALO_UNSC_M6G_Pistol -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_M6G_Pistol</defName>
+                <defName>HALO_UNSC_M6G_Pistol</defName>
                 <statBases>
                     <WorkToMake>9000</WorkToMake>
                     <SightsEfficiency>0.7</SightsEfficiency>
@@ -173,12 +171,12 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_127x40mm_FMJ</defaultProjectile>
+                    <defaultProjectile>Bullet_127x40mmUNSC_FMJ</defaultProjectile>
                     <warmupTime>0.7</warmupTime>
                     <range>12</range>
                     <burstShotCount>3</burstShotCount>
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                    <soundCast>HRK_UNSC_Shot_M6G_Pistol</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M6G_Pistol</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -196,9 +194,9 @@
                 </weaponTags>
             </li>
 
-            <!-- HRK_UNSC_M7_SMG -->
+            <!-- HALO_UNSC_M7_SMG -->
             <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
-                <defName>HRK_UNSC_M7_SMG</defName>
+                <defName>HALO_UNSC_M7_SMG</defName>
                 <statBases>
                     <WorkToMake>18000</WorkToMake>
                     <SightsEfficiency>1</SightsEfficiency>
@@ -211,12 +209,12 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
-                    <defaultProjectile>Bullet_5x23mmCaseless_FMJ</defaultProjectile>
+                    <defaultProjectile>Bullet_5x23mmCaselessUNSC_FMJ</defaultProjectile>
                     <warmupTime>0.6</warmupTime>
                     <range>26</range>
                     <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                    <soundCast>HRK_UNSC_Shot_M7_SMG</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M7_SMG</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilPattern>Regular</recoilPattern>
@@ -225,7 +223,7 @@
                 <AmmoUser>
                     <magazineSize>60</magazineSize>
                     <reloadTime>3.5</reloadTime>
-                    <ammoSet>AmmoSet_5x23mmCaseless</ammoSet>
+                    <ammoSet>AmmoSet_5x23mmCaselessUNSC</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -236,9 +234,9 @@
                 </weaponTags>
             </li>
 
-            <!-- HRK_UNSC_M7S_SMG -->
+            <!-- HALO_UNSC_M7S_SMG -->
             <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
-                <defName>HRK_UNSC_M7S_SMG</defName>
+                <defName>HALO_UNSC_M7S_SMG</defName>
                 <statBases>
                     <WorkToMake>18000</WorkToMake>
                     <SightsEfficiency>1</SightsEfficiency>
@@ -251,12 +249,12 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
-                    <defaultProjectile>Bullet_5x23mmCaseless_FMJ</defaultProjectile>
+                    <defaultProjectile>Bullet_5x23mmCaselessUNSC_FMJ</defaultProjectile>
                     <warmupTime>0.6</warmupTime>
                     <range>26</range>
                     <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                    <soundCast>HRK_UNSC_Shot_M7S_SMG</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M7S_SMG</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilPattern>Regular</recoilPattern>
@@ -265,7 +263,7 @@
                 <AmmoUser>
                     <magazineSize>60</magazineSize>
                     <reloadTime>3.5</reloadTime>
-                    <ammoSet>AmmoSet_5x23mmCaseless</ammoSet>
+                    <ammoSet>AmmoSet_5x23mmCaselessUNSC</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -276,9 +274,9 @@
                 </weaponTags>
             </li>
 
-            <!-- HRK_UNSC_MA5B_AR -->
+            <!-- HALO_UNSC_MA5B_AR -->
             <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
-                <defName>HRK_UNSC_MA5B_AR</defName>
+                <defName>HALO_UNSC_MA5B_AR</defName>
                 <statBases>
                     <WorkToMake>31000</WorkToMake>
                     <SightsEfficiency>1.1</SightsEfficiency>
@@ -296,7 +294,7 @@
                     <range>55</range>
                     <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                    <soundCast>HRK_UNSC_Shot_MA5B_AR</soundCast>
+                    <soundCast>HALO_UNSC_Shot_MA5B_AR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilPattern>Regular</recoilPattern>
@@ -314,9 +312,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_MA37_AR -->
+            <!-- HALO_UNSC_MA37_AR -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_MA37_AR</defName>
+                <defName>HALO_UNSC_MA37_AR</defName>
                 <statBases>
                     <WorkToMake>48000</WorkToMake>
                     <SightsEfficiency>1</SightsEfficiency>
@@ -335,7 +333,7 @@
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <warmupTime>1.0</warmupTime>
                     <range>48</range>
-                    <soundCast>HRK_UNSC_Shot_MA37_AR</soundCast>
+                    <soundCast>HALO_UNSC_Shot_MA37_AR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -351,9 +349,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_BR55_AR -->
+            <!-- HALO_UNSC_BR55_BR -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_BR55_AR</defName>
+                <defName>HALO_UNSC_BR55_BR</defName>
                 <statBases>
                     <WorkToMake>44000</WorkToMake>
                     <SightsEfficiency>1.2</SightsEfficiency>
@@ -372,7 +370,7 @@
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                     <warmupTime>1</warmupTime>
                     <range>55</range>
-                    <soundCast>HRK_UNSC_Shot_BR55_AR</soundCast>
+                    <soundCast>HALO_UNSC_Shot_BR55_BR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -388,9 +386,9 @@
                 </FireModes>
             </li>
 
-            <!-- == HRK_UNSC_M392_DMR == -->
+            <!-- == HALO_UNSC_M392_DMR == -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_M392_DMR</defName>
+                <defName>HALO_UNSC_M392_DMR</defName>
                 <statBases>
                     <WorkToMake>42000</WorkToMake>
                     <SightsEfficiency>1.5</SightsEfficiency>
@@ -406,7 +404,7 @@
                     <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
                     <warmupTime>1</warmupTime>
                     <range>62</range>
-                    <soundCast>HRK_UNSC_Shot_M392_DMR</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M392_DMR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -420,9 +418,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_VK78_Commando -->
+            <!-- HALO_UNSC_VK78_DMR -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_VK78_Commando</defName>
+                <defName>HALO_UNSC_VK78_DMR</defName>
                 <statBases>
                     <WorkToMake>42000</WorkToMake>
                     <SightsEfficiency>1.5</SightsEfficiency>
@@ -438,7 +436,7 @@
                     <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
                     <warmupTime>1</warmupTime>
                     <range>62</range>
-                    <soundCast>HRK_UNSC_Shot_VK78_Commando</soundCast>
+                    <soundCast>HALO_UNSC_Shot_VK78_DMR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -452,9 +450,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_M90_Shotgun -->
+            <!-- HALO_UNSC_M90_Shotgun -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_M90_Shotgun</defName>
+                <defName>HALO_UNSC_M90_Shotgun</defName>
                 <statBases>
                     <WorkToMake>44000</WorkToMake>
                     <SightsEfficiency>1</SightsEfficiency>
@@ -467,10 +465,10 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_8Gauge_Buck</defaultProjectile>
+                    <defaultProjectile>Bullet_8GaugeUNSC_Buck</defaultProjectile>
                     <warmupTime>0.7</warmupTime>
                     <range>18</range>
-                    <soundCast>HRK_UNSC_Shot_M90_Shotgun</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M90_Shotgun</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
@@ -485,9 +483,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_M739_LMG -->
+            <!-- HALO_UNSC_M739_LMG -->
             <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
-                <defName>HRK_UNSC_M739_LMG</defName>
+                <defName>HALO_UNSC_M739_LMG</defName>
                 <statBases>
                     <WorkToMake>56000</WorkToMake>
                     <SightsEfficiency>1.1</SightsEfficiency>
@@ -505,7 +503,7 @@
                     <range>62</range>
                     <burstShotCount>10</burstShotCount>
                     <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                    <soundCast>HRK_UNSC_Shot_M739_LMG</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M739_LMG</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilPattern>Mounted</recoilPattern>
@@ -523,9 +521,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_SRS99_AM -->
+            <!-- HALO_UNSC_SRS99_AM -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_SRS99_AM</defName>
+                <defName>HALO_UNSC_SRS99_AM</defName>
                 <statBases>
                     <WorkToMake>48000</WorkToMake>
                     <SightsEfficiency>3.5</SightsEfficiency>
@@ -541,7 +539,7 @@
                     <defaultProjectile>Bullet_145x114mmUNSC_FMJ</defaultProjectile>
                     <warmupTime>3</warmupTime>
                     <range>96</range>
-                    <soundCast>HRK_UNSC_Shot_SRS99_AM</soundCast>
+                    <soundCast>HALO_UNSC_Shot_SRS99_AM</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>11</muzzleFlashScale>
                 </Properties>
@@ -555,9 +553,9 @@
                 </FireModes>
             </li>
 
-            <!-- HRK_UNSC_M319_GL -->
+            <!-- HALO_UNSC_M319_GL -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_M319_GL</defName>
+                <defName>HALO_UNSC_M319_GL</defName>
                 <statBases>
                     <WorkToMake>12000</WorkToMake>
                     <Mass>3</Mass>
@@ -576,7 +574,7 @@
                     <range>55</range>
                     <ai_AvoidFriendlyFireRadius>4</ai_AvoidFriendlyFireRadius>
                     <minRange>4</minRange>
-                    <soundCast>HRK_UNSC_Shot_M319_GL</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M319_GL</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>14</muzzleFlashScale>
                     <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
@@ -596,9 +594,9 @@
                 <AllowWithRunAndGun>false</AllowWithRunAndGun>
             </li>
 
-            <!-- HRK_UNSC_M41_RL -->
+            <!-- HALO_UNSC_M41_RL -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_M41_RL</defName>
+                <defName>HALO_UNSC_M41_RL</defName>
                 <statBases>
                     <WorkToMake>45000</WorkToMake>
                     <Mass>8</Mass>
@@ -617,13 +615,13 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
-                    <defaultProjectile>Bullet_M41Rocket_HE</defaultProjectile>
+                    <defaultProjectile>Bullet_M41RocketUNSC_HE</defaultProjectile>
                     <burstShotCount>1</burstShotCount>
                     <warmupTime>2</warmupTime>
                     <range>62</range>
                     <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
                     <minRange>4</minRange>
-                    <soundCast>HRK_UNSC_Shot_M41_RL</soundCast>
+                    <soundCast>HALO_UNSC_Shot_M41_RL</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>14</muzzleFlashScale>
                     <onlyManualCast>True</onlyManualCast>
@@ -636,7 +634,7 @@
                     <reloadOneAtATime>true</reloadOneAtATime>
                     <magazineSize>2</magazineSize>
                     <reloadTime>4</reloadTime>
-                    <ammoSet>AmmoSet_M41Rocket</ammoSet>
+                    <ammoSet>AmmoSet_M41RocketUNSC</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>
