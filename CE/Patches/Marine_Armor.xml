@@ -16,7 +16,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HRK_UNSC_MarineHelmet"]/statBases/Flammability</xpath>
                 <value>
-                    <Flammability>0</Flammability>
+                    <Flammability>0.1</Flammability>
                 </value>
             </li>
 
