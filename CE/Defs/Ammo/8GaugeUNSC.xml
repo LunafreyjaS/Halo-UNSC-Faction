@@ -12,12 +12,14 @@
   <!-- ==================== AmmoSet ========================== -->
 
   <CombatExtended.AmmoSetDef>
-    <defName>AmmoSet_8GaugeUNSC</defName>
+    <defName>AmmoSet_8GaugeUNSCUNSC</defName>
     <label>8 Gauge UNSC</label>
     <ammoTypes>
-      <Ammo_8Gauge_Buck>Bullet_8Gauge_Buck</Ammo_8Gauge_Buck>
-      <Ammo_8Gauge_Slug>Bullet_8Gauge_Slug</Ammo_8Gauge_Slug>
-      <Ammo_8Gauge_ElectroSlug>Bullet_8Gauge_ElectroSlug</Ammo_8Gauge_ElectroSlug>
+      <Ammo_8GaugeUNSC_Buck>Bullet_8GaugeUNSC_Buck</Ammo_8GaugeUNSC_Buck>
+      <Ammo_8GaugeUNSC_Slug>Bullet_8GaugeUNSC_Slug</Ammo_8GaugeUNSC_Slug>
+      <Ammo_8GaugeUNSC_ElectroSlug>Bullet_8GaugeUNSC_ElectroSlug</Ammo_8GaugeUNSC_ElectroSlug>
+      <Ammo_8GaugeUNSC_Flechette>Bullet_8GaugeUNSC_Flechette</Ammo_8GaugeUNSC_Flechette>
+      <Ammo_8GaugeUNSC_PrometheumBuck>Bullet_8GaugeUNSC_PrometheumBuck</Ammo_8GaugeUNSC_PrometheumBuck>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
 
@@ -40,7 +42,7 @@
   </ThingDef>
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="8GaugeUNSCBase">
-    <defName>Ammo_8Gauge_Buck</defName>
+    <defName>Ammo_8GaugeUNSC_Buck</defName>
     <label>8 gauge UNSC shell (Buck)</label>
     <graphicData>
       <texPath>Things/Ammo/Shotgun/Shot</texPath>
@@ -50,11 +52,25 @@
       <MarketValue>0.2</MarketValue>
     </statBases>
     <ammoClass>BuckShot</ammoClass>
-    <cookOffProjectile>Bullet_8Gauge_Buck</cookOffProjectile>
+    <cookOffProjectile>Bullet_8GaugeUNSC_Buck</cookOffProjectile>
   </ThingDef>
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="8GaugeUNSCBase">
-    <defName>Ammo_8Gauge_Slug</defName>
+    <defName>Ammo_8GaugeUNSC_Flechette</defName>
+    <label>8 gauge UNSC shell (Flechette)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Shotgun/Shot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+    </statBases>
+    <ammoClass>Sabot</ammoClass>
+    <cookOffProjectile>Bullet_8GaugeUNSC_Flechette</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="8GaugeUNSCBase">
+    <defName>Ammo_8GaugeUNSC_Slug</defName>
     <label>8 gauge UNSC shell (Slug)</label>
     <graphicData>
       <texPath>Things/Ammo/Shotgun/Slug</texPath>
@@ -65,11 +81,11 @@
       <MarketValue>0.3</MarketValue>
     </statBases>
     <ammoClass>Slug</ammoClass>
-    <cookOffProjectile>Bullet_8Gauge_Slug</cookOffProjectile>
+    <cookOffProjectile>Bullet_8GaugeUNSC_Slug</cookOffProjectile>
   </ThingDef>
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="8GaugeUNSCBase">
-    <defName>Ammo_8Gauge_ElectroSlug</defName>
+    <defName>Ammo_8GaugeUNSC_ElectroSlug</defName>
     <label>8 gauge UNSC shell (EMP)</label>
     <graphicData>
       <texPath>Things/Ammo/Shotgun/EMP</texPath>
@@ -80,13 +96,36 @@
       <MarketValue>1.2</MarketValue>
     </statBases>
     <ammoClass>ElectroSlug</ammoClass>
-    <cookOffProjectile>Bullet_8Gauge_ElectroSlug</cookOffProjectile>
+    <cookOffProjectile>Bullet_8GaugeUNSC_ElectroSlug</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="8GaugeUNSCBase">
+    <defName>Ammo_8GaugeUNSC_PrometheumBuck</defName>
+    <label>8 gauge UNSC shell (Prometheum)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Shotgun/Shot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+    </statBases>
+    <ammoClass>PrometheumBuck</ammoClass>
+    <cookOffProjectile>Bullet_8GaugeUNSC_PrometheumBuck</cookOffProjectile>
   </ThingDef>
 
   <!-- ================== Projectiles ================== -->
 
-  <ThingDef ParentName="Base12GaugeBullet">
-    <defName>Bullet_8Gauge_Buck</defName>
+  <ThingDef Name="Base8GaugeUNSCBullet" ParentName="BaseBullet" Abstract="true">
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>72</speed>
+      <dropsCasings>true</dropsCasings>
+      <casingMoteDefname>Mote_ShotgunShell</casingMoteDefname>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Base8GaugeUNSCBullet">
+    <defName>Bullet_8GaugeUNSC_Buck</defName>
     <label>buckshot pellet</label>
     <graphicData>
       <texPath>Things/Projectile/Shotgun_Pellet</texPath>
@@ -101,8 +140,24 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="Base12GaugeBullet">
-    <defName>Bullet_8Gauge_Slug</defName>
+  <ThingDef ParentName="Base8GaugeUNSCBullet">
+    <defName>Bullet_8GaugeUNSC_Flechette</defName>
+    <label>flechette</label>
+    <graphicData>
+      <texPath>Things/Projectile/Shotgun_Pellet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>5</damageAmountBase>
+      <pelletCount>15</pelletCount>
+      <armorPenetrationSharp>11</armorPenetrationSharp>
+      <armorPenetrationBlunt>7.52</armorPenetrationBlunt>
+      <spreadMult>17.8</spreadMult>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Base8GaugeUNSCBullet">
+    <defName>Bullet_8GaugeUNSC_Slug</defName>
     <label>shotgun slug</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -116,8 +171,8 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="Base12GaugeBullet">
-    <defName>Bullet_8Gauge_ElectroSlug</defName>
+  <ThingDef ParentName="Base8GaugeUNSCBullet">
+    <defName>Bullet_8GaugeUNSC_ElectroSlug</defName>
     <label>EMP slug</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -133,13 +188,35 @@
     </projectile>
   </ThingDef>
 
+  <ThingDef ParentName="Base8GaugeUNSCBullet">
+    <defName>Bullet_8GaugeUNSC_PrometheumBuck</defName>
+    <label>prometheum soaked pellet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Shotgun_Pellet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>9</damageAmountBase>
+      <pelletCount>15</pelletCount>
+      <armorPenetrationSharp>5.5</armorPenetrationSharp>
+      <armorPenetrationBlunt>6.52</armorPenetrationBlunt>
+      <secondaryDamage>
+        <li>
+          <def>Flame_Secondary</def>
+          <amount>1</amount>
+        </li>
+      </secondaryDamage>
+      <spreadMult>17.8</spreadMult>
+    </projectile>
+  </ThingDef>
+
   <!-- ==================== Recipe ========================== -->
 
   <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
-    <defName>MakeAmmo_8Gauge_Buck</defName>
-    <label>make 8 gauge (Buck) shell x200</label>
-    <description>Craft 200 8 gauge (Buck) shells.</description>
-    <jobString>Making 8 gauge (Buck) shells.</jobString>
+    <defName>MakeAmmo_8GaugeUNSC_Buck</defName>
+    <label>make 8 gauge UNSC (Buck) shell x200</label>
+    <description>Craft 200 8 gauge UNSC (Buck) shells.</description>
+    <jobString>Making 8 gauge UNSC (Buck) shells.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -156,16 +233,16 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_8Gauge_Buck>200</Ammo_8Gauge_Buck>
+      <Ammo_8GaugeUNSC_Buck>200</Ammo_8GaugeUNSC_Buck>
     </products>
     <workAmount>2500</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
-    <defName>MakeAmmo_8Gauge_Slug</defName>
-    <label>make 8 gauge (Slug) shell x200</label>
-    <description>Craft 200 8 gauge (Slug) shells.</description>
-    <jobString>Making 8 gauge (Slug) shells.</jobString>
+    <defName>MakeAmmo_8GaugeUNSC_Slug</defName>
+    <label>make 8 gauge UNSC (Slug) shell x200</label>
+    <description>Craft 200 8 gauge UNSC (Slug) shells.</description>
+    <jobString>Making 8 gauge UNSC (Slug) shells.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -182,16 +259,42 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_8Gauge_Slug>200</Ammo_8Gauge_Slug>
+      <Ammo_8GaugeUNSC_Slug>200</Ammo_8GaugeUNSC_Slug>
     </products>
     <workAmount>4000</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
-    <defName>MakeAmmo_8Gauge_ElectroSlug</defName>
-    <label>make 8 gauge (EMP) shell x200</label>
-    <description>Craft 200 8 gauge (EMP) shells.</description>
-    <jobString>Making 8 gauge (EMP) shells.</jobString>
+    <defName>MakeAmmo_8GaugeUNSC_Flechette</defName>
+    <label>make 8 gauge UNSC (Flechette) shell x200</label>
+    <description>Craft 200 8 gauge UNSC (Flechette) shells.</description>
+    <jobString>Making 8 gauge UNSC (Flechette) shells.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_8GaugeUNSC_Flechette>200</Ammo_8GaugeUNSC_Flechette>
+    </products>
+    <workAmount>9000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+    <defName>MakeAmmo_8GaugeUNSC_ElectroSlug</defName>
+    <label>make 8 gauge UNSC (EMP) shell x200</label>
+    <description>Craft 200 8 gauge UNSC (EMP) shells.</description>
+    <jobString>Making 8 gauge UNSC (EMP) shells.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -217,9 +320,44 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_8Gauge_ElectroSlug>200</Ammo_8Gauge_ElectroSlug>
+      <Ammo_8GaugeUNSC_ElectroSlug>200</Ammo_8GaugeUNSC_ElectroSlug>
     </products>
     <workAmount>9000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+    <defName>MakeAmmo_8GaugeUNSC_PrometheumBuck</defName>
+    <label>make 8 gauge UNSC (Prometheum) shell x200</label>
+    <description>Craft 200 8 gauge UNSC (Prometheum) shells.</description>
+    <jobString>Making 8 gauge UNSC (Prometheum) shells.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Prometheum</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Prometheum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_8GaugeUNSC_PrometheumBuck>200</Ammo_8GaugeUNSC_PrometheumBuck>
+    </products>
+    <workAmount>2500</workAmount>
   </RecipeDef>
 
 </Defs>

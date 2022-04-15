@@ -98,8 +98,8 @@
 		<defName>Bullet_10mmUNSC_FMJ</defName>
 		<label>10mm UNSC bullet (FMJ)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>14</damageAmountBase>
-			<armorPenetrationSharp>4</armorPenetrationSharp>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
 			<armorPenetrationBlunt>19.2</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
@@ -108,8 +108,8 @@
 		<defName>Bullet_10mmUNSC_AP</defName>
 		<label>10mm UNSC bullet (AP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>9</damageAmountBase>
-			<armorPenetrationSharp>8</armorPenetrationSharp>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationSharp>9</armorPenetrationSharp>
 			<armorPenetrationBlunt>19.2</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
@@ -118,8 +118,8 @@
 		<defName>Bullet_10mmUNSC_HP</defName>
 		<label>10mm UNSC bullet (HP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>18</damageAmountBase>
-			<armorPenetrationSharp>2</armorPenetrationSharp>
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationSharp>4</armorPenetrationSharp>
 			<armorPenetrationBlunt>19.2</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>

@@ -3,7 +3,7 @@
 <Defs>
 
 	<ThingCategoryDef>
-		<defName>AmmoM41Rockets</defName>
+		<defName>AmmoM41RocketUNSCs</defName>
 		<label>M41 rockets</label>
 		<parent>AmmoRockets</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberRocket</iconPath>
@@ -12,17 +12,17 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_M41Rocket</defName>
+		<defName>AmmoSet_M41RocketUNSC</defName>
 		<label>M41 Rockets</label>
 		<ammoTypes>
-			<Ammo_M41Rocket_HEAT>Bullet_M41Rocket_HEAT</Ammo_M41Rocket_HEAT>
-			<Ammo_M41Rocket_HE>Bullet_M41Rocket_HE</Ammo_M41Rocket_HE>
+			<Ammo_M41RocketUNSC_HEAT>Bullet_M41RocketUNSC_HEAT</Ammo_M41RocketUNSC_HEAT>
+			<Ammo_M41RocketUNSC_HE>Bullet_M41RocketUNSC_HE</Ammo_M41RocketUNSC_HE>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
 
-	<ThingDef Class="CombatExtended.AmmoDef" Name="M41RocketBase" ParentName="HeavyAmmoBase" Abstract="True">
+	<ThingDef Class="CombatExtended.AmmoDef" Name="M41RocketUNSCBase" ParentName="HeavyAmmoBase" Abstract="True">
 		<description>Rockets designed for the M41 launcher. After being fired, a rocket motor kicks in to propel the Rocket further.</description>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -32,15 +32,15 @@
 			<li>CE_AutoEnableCrafting_TableMachining</li>
 		</tradeTags>
 		<thingCategories>
-			<li>AmmoM41Rockets</li>
+			<li>AmmoM41RocketUNSCs</li>
 		</thingCategories>
 		<stackLimit>25</stackLimit>
 		<cookOffFlashScale>40</cookOffFlashScale>
 		<cookOffSound>MortarBomb_Explode</cookOffSound>
 	</ThingDef>
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="M41RocketBase">
-		<defName>Ammo_M41Rocket_HEAT</defName>
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="M41RocketUNSCBase">
+		<defName>Ammo_M41RocketUNSC_HEAT</defName>
 		<label>M41 rocket (HEAT)</label>
 		<graphicData>
 			<texPath>Things/Ammo/RPG/RPG32_HEAT</texPath>
@@ -53,11 +53,11 @@
 		</statBases>
 		<ammoClass>RocketHEAT</ammoClass>
 		<generateAllowChance>0.2</generateAllowChance>
-		<detonateProjectile>Bullet_M41Rocket_HEAT</detonateProjectile>
+		<detonateProjectile>Bullet_M41RocketUNSC_HEAT</detonateProjectile>
 	</ThingDef>
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="M41RocketBase">
-		<defName>Ammo_M41Rocket_HE</defName>
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="M41RocketUNSCBase">
+		<defName>Ammo_M41RocketUNSC_HE</defName>
 		<label>M41 Rocket (Anti-personnel)</label>
 		<graphicData>
 			<texPath>Things/Ammo/RPG/RPG32_Thermobaric</texPath>
@@ -70,14 +70,23 @@
 		</statBases>
 		<ammoClass>GrenadeHE</ammoClass>
 		<generateAllowChance>0.2</generateAllowChance>
-		<detonateProjectile>Bullet_M41Rocket_HE</detonateProjectile>
+		<detonateProjectile>Bullet_M41RocketUNSC_HE</detonateProjectile>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
+	<ThingDef Name="BaseM41RocketUNSC" ParentName="BaseBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>37</speed>
+			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+		</projectile>
+	</ThingDef>
 
-	<ThingDef ParentName="BaseRPG7Grenade">
-		<defName>Bullet_M41Rocket_HEAT</defName>
-		<label>M19 102mm missile (HEAT)</label>
+	<ThingDef ParentName="BaseM41RocketUNSC">
+		<defName>Bullet_M41RocketUNSC_HEAT</defName>
+		<label>M41 UNSC rocket (HEAT)</label>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket/SMAW_Thermobaric</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -87,7 +96,6 @@
 			<damageAmountBase>264</damageAmountBase>
 			<armorPenetrationSharp>650</armorPenetrationSharp>
 			<armorPenetrationBlunt>41.818</armorPenetrationBlunt>
-			<speed>37</speed>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -106,9 +114,9 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseRPG7Grenade">
-		<defName>Bullet_M41Rocket_HE</defName>
-		<label>M21 102mm missile (Anti-Personnel)</label>
+	<ThingDef ParentName="BaseM41RocketUNSC">
+		<defName>Bullet_M41RocketUNSC_HE</defName>
+		<label>M41 UNSC rocket (HE)</label>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket/SMAW_Thermobaric</texPath>
@@ -119,7 +127,6 @@
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>240</damageAmountBase>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<speed>37</speed>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
@@ -134,10 +141,10 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
-		<defName>MakeAmmo_M41Rocket_HEAT</defName>
-		<label>make M19 HEAT rockets x5</label>
-		<description>Craft 5 M19 HEAT rockets.</description>
-		<jobString>Making M19 HEAT rockets.</jobString>
+		<defName>MakeAmmo_M41RocketUNSC_HEAT</defName>
+		<label>make M41 UNSC rockets (HEAT) x5</label>
+		<description>Craft 5 M41 UNSC rockets (HEAT).</description>
+		<jobString>Making M41 UNSC rockets (HEAT).</jobString>
 		<workAmount>13000</workAmount>
 		<ingredients>
 			<li>
@@ -173,15 +180,15 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_M41Rocket_HEAT>5</Ammo_M41Rocket_HEAT>
+			<Ammo_M41RocketUNSC_HEAT>5</Ammo_M41RocketUNSC_HEAT>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
-		<defName>MakeAmmo_M41Rocket_HE</defName>
-		<label>make M21 Anti-personnel rockets x5</label>
-		<description>Craft 5 M21 Anti-personnel rockets.</description>
-		<jobString>Making M21 Anti-personnel rockets.</jobString>
+		<defName>MakeAmmo_M41RocketUNSC_HE</defName>
+		<label>make M41 UNSC rockets (HE) x5</label>
+		<description>Craft 5 M41 UNSC rockets (HE).</description>
+		<jobString>Making M41 UNSC rockets (HE).</jobString>
 		<workAmount>25000</workAmount>
 		<ingredients>
 			<li>
@@ -217,7 +224,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_M41Rocket_HE>5</Ammo_M41Rocket_HE>
+			<Ammo_M41RocketUNSC_HE>5</Ammo_M41RocketUNSC_HE>
 		</products>
 	</RecipeDef>
 

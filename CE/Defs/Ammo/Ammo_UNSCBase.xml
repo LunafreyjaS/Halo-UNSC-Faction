@@ -6,4 +6,11 @@
     <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
   </RecipeDef>
 
+  <CombatExtended.AmmoCategoryDef>
+    <defName>PrometheumBuck</defName>
+    <label>prometheum buckshot</label>
+    <labelShort>Prometheum</labelShort>
+    <description>Filled with several prometheum soaked buckshot pellets which spread in a tight pattern.</description>
+  </CombatExtended.AmmoCategoryDef>
+
 </Defs>

@@ -17,7 +17,6 @@
 		<ammoTypes>
 			<Ammo_762x51mmUNSC_FMJ>Bullet_762x51mmUNSC_FMJ</Ammo_762x51mmUNSC_FMJ>
 			<Ammo_762x51mmUNSC_AP>Bullet_762x51mmUNSC_AP</Ammo_762x51mmUNSC_AP>
-			<Ammo_762x51mmUNSC_HP>Bullet_762x51mmUNSC_HP</Ammo_762x51mmUNSC_HP>
 			<Ammo_762x51mmUNSC_Incendiary>Bullet_762x51mmUNSC_Incendiary</Ammo_762x51mmUNSC_Incendiary>
 			<Ammo_762x51mmUNSC_HE>Bullet_762x51mmUNSC_HE</Ammo_762x51mmUNSC_HE>
 			<Ammo_762x51mmUNSC_Sabot>Bullet_762x51mmUNSC_Sabot</Ammo_762x51mmUNSC_Sabot>
@@ -72,21 +71,6 @@
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x51mmUNSCBase">
-		<defName>Ammo_762x51mmUNSC_HP</defName>
-		<label>7.62x51mm UNSC cartridge (HP)</label>
-		<graphicData>
-			<texPath>Things/Ammo/Rifle/HP</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>0.12</MarketValue>
-		</statBases>
-		<ammoClass>HollowPoint</ammoClass>
-		<generateAllowChance>0.1</generateAllowChance>
-		<cookOffProjectile>Bullet_762x51mmUNSC_HP</cookOffProjectile>
-	</ThingDef>
-
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x51mmUNSCBase">
 		<defName>Ammo_762x51mmUNSC_Incendiary</defName>
 		<label>7.62x51mm UNSC cartridge (AP-I)</label>
 		<graphicData>
@@ -134,47 +118,45 @@
 
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef ParentName="Base762x51mmNATOBullet">
+	<ThingDef Name="Base762x51mmUNSCBullet" ParentName="BaseBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>188</speed>
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base762x51mmUNSCBullet">
 		<defName>Bullet_762x51mmUNSC_FMJ</defName>
 		<label>7.62mm UNSC bullet (FMJ)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>19</damageAmountBase>
 			<armorPenetrationSharp>10</armorPenetrationSharp>
 			<armorPenetrationBlunt>69.72</armorPenetrationBlunt>
-			<speed>188</speed>
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="Base762x51mmNATOBullet">
+	<ThingDef ParentName="Base762x51mmUNSCBullet">
 		<defName>Bullet_762x51mmUNSC_AP</defName>
 		<label>7.62mm UNSC bullet (AP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
 			<armorPenetrationSharp>20</armorPenetrationSharp>
 			<armorPenetrationBlunt>69.72</armorPenetrationBlunt>
-			<speed>188</speed>
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="Base762x51mmNATOBullet">
-		<defName>Bullet_762x51mmUNSC_HP</defName>
-		<label>7.62mm UNSC bullet (HP)</label>
-		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>24</damageAmountBase>
-			<armorPenetrationSharp>5</armorPenetrationSharp>
-			<armorPenetrationBlunt>69.72</armorPenetrationBlunt>
-			<speed>188</speed>
-		</projectile>
-	</ThingDef>
-
-	<ThingDef ParentName="Base762x51mmNATOBullet">
+	<ThingDef ParentName="Base762x51mmUNSCBullet">
 		<defName>Bullet_762x51mmUNSC_Incendiary</defName>
 		<label>7.62mm UNSC bullet (AP-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
 			<armorPenetrationSharp>20</armorPenetrationSharp>
 			<armorPenetrationBlunt>69.72</armorPenetrationBlunt>
-			<speed>188</speed>
 			<secondaryDamage>
 				<li>
 					<def>Flame_Secondary</def>
@@ -184,14 +166,13 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="Base762x51mmNATOBullet">
+	<ThingDef ParentName="Base762x51mmUNSCBullet">
 		<defName>Bullet_762x51mmUNSC_HE</defName>
 		<label>7.62mm UNSC bullet (HE)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>19</damageAmountBase>
 			<armorPenetrationSharp>10</armorPenetrationSharp>
 			<armorPenetrationBlunt>69.72</armorPenetrationBlunt>
-			<speed>188</speed>
 			<secondaryDamage>
 				<li>
 					<def>Bomb_Secondary</def>
@@ -201,14 +182,13 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="Base762x51mmNATOBullet">
+	<ThingDef ParentName="Base762x51mmUNSCBullet">
 		<defName>Bullet_762x51mmUNSC_Sabot</defName>
 		<label>7.62mm UNSC bullet (Sabot)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationSharp>30</armorPenetrationSharp>
 			<armorPenetrationBlunt>92.28</armorPenetrationBlunt>
-			<speed>278</speed>
 		</projectile>
 	</ThingDef>
 
@@ -262,32 +242,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_762x51mmUNSC_AP>500</Ammo_762x51mmUNSC_AP>
-		</products>
-		<workAmount>3400</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
-		<defName>MakeAmmo_762x51mmUNSC_HP</defName>
-		<label>make 7.62x51mm UNSC (HP) cartridge x500</label>
-		<description>Craft 500 7.62x51mm UNSC (HP) cartridges.</description>
-		<jobString>Making 7.62x51mm UNSC (HP) cartridges.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>26</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_762x51mmUNSC_HP>500</Ammo_762x51mmUNSC_HP>
 		</products>
 		<workAmount>3400</workAmount>
 	</RecipeDef>

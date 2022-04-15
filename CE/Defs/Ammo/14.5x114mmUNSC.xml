@@ -103,7 +103,19 @@
 
   <!-- ================== Projectiles ================== -->
 
-  <ThingDef ParentName="Base145x114mmBullet">
+  <ThingDef Name="Base145x114mmUNSCBullet" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>200</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Base145x114mmUNSCBullet">
     <defName>Bullet_145x114mmUNSC_FMJ</defName>
     <label>14.5x114mm UNSC bullet (FMJ)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -113,7 +125,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="Base145x114mmBullet">
+  <ThingDef ParentName="Base145x114mmUNSCBullet">
     <defName>Bullet_145x114mmUNSC_Incendiary</defName>
     <label>14.5x114mm UNSC bullet (AP-I)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -129,7 +141,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="Base145x114mmBullet">
+  <ThingDef ParentName="Base145x114mmUNSCBullet">
     <defName>Bullet_145x114mmUNSC_HE</defName>
     <label>14.5x114mm UNSC bullet (HE)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -145,7 +157,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="Base145x114mmBullet">
+  <ThingDef ParentName="Base145x114mmUNSCBullet">
     <defName>Bullet_145x114mmUNSC_Sabot</defName>
     <label>14.5x114mm UNSC bullet (Sabot)</label>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
