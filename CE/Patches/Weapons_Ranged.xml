@@ -99,8 +99,7 @@
                 <xpath>
 				   /Defs/ThingDef[
                     defName = "HRK_UNSC_M41_RL" or
-                    defName = "HRK_UNSC_M319_GL" or
-                    defName = "HRK_UNSC_SpartanLaser" or
+                    defName = "HRK_UNSC_M319_GL" or                    
                     defName = "HRK_UNSC_BR55_AR" or
                     defName = "HRK_UNSC_BR55_AR"
                     ]/tools
