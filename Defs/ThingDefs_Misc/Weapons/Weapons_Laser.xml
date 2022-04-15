@@ -108,7 +108,7 @@
         </projectile>
     </ThingDef>
 
-    <RecipeDef>
+    <RecipeDef MayRequire="VanillaExpanded.VWEL">
         <defName>HALO_UNSC_RecipeDef_SpartanLaser</defName>
         <label>make UNSC Spartan Laser x2</label>
         <description>Craft 2 UNSC Spartan Lasers.</description>
