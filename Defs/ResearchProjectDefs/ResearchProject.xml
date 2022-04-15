@@ -184,32 +184,6 @@
         <researchViewX>2.00</researchViewX>
         <researchViewY>4.15</researchViewY>
         <tab>HALO_ResearchTab_HALO</tab>
-    </ResearchProjectDef>
-
-    <!--Laser-->
-    <ResearchProjectDef>
-        <defName>HALO_Research_UNSC_Lasers</defName>
-        <label>UNSC Lasers</label>
-        <description>Learn to craft the SPARTAN Laser, a high powered single shot laser user by UNSC's SPARTANs capable of killing any foe.</description>
-        <baseCost>3000</baseCost>
-        <prerequisites>
-            <li>HALO_Research_UNSC_AdvancedFirearms</li>
-        </prerequisites>
-        <requiredResearchFacilities>
-            <li>MultiAnalyzer</li>
-            <li>HALO_UNSC_ResearchTerminal</li>
-        </requiredResearchFacilities>
-        <techLevel>Industrial</techLevel>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <researchViewX>3.00</researchViewX>
-        <researchViewY>1.15</researchViewY>
-        <tab>HALO_ResearchTab_HALO</tab>
-        <techprintCount>2</techprintCount>
-        <techprintCommonality>1</techprintCommonality>
-        <techprintMarketValue>3000</techprintMarketValue>
-        <heldByFactionCategoryTags>
-            <li>HALO_UNSC_FactionTag</li>
-        </heldByFactionCategoryTags>
-    </ResearchProjectDef>
+    </ResearchProjectDef>    
 
 </Defs>
