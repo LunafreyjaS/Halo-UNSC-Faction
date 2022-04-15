@@ -134,22 +134,19 @@
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>Bullet_10mmUNSC_FMJ</defaultProjectile>
-                    <warmupTime>0.7</warmupTime>
+                    <warmupTime>0.3</warmupTime>
                     <range>12</range>
-                    <burstShotCount>3</burstShotCount>
-                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                     <soundCast>HALO_UNSC_Shot_MK50_Pistol</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
                 <AmmoUser>
-                    <magazineSize>8</magazineSize>
-                    <reloadTime>1.90</reloadTime>
+                    <magazineSize>12</magazineSize>
+                    <reloadTime>1</reloadTime>
                     <ammoSet>AmmoSet_10mmUNSC</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>
-                    <aimedBurstShotCount>1</aimedBurstShotCount>
                 </FireModes>
                 <weaponTags>
                     <li>CE_OneHandedWeapon</li>
@@ -173,9 +170,7 @@
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>Bullet_127x40mmUNSC_FMJ</defaultProjectile>
                     <warmupTime>0.7</warmupTime>
-                    <range>12</range>
-                    <burstShotCount>3</burstShotCount>
-                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <range>16</range>
                     <soundCast>HALO_UNSC_Shot_M6G_Pistol</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -187,7 +182,6 @@
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>
-                    <aimedBurstShotCount>1</aimedBurstShotCount>
                 </FireModes>
                 <weaponTags>
                     <li>CE_OneHandedWeapon</li>
@@ -423,7 +417,7 @@
                 <defName>HALO_UNSC_VK78_DMR</defName>
                 <statBases>
                     <WorkToMake>42000</WorkToMake>
-                    <SightsEfficiency>1.5</SightsEfficiency>
+                    <SightsEfficiency>1.1</SightsEfficiency>
                     <ShotSpread>0.10</ShotSpread>
                     <SwayFactor>1.40</SwayFactor>
                     <Bulk>11.9</Bulk>
@@ -434,14 +428,14 @@
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
-                    <warmupTime>1</warmupTime>
-                    <range>62</range>
+                    <warmupTime>0.5</warmupTime>
+                    <range>48</range>
                     <soundCast>HALO_UNSC_Shot_VK78_DMR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
                 <AmmoUser>
-                    <magazineSize>14</magazineSize>
+                    <magazineSize>20</magazineSize>
                     <reloadTime>4</reloadTime>
                     <ammoSet>AmmoSet_762x51mmUNSC</ammoSet>
                 </AmmoUser>
@@ -606,12 +600,6 @@
                     <SightsEfficiency>2</SightsEfficiency>
                     <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
                 </statBases>
-                <costList>
-                    <Steel>100</Steel>
-                    <Chemfuel>30</Chemfuel>
-                    <Plasteel>20</Plasteel>
-                    <ComponentIndustrial>7</ComponentIndustrial>
-                </costList>
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
@@ -631,7 +619,6 @@
                     </targetParams>
                 </Properties>
                 <AmmoUser>
-                    <reloadOneAtATime>true</reloadOneAtATime>
                     <magazineSize>2</magazineSize>
                     <reloadTime>4</reloadTime>
                     <ammoSet>AmmoSet_M41RocketUNSC</ammoSet>

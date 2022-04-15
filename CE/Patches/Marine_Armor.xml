@@ -6,7 +6,7 @@
 
             <!-- Helmet -->
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/statBases</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases</xpath>
                 <value>
                     <Bulk>6</Bulk>
                     <WornBulk>1</WornBulk>
@@ -14,35 +14,35 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/statBases/Flammability</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases/Flammability</xpath>
                 <value>
                     <Flammability>0.1</Flammability>
                 </value>
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/statBases/MaxHitPoints</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases/MaxHitPoints</xpath>
                 <value>
                     <MaxHitPoints>260</MaxHitPoints>
                 </value>
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/statBases/ArmorRating_Sharp</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases/ArmorRating_Sharp</xpath>
                 <value>
                     <ArmorRating_Sharp>22</ArmorRating_Sharp>
                 </value>
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/statBases/ArmorRating_Blunt</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases/ArmorRating_Blunt</xpath>
                 <value>
                     <ArmorRating_Blunt>50</ArmorRating_Blunt>
                 </value>
             </li>
 
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/equippedStatOffsets</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/equippedStatOffsets</xpath>
                 <value>
                     <PsychicSensitivity>-0.2</PsychicSensitivity>
                     <AimingAccuracy>0.15</AimingAccuracy>
@@ -52,7 +52,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmetBase"]/apparel/layers</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/apparel/layers</xpath>
                 <value>
                     <li>OnHead</li>
                     <li>StrappedHead</li>

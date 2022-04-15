@@ -14,7 +14,7 @@
 
             <!-- === Spartan Laser === -->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UNSC_SpartanLaser</defName>
+                <defName>HALO_UNSC_SpartanLaser</defName>
                 <statBases>
                     <Mass>22</Mass>
                     <Bulk>16.00</Bulk>
@@ -29,7 +29,7 @@
                     <defaultProjectile>Bullet_Laser_SpartanLaser</defaultProjectile>
                     <warmupTime>2.2</warmupTime>
                     <range>65</range>
-                    <soundCast>HRK_UNSC_Shot_SpartanLaser</soundCast>
+                    <soundCast>HALO_UNSC_Shot_SpartanLaser</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                 </Properties>
