@@ -125,7 +125,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_127x40mmUNSC_FMJ</defName>
 		<label>make 12.7x40mm UNSC (FMJ) cartridge x500</label>
 		<description>Craft 500 12.7x40mm UNSC (FMJ) cartridges.</description>
@@ -151,7 +151,7 @@
 		<workAmount>3000</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_127x40mmUNSC_HP</defName>
 		<label>make 12.7x40mm UNSC (HP) cartridge x500</label>
 		<description>Craft 500 12.7x40mm UNSC (HP) cartridges.</description>
@@ -177,7 +177,7 @@
 		<workAmount>3000</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+	<RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
 		<defName>MakeAmmo_127x40mmUNSC_AP</defName>
 		<label>make 12.7x40mm UNSC (AP) cartridge x500</label>
 		<description>Craft 500 12.7x40mm UNSC (AP) cartridges.</description>

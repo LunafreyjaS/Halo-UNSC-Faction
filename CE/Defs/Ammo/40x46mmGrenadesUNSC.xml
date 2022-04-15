@@ -205,7 +205,7 @@
 
   <!-- ==================== Recipes ========================== -->
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_40x46mmGrenadeUNSC_HE</defName>
     <label>make 40x46mm UNSC HE grenades x100</label>
     <description>Craft 100 40x46mm UNSC HE grenades.</description>
@@ -249,7 +249,7 @@
     <workAmount>9000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_40x46mmGrenadeUNSC_HEDP</defName>
     <label>make 40x46mm UNSC HEDP grenades x100</label>
     <description>Craft 100 40x46mm UNSC HEDP grenades.</description>
@@ -293,7 +293,7 @@
     <workAmount>9000</workAmount>
   </RecipeDef>
 
-  <RecipeDef ParentName="HRK_UNSC_AmmoRecipeBase">
+  <RecipeDef ParentName="HALO_UNSC_AmmoRecipeBase">
     <defName>MakeAmmo_40x46mmGrenadeUNSC_EMP</defName>
     <label>make 40x46mm UNSC EMP grenades x100</label>
     <description>Craft 100 40x46mm UNSC EMP grenades.</description>

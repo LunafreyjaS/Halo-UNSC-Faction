@@ -12,7 +12,7 @@
   <!-- ==================== AmmoSet ========================== -->
 
   <CombatExtended.AmmoSetDef>
-    <defName>AmmoSet_8GaugeUNSCUNSC</defName>
+    <defName>AmmoSet_8GaugeUNSC</defName>
     <label>8 Gauge UNSC</label>
     <ammoTypes>
       <Ammo_8GaugeUNSC_Buck>Bullet_8GaugeUNSC_Buck</Ammo_8GaugeUNSC_Buck>
