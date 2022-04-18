@@ -71,17 +71,10 @@
             <Plasteel>25</Plasteel>
             <Steel>45</Steel>
         </costList>
-        <statBases>
-            <WorkToMake>19000</WorkToMake>
-            <MaxHitPoints>120</MaxHitPoints>
-            <Mass>1.0</Mass>
-            <Flammability>0.5</Flammability>
+        <statBases>            
+            <MaxHitPoints>120</MaxHitPoints>            
             <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.35</ArmorRating_Heat>
-            <Insulation_Cold>4</Insulation_Cold>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2.0</EquipDelay>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>            
         </statBases>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced</wornGraphicPath>
@@ -99,19 +92,7 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Plasteel>20</Plasteel>
             <Steel>40</Steel>
-        </costList>
-        <statBases>
-            <WorkToMake>19000</WorkToMake>
-            <MaxHitPoints>100</MaxHitPoints>
-            <Mass>1.0</Mass>
-            <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.3</ArmorRating_Heat>
-            <Insulation_Cold>4</Insulation_Cold>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2.0</EquipDelay>
-        </statBases>
+        </costList>      
         <equippedStatOffsets>
             <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
         </equippedStatOffsets>
@@ -131,17 +112,10 @@
             <Plasteel>25</Plasteel>
             <Steel>50</Steel>
         </costList>
-        <statBases>
-            <WorkToMake>19000</WorkToMake>
-            <MaxHitPoints>150</MaxHitPoints>
-            <Mass>1.2</Mass>
-            <Flammability>0.45</Flammability>
+        <statBases>            
+            <MaxHitPoints>150</MaxHitPoints>            
             <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.39</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.39</ArmorRating_Heat>
-            <Insulation_Cold>4</Insulation_Cold>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>2.0</EquipDelay>
+            <ArmorRating_Blunt>0.39</ArmorRating_Blunt>            
         </statBases>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Reinforced/Marine_HelmetReinforced</wornGraphicPath>
