@@ -80,6 +80,8 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced</wornGraphicPath>
         </apparel>
+        <modExtensions Inherit="false">
+        </modExtensions>
     </ThingDef>
 
     <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
@@ -100,6 +102,8 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Marksman/Marine_HelmetMarksman</wornGraphicPath>
         </apparel>
+        <modExtensions Inherit="false">
+        </modExtensions>
     </ThingDef>
 
     <ThingDef ParentName="HALO_UNSC_MarineHelmetBase">
