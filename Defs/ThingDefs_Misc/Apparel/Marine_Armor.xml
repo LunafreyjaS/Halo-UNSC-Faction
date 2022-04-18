@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+    <!--Worse than vanilla marine armor, no speed penalty-->
 
     <!-- Helmet -->
     <ThingDef Name="HALO_UNSC_MarineHelmetBase" ParentName="HALO_UNSC_ArmorHelmetMakeableBase">
@@ -26,7 +27,7 @@
         </costList>
         <statBases>
             <WorkToMake>19000</WorkToMake>
-            <MaxHitPoints>100</MaxHitPoints>
+            <MaxHitPoints>100</MaxHitPoints>            <!-- 150 -->
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
             <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
@@ -71,10 +72,10 @@
             <Plasteel>25</Plasteel>
             <Steel>45</Steel>
         </costList>
-        <statBases>            
-            <MaxHitPoints>120</MaxHitPoints>            
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
             <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>            
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
         </statBases>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Advanced/Marine_HelmetAdvanced</wornGraphicPath>
@@ -92,7 +93,7 @@
             <ComponentIndustrial>2</ComponentIndustrial>
             <Plasteel>20</Plasteel>
             <Steel>40</Steel>
-        </costList>      
+        </costList>
         <equippedStatOffsets>
             <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
         </equippedStatOffsets>
@@ -112,10 +113,10 @@
             <Plasteel>25</Plasteel>
             <Steel>50</Steel>
         </costList>
-        <statBases>            
-            <MaxHitPoints>150</MaxHitPoints>            
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
             <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.39</ArmorRating_Blunt>            
+            <ArmorRating_Blunt>0.39</ArmorRating_Blunt>
         </statBases>
         <apparel>
             <wornGraphicPath>Things/Apparel/Marine/Helmet/Reinforced/Marine_HelmetReinforced</wornGraphicPath>
@@ -145,12 +146,12 @@
         </costList>
         <statBases>
             <WorkToMake>50000</WorkToMake>
-            <MaxHitPoints>300</MaxHitPoints>
+            <MaxHitPoints>290</MaxHitPoints>
             <Mass>8</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+            <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
             <Insulation_Cold>34</Insulation_Cold>
             <Insulation_Heat>10</Insulation_Heat>
             <EquipDelay>5.0</EquipDelay>

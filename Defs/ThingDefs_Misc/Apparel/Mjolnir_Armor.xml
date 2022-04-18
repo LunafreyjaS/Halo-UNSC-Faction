@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+    <!--Better than cata in everyway-->
 
     <!-- Helmet -->
     <ThingDef ParentName="HALO_UNSC_ArmorHelmetMakeableBase">
