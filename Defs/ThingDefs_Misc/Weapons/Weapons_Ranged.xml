@@ -83,6 +83,11 @@
     <weaponTags>
       <li>HALO_UNSC_Pistol</li>
     </weaponTags>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ====== M6G_Pistol ====== -->
@@ -168,6 +173,11 @@
     <weaponTags>
       <li>HALO_UNSC_Pistol</li>
     </weaponTags>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ====== M7_SMG ====== -->
@@ -253,6 +263,11 @@
     <weaponTags>
       <li>HALO_UNSC_SMG</li>
     </weaponTags>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ====== M7S_SMG ====== -->
@@ -322,6 +337,11 @@
     <weaponTags>
       <li>HALO_UNSC_SMG</li>
     </weaponTags>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ====== M90_Shotgun ====== -->
@@ -1204,6 +1224,11 @@
     <weaponTags>
       <li>HALO_UNSC_GL</li>
     </weaponTags>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 </Defs>
