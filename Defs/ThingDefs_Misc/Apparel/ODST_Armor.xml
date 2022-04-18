@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-    <!--Better than marine, speed boost-->
+    <!--marine/cata-->
 
     <!-- Helmet -->
     <ThingDef ParentName="HALO_UNSC_ArmorHelmetMakeableBase">
@@ -25,17 +25,16 @@
         </recipeMaker>
         <costList>
             <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
-            <Steel>40</Steel>
+            <Plasteel>45</Plasteel>
         </costList>
         <statBases>
-            <WorkToMake>21500</WorkToMake>
-            <MaxHitPoints>130</MaxHitPoints>
-            <Mass>1.2</Mass>
+            <WorkToMake>23625</WorkToMake>
+            <MaxHitPoints>165</MaxHitPoints>
+            <Mass>1.6</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.55</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.57</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <Insulation_Heat>2</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
@@ -81,21 +80,21 @@
             </skillRequirements>
         </recipeMaker>
         <costList>
-            <ComponentSpacer>1</ComponentSpacer>
-            <Plasteel>40</Plasteel>
-            <Steel>40</Steel>
+            <ComponentSpacer>5</ComponentSpacer>
+            <Plasteel>125</Plasteel>
+            <Uranium>35</Uranium>
         </costList>
         <statBases>
-            <WorkToMake>65000</WorkToMake>
-            <MaxHitPoints>350</MaxHitPoints>
-            <Mass>10</Mass>
+            <WorkToMake>67500</WorkToMake>
+            <MaxHitPoints>370</MaxHitPoints>
+            <Mass>13.5</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.55</ArmorRating_Heat>
-            <Insulation_Cold>36</Insulation_Cold>
-            <Insulation_Heat>12</Insulation_Heat>
-            <EquipDelay>9</EquipDelay>
+            <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.57</ArmorRating_Heat>
+            <Insulation_Cold>35</Insulation_Cold>
+            <Insulation_Heat>11</Insulation_Heat>
+            <EquipDelay>15</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
