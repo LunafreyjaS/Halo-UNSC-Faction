@@ -96,6 +96,8 @@
             <Plasteel>20</Plasteel>
             <Steel>40</Steel>
         </costList>
+        <statBases>            
+        </statBases>
         <equippedStatOffsets>
             <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
         </equippedStatOffsets>

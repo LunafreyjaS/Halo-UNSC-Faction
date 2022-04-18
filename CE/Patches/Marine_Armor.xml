@@ -49,11 +49,14 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/costList/Plasteel</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/costList</xpath>
                 <value>
-                    <Plasteel>25</Plasteel>
-                    <Steel>50</Steel>
-                    <DevilstrandCloth>10</DevilstrandCloth>
+                    <costList>
+                        <ComponentSpacer>1</ComponentSpacer>
+                        <Plasteel>30</Plasteel>
+                        <Steel>60</Steel>
+                        <DevilstrandCloth>15</DevilstrandCloth>
+                    </costList>
                 </value>
             </li>
 
@@ -109,11 +112,14 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Advanced"]/costList/Plasteel</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Advanced"]/costList</xpath>
                 <value>
-                    <Plasteel>25</Plasteel>
-                    <Steel>55</Steel>
-                    <DevilstrandCloth>10</DevilstrandCloth>
+                    <costList>
+                        <ComponentSpacer>1</ComponentSpacer>
+                        <Plasteel>35</Plasteel>
+                        <Steel>65</Steel>
+                        <DevilstrandCloth>15</DevilstrandCloth>
+                    </costList>
                 </value>
             </li>
 
@@ -162,11 +168,14 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Reinforced"]/costList/Plasteel</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Reinforced"]/costList</xpath>
                 <value>
-                    <Plasteel>30</Plasteel>
-                    <Steel>55</Steel>
-                    <DevilstrandCloth>10</DevilstrandCloth>
+                    <costList>
+                        <ComponentSpacer>1</ComponentSpacer>
+                        <Plasteel>40</Plasteel>
+                        <Steel>70</Steel>
+                        <DevilstrandCloth>15</DevilstrandCloth>
+                    </costList>
                 </value>
             </li>
 
@@ -186,12 +195,14 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Marksman"]/costList/Plasteel</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Marksman"]/costList</xpath>
                 <value>
-                    <Plasteel>25</Plasteel>
-                    <Steel>50</Steel>
-                    <DevilstrandCloth>10</DevilstrandCloth>
-                    <ComponentIndustrial>2</ComponentIndustrial>
+                    <costList>
+                        <ComponentSpacer>1</ComponentSpacer>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                        <Plasteel>30</Plasteel>
+                        <Steel>60</Steel>
+                    </costList>
                 </value>
             </li>
 
@@ -201,15 +212,15 @@
                     <li Class="CombatExtended.PartialArmorExt">
                         <stats>
                             <li>
-                                <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+                                <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
                                 <parts>
-                                    <li>RightEye</li>
+                                    <li>Eye</li>
                                 </parts>
                             </li>
                             <li>
-                                <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+                                <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
                                 <parts>
-                                    <li>RighttEye</li>
+                                    <li>Eye</li>
                                 </parts>
                             </li>
                         </stats>
@@ -263,13 +274,14 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineArmor"]/costList/Plasteel</xpath>
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineArmor"]/costList</xpath>
                 <value>
-                    <ComponentSpacer>1</ComponentSpacer>
-                    <ComponentIndustrial>2</ComponentIndustrial>
-                    <Plasteel>90</Plasteel>
-                    <Steel>180</Steel>
-                    <DevilstrandCloth>25</DevilstrandCloth>
+                    <costList>
+                        <ComponentSpacer>3</ComponentSpacer>
+                        <Plasteel>90</Plasteel>
+                        <Steel>180</Steel>
+                        <DevilstrandCloth>35</DevilstrandCloth>
+                    </costList>
                 </value>
             </li>
 
