@@ -21,6 +21,13 @@
             </li>
 
             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases/Mass</xpath>
+                <value>
+                    <Mass>4</Mass>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineHelmet_Regular"]/statBases/MaxHitPoints</xpath>
                 <value>
                     <MaxHitPoints>190</MaxHitPoints>
@@ -248,6 +255,13 @@
                 <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineArmor"]/statBases/Flammability</xpath>
                 <value>
                     <Flammability>0</Flammability>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HALO_UNSC_MarineArmor"]/statBases/Mass</xpath>
+                <value>
+                    <Mass>40</Mass>
                 </value>
             </li>
 
