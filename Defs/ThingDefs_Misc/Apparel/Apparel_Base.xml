@@ -8,9 +8,9 @@
             <li>HALO_Category_UNSC_Headgear</li>
         </thingCategories>
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>  
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>HALO_UNSC_CraftingStation</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags Inherit="False">
@@ -35,7 +35,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>HALO_UNSC_CraftingStation</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags Inherit="False">

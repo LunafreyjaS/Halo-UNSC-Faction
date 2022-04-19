@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <!-- ========== Kill recipe maker ========== -->
+    <li Class="PatchOperationAttributeSet">
+        <xpath>Defs/ThingDef[defName="HALO_UNSC_M9Frag"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseWeapon</value>
+    </li>
+
+</Patch>

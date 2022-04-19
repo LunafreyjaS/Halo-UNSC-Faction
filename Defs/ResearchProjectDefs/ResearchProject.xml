@@ -2,6 +2,32 @@
 
 <Defs>
 
+    <!--UNSC Contact-->
+    <ResearchProjectDef>
+        <defName>HALO_Research_UNSC_UNSCContact</defName>
+        <label>UNSC Contact</label>
+        <description>_</description>
+        <baseCost>500</baseCost>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+            <li>HALO_UNSC_ResearchTerminal</li>
+        </requiredResearchFacilities>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>0.15</researchViewY>
+        <tab>HALO_ResearchTab_HALO</tab>
+        <techprintCount>1</techprintCount>
+        <techprintCommonality>3</techprintCommonality>
+        <techprintMarketValue>3000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>HALO_UNSC_FactionTag</li>
+        </heldByFactionCategoryTags>
+    </ResearchProjectDef>
+
     <!--Marine armor-->
     <ResearchProjectDef>
         <defName>HALO_Research_UNSC_MarineArmor</defName>
@@ -29,7 +55,7 @@
     <ResearchProjectDef>
         <defName>HALO_Research_UNSC_ODSTArmor</defName>
         <label>UNSC ODST Armor</label>
-        <description>Learn to craft you own ODST armor, a strong recon armor used by the UNSC shock troopers.</description>
+        <description>Learn to craft you own ODST armor, a strong armor used by UNSC's shock troopers.</description>
         <baseCost>6000</baseCost>
         <prerequisites>
             <li>HALO_Research_UNSC_MarineArmor</li>
@@ -46,6 +72,12 @@
         <researchViewX>1.00</researchViewX>
         <researchViewY>0.15</researchViewY>
         <tab>HALO_ResearchTab_HALO</tab>
+        <techprintCount>1</techprintCount>
+        <techprintCommonality>3</techprintCommonality>
+        <techprintMarketValue>3000</techprintMarketValue>
+        <heldByFactionCategoryTags>
+            <li>HALO_UNSC_FactionTag</li>
+        </heldByFactionCategoryTags>
     </ResearchProjectDef>
 
     <!--MjolnirArmor-->
@@ -98,12 +130,6 @@
         <researchViewX>0.00</researchViewX>
         <researchViewY>1.15</researchViewY>
         <tab>HALO_ResearchTab_HALO</tab>
-        <techprintCount>1</techprintCount>
-        <techprintCommonality>3</techprintCommonality>
-        <techprintMarketValue>3000</techprintMarketValue>
-        <heldByFactionCategoryTags>
-            <li>HALO_UNSC_FactionTag</li>
-        </heldByFactionCategoryTags>
     </ResearchProjectDef>
 
     <!--Supressed SMG, Commando (DMR Carbine), Adv AR (yellow thingy)-->
@@ -175,15 +201,15 @@
         <prerequisites>
             <li>HALO_Research_UNSC_AdvancedFirearms</li>
         </prerequisites>
-        <requiredResearchFacilities>        
+        <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
-            <li>HALO_UNSC_ResearchTerminal</li>            
+            <li>HALO_UNSC_ResearchTerminal</li>
         </requiredResearchFacilities>
         <techLevel>Industrial</techLevel>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <researchViewX>2.00</researchViewX>
         <researchViewY>4.15</researchViewY>
         <tab>HALO_ResearchTab_HALO</tab>
-    </ResearchProjectDef>    
+    </ResearchProjectDef>
 
 </Defs>

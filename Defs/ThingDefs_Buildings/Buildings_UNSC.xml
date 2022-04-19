@@ -62,12 +62,13 @@
         <tradeTags>
             <li>HALO_UNSC_ResearchTerminal</li>
         </tradeTags>
-        <researchPrerequisites Inherit="false">
-        </researchPrerequisites>
         <placeWorkers>
             <li>PlaceWorker_ShowFacilitiesConnections</li>
         </placeWorkers>
         <techLevel>Spacer</techLevel>
+        <researchPrerequisites>
+            <li>HALO_Research_UNSC_UNSCContact</li>
+        </researchPrerequisites>
     </ThingDef>
 
     <!-- ====== UNSC crafting station ====== -->
@@ -111,7 +112,6 @@
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
         <recipes>
-            <li>ButcherCorpseMechanoid</li>
         </recipes>
         <inspectorTabs>
             <li>ITab_Bills</li>
@@ -138,14 +138,15 @@
             <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
         </building>
         <constructEffect>ConstructMetal</constructEffect>
-        <researchPrerequisites>
-            <li>Machining</li>
-        </researchPrerequisites>
         <designationHotKey>Misc7</designationHotKey>
         <placeWorkers>
             <li>PlaceWorker_ShowFacilitiesConnections</li>
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
+        <techLevel>Spacer</techLevel>
+        <researchPrerequisites>
+            <li>HALO_Research_UNSC_UNSCContact</li>
+        </researchPrerequisites>
     </ThingDef>
 
 </Defs>

@@ -2,8 +2,20 @@
 
 <Defs>
 
-  <RecipeDef Name="HALO_UNSC_AmmoRecipeBase" ParentName="AmmoRecipeBase" Abstract="true">
-    <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+  <RecipeDef Name="HALO_UNSC_AmmoRecipeBase" Abstract="true">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>10000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <researchPrerequisite>HALO_Research_UNSC_UNSCContact</researchPrerequisite>
+    <recipeUsers Inherit="false">
+      <li>HALO_UNSC_CraftingStation</li>
+    </recipeUsers>
+    <conceptLearned>CE_AmmoCrafting</conceptLearned>
+    <unfinishedThingDef>UnfinishedAmmo</unfinishedThingDef>
   </RecipeDef>
 
   <CombatExtended.AmmoCategoryDef>
