@@ -53,9 +53,9 @@
                         <li>Steel</li>
                     </thingDefs>
                 </fuelFilter>
-                <fuelCapacity>25</fuelCapacity>
+                <fuelCapacity>200</fuelCapacity>                <!-- 8 bursts -->
                 <initialFuelPercent>1</initialFuelPercent>
-                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <autoRefuelPercent>2</autoRefuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
                 <minimumFueledThreshold>1</minimumFueledThreshold>
                 <factorByDifficulty>true</factorByDifficulty>
@@ -71,15 +71,15 @@
         <fillPercent>0.4</fillPercent>
         <hasTooltip>true</hasTooltip>
         <costList>
-            <Steel>125</Steel>
-            <Chemfuel>70</Chemfuel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>100</Steel>
+            <Plasteel>30</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <designationCategory>Security</designationCategory>
         <building>
             <ai_combatDangerous>false</ai_combatDangerous>
             <turretGunDef>HALO_UNSC_TurretGun_AIE486H</turretGunDef>
-            <turretBurstCooldownTime>6.6</turretBurstCooldownTime>
+            <turretBurstCooldownTime>2.0</turretBurstCooldownTime>
         </building>
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
@@ -95,15 +95,13 @@
         <defName>HALO_UNSC_Bullet_AIE486H</defName>
         <label>AIE-486H bullet</label>
         <graphicData>
-            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>32</damageAmountBase>
-            <armorPenetrationBase>0.60</armorPenetrationBase>
-            <speed>100</speed>
-            <stoppingPower>3</stoppingPower>
+            <damageAmountBase>10</damageAmountBase>
+            <speed>70</speed>
         </projectile>
     </ThingDef>
 
@@ -117,11 +115,11 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
-            <AccuracyTouch>0.63</AccuracyTouch>
-            <AccuracyShort>0.58</AccuracyShort>
-            <AccuracyMedium>0.37</AccuracyMedium>
-            <AccuracyLong>0.20</AccuracyLong>
-            <RangedWeapon_Cooldown>6.6</RangedWeapon_Cooldown>
+            <AccuracyTouch>0.25</AccuracyTouch>
+            <AccuracyShort>0.35</AccuracyShort>
+            <AccuracyMedium>0.35</AccuracyMedium>
+            <AccuracyLong>0.28</AccuracyLong>
+            <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Mass>5</Mass>
             <Flammability>0</Flammability>
@@ -131,10 +129,10 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>HALO_UNSC_Bullet_AIE486H</defaultProjectile>
-                <warmupTime>1.8</warmupTime>
-                <range>30.9</range>
-                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-                <burstShotCount>3</burstShotCount>
+                <warmupTime>2.5</warmupTime>
+                <range>35</range>
+                <burstShotCount>25</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <soundCast>HALO_UNSC_Shot_AIE486H</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -189,19 +187,20 @@
             <li Class="CompProperties_Refuelable">
                 <fuelLabel>Shots until barrel change</fuelLabel>
                 <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+                <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
                 <fuelFilter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </fuelFilter>
-                <fuelCapacity>25</fuelCapacity>
+                <fuelCapacity>90</fuelCapacity>
+                <fuelMultiplier>0.5</fuelMultiplier>
                 <initialFuelPercent>1</initialFuelPercent>
-                <autoRefuelPercent>0.75</autoRefuelPercent>
+                <autoRefuelPercent>0.5</autoRefuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
                 <minimumFueledThreshold>1</minimumFueledThreshold>
-                <factorByDifficulty>true</factorByDifficulty>
+                <factorByDifficulty>false</factorByDifficulty>
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-                <outOfFuelMessage>Cannot shoot: Needs new barrels</outOfFuelMessage>
                 <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
             </li>
         </comps>
@@ -212,15 +211,15 @@
         <fillPercent>0.4</fillPercent>
         <hasTooltip>true</hasTooltip>
         <costList>
-            <Steel>125</Steel>
-            <Chemfuel>70</Chemfuel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>150</Steel>
+            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <designationCategory>Security</designationCategory>
         <building>
             <ai_combatDangerous>false</ai_combatDangerous>
             <turretGunDef>HALO_UNSC_TurretGun_M46Vulcan</turretGunDef>
-            <turretBurstCooldownTime>6.6</turretBurstCooldownTime>
+            <turretBurstCooldownTime>3.0</turretBurstCooldownTime>
         </building>
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
@@ -241,10 +240,8 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>32</damageAmountBase>
-            <armorPenetrationBase>0.60</armorPenetrationBase>
-            <speed>100</speed>
-            <stoppingPower>3</stoppingPower>
+            <damageAmountBase>22</damageAmountBase>
+            <speed>88</speed>
         </projectile>
     </ThingDef>
 
@@ -258,13 +255,13 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
-            <AccuracyTouch>0.63</AccuracyTouch>
-            <AccuracyShort>0.58</AccuracyShort>
-            <AccuracyMedium>0.37</AccuracyMedium>
-            <AccuracyLong>0.20</AccuracyLong>
-            <RangedWeapon_Cooldown>6.6</RangedWeapon_Cooldown>
+            <AccuracyTouch>0.38</AccuracyTouch>
+            <AccuracyShort>0.82</AccuracyShort>
+            <AccuracyMedium>0.76</AccuracyMedium>
+            <AccuracyLong>0.6</AccuracyLong>
+            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
-            <Mass>5</Mass>
+            <Mass>40</Mass>
             <Flammability>0</Flammability>
         </statBases>
         <verbs>
@@ -272,13 +269,13 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>HALO_UNSC_Bullet_M46Vulcan</defaultProjectile>
-                <warmupTime>1.8</warmupTime>
-                <range>30.9</range>
-                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <warmupTime>1</warmupTime>
+                <range>34</range>
+                <ticksBetweenBurstShots>17</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>HALO_UNSC_Shot_AIE486H</soundCast>
+                <soundCast>HALO_UNSC_Shot_M46Vulcan</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
-                <muzzleFlashScale>9</muzzleFlashScale>
+                <muzzleFlashScale>12</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
             </li>
         </verbs>
