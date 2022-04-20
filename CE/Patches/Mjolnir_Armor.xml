@@ -52,9 +52,9 @@
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HALO_UNSC_MjolnirHelmet"]/equippedStatOffsets</xpath>
                 <value>
-                    <PsychicSensitivity>-0.2</PsychicSensitivity>
-                    <AimingAccuracy>0.15</AimingAccuracy>
-                    <ToxicSensitivity>-0.50</ToxicSensitivity>
+                    <PsychicSensitivity>-0.3</PsychicSensitivity>
+                    <AimingAccuracy>0.25</AimingAccuracy>
+                    <ToxicSensitivity>-0.80</ToxicSensitivity>
                     <SmokeSensitivity>-1</SmokeSensitivity>
                 </value>
             </li>
