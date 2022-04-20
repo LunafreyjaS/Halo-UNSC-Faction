@@ -10,7 +10,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <recipeUsers Inherit="False">
-                <li>HALO_UNSC_CraftingStation</li>
+                <li>HALO_UNSC_Assembler</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags Inherit="False">
@@ -35,7 +35,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
             <recipeUsers Inherit="False">
-                <li>HALO_UNSC_CraftingStation</li>
+                <li>HALO_UNSC_Assembler</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags Inherit="False">

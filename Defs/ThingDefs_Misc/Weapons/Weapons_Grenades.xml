@@ -24,7 +24,7 @@
         <techLevel>Spacer</techLevel>
         <recipeMaker>
             <recipeUsers Inherit="False">
-                <li>HALO_UNSC_CraftingStation</li>
+                <li>HALO_UNSC_Assembler</li>
             </recipeUsers>
             <researchPrerequisite>HALO_Research_UNSC_BasicFirearms</researchPrerequisite>
         </recipeMaker>
@@ -44,8 +44,8 @@
             <WorkToMake>12000</WorkToMake>
         </statBases>
         <costList>
-            <Steel>20</Steel>
-            <Chemfuel>80</Chemfuel>
+            <Steel>30</Steel>
+            <Chemfuel>110</Chemfuel>
         </costList>
         <weaponTags>
             <li>HALO_UNSC_M9Frag</li>

@@ -39,7 +39,7 @@
                 <Intellectual>6</Intellectual>
             </skillRequirements>
             <recipeUsers Inherit="false">
-                <li>HALO_UNSC_CraftingStation</li>
+                <li>HALO_UNSC_Assembler</li>
             </recipeUsers>
         </recipeMaker>
         <costList>

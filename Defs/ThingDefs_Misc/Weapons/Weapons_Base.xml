@@ -12,7 +12,7 @@
         </weaponTags>
         <recipeMaker>
             <recipeUsers Inherit="False">
-                <li>HALO_UNSC_CraftingStation</li>
+                <li>HALO_UNSC_Assembler</li>
             </recipeUsers>
         </recipeMaker>
         <tradeTags Inherit="False">

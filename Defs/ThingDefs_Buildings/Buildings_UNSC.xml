@@ -71,14 +71,14 @@
         </researchPrerequisites>
     </ThingDef>
 
-    <!-- ====== UNSC crafting station ====== -->
+    <!-- ====== UNSC assembler ====== -->
     <ThingDef ParentName="BenchBase">
-        <defName>HALO_UNSC_CraftingStation</defName>
-        <label>UNSC crafting station</label>
-        <description>A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids.</description>
+        <defName>HALO_UNSC_Assembler</defName>
+        <label>UNSC assembler</label>
+        <description>A work station for assembling UNSC machinery, items or components like guns and ammunition.</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
-            <texPath>Things/Building/UNSCCraftingStation/HALO_UNSC_CraftingBench</texPath>
+            <texPath>Things/Building/Assembler/HALO_UNSC_Assembler</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(3.5,1.5)</drawSize>
             <damageData>
