@@ -11,36 +11,6 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs</xpath>
                     <value>
-                        <ResearchProjectDef>
-                            <defName>HALO_Research_UNSC_Lasers</defName>
-                            <label>UNSC Lasers</label>
-                            <description>Learn to craft the SPARTAN Laser, a high powered single shot laser user by UNSC's SPARTANs capable of killing any foe.</description>
-                            <baseCost>3000</baseCost>
-                            <prerequisites>
-                                <li>HALO_Research_UNSC_AdvancedFirearms</li>
-                            </prerequisites>
-                            <requiredResearchFacilities>
-                                <li>MultiAnalyzer</li>
-                                <li>HALO_UNSC_ResearchTerminal</li>
-                            </requiredResearchFacilities>
-                            <techLevel>Industrial</techLevel>
-                            <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-                            <researchViewX>3.00</researchViewX>
-                            <researchViewY>1.15</researchViewY>
-                            <tab>HALO_ResearchTab_HALO</tab>
-                            <techprintCount>2</techprintCount>
-                            <techprintCommonality>1</techprintCommonality>
-                            <techprintMarketValue>3000</techprintMarketValue>
-                            <heldByFactionCategoryTags>
-                                <li>HALO_UNSC_FactionTag</li>
-                            </heldByFactionCategoryTags>
-                        </ResearchProjectDef>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs</xpath>
-                    <value>
                         <ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
                             <defName>HALO_UNSC_Bullet_SpartanLaser</defName>
                             <label>Spartan Laser shot</label>
@@ -150,70 +120,6 @@
                                 <li>HALO_UNSC_Weapon</li>
                             </tradeTags>
                         </ThingDef>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs</xpath>
-                    <value>
-                        <RecipeDef>
-                            <defName>HALO_UNSC_RecipeDef_SpartanLaser</defName>
-                            <label>make UNSC Spartan Laser x2</label>
-                            <description>Craft 2 UNSC Spartan Lasers.</description>
-                            <jobString>Making UNSC Spartan Lasers.</jobString>
-                            <workAmount>4000</workAmount>
-                            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-                            <workSkill>Crafting</workSkill>
-                            <recipeUsers>
-                                <li>FabricationBench</li>
-                            </recipeUsers>
-                            <ingredients>
-                                <li>
-                                    <filter>
-                                        <thingDefs>
-                                            <li>Steel</li>
-                                        </thingDefs>
-                                    </filter>
-                                    <count>30</count>
-                                </li>
-                                <li>
-                                    <filter>
-                                        <thingDefs>
-                                            <li>Plasteel</li>
-                                        </thingDefs>
-                                    </filter>
-                                    <count>20</count>
-                                </li>
-                                <li>
-                                    <filter>
-                                        <thingDefs>
-                                            <li>ComponentIndustrial</li>
-                                        </thingDefs>
-                                    </filter>
-                                    <count>6</count>
-                                </li>
-                                <li>
-                                    <filter>
-                                        <thingDefs>
-                                            <li>ComponentSpacer</li>
-                                        </thingDefs>
-                                    </filter>
-                                    <count>1</count>
-                                </li>
-                            </ingredients>
-                            <fixedIngredientFilter>
-                                <thingDefs>
-                                    <li>Steel</li>
-                                    <li>Plasteel</li>
-                                    <li>ComponentIndustrial</li>
-                                    <li>ComponentSpacer</li>
-                                </thingDefs>
-                            </fixedIngredientFilter>
-                            <products>
-                                <HALO_UNSC_SpartanLaser>2</HALO_UNSC_SpartanLaser>
-                            </products>
-                            <researchPrerequisite>HALO_Research_UNSC_Lasers</researchPrerequisite>
-                        </RecipeDef>
                     </value>
                 </li>
 
