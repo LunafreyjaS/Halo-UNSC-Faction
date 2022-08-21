@@ -79,7 +79,9 @@
         </maxPawnCostPerTotalPointsCurve>
         <pawnGroupMakers>
             <li>
+                <!-- Normal fights, explosives with ranged mix-ins -->
                 <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
                 <options>
                     <HALO_UNSC_MarineGunner>20</HALO_UNSC_MarineGunner>
                     <HALO_UNSC_MarineGunner_Acidifier>20</HALO_UNSC_MarineGunner_Acidifier>
@@ -98,6 +100,7 @@
                 </options>
             </li>
             <li>
+                <!-- Base defense, mainly ranged -->
                 <kindDef>Settlement</kindDef>
                 <options>
                     <HALO_UNSC_MarineGunner>20</HALO_UNSC_MarineGunner>
@@ -173,29 +176,6 @@
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>20</configurationListOrderPriority>
-    </FactionDef>
-
-    <FactionDef ParentName="HALO_UNSC_FactionBase">
-        <defName>HALO_UNSC_Insurgents_Faction</defName>
-        <label>Insurrectionists</label>
-        <description>The Insurrectionists, also known as insurgents, and rebels, are groups of human individuals devoted to complete liberation from the influence of the Unified Earth Government and the United Nations Space Command.</description>
-        <pawnSingular>rebel</pawnSingular>
-        <pawnsPlural>rebels</pawnsPlural>
-        <leaderTitle>Insurgent leader</leaderTitle>
-        <factionIconPath>World/HALO_UNSC_Insurgents_ColonyIcon</factionIconPath>
-        <factionNameMaker>HALO_UNSC_Insurgents_NamerFaction</factionNameMaker>
-        <settlementNameMaker>HALO_UNSC_Insurgents_NamerFactionBases</settlementNameMaker>
-        <permanentEnemy>true</permanentEnemy>
-        <requiredMemes>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-        </requiredMemes>
-        <colorSpectrum>
-            <li>(0.85, 0, 0)</li>
-            <li>(0.85, 0.7, 0.7)</li>
-        </colorSpectrum>
-        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-        <configurationListOrderPriority>21</configurationListOrderPriority>
     </FactionDef>
 
 </Defs>

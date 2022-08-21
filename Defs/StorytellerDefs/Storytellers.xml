@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<StorytellerDef Name="VSE_BaseStorytellerDoublePopulation" Abstract="True">
+	<StorytellerDef Name="HALO_UNSC_BaseStorytellerDoublePopulation" Abstract="True">
 		<populationIntentFactorFromPopCurve>
 			<points>
 				<li>0,  8.0</li>
@@ -232,10 +232,10 @@
 		</comps>
 	</StorytellerDef>
 
-	<StorytellerDef ParentName="VSE_BaseStorytellerDoublePopulation">
+	<StorytellerDef ParentName="HALO_UNSC_BaseStorytellerDoublePopulation">
 		<defName>HALO_UNSC_CaptainChief</defName>
-		<label>Captain Chief</label>
-		<description>Captain Chief</description>
+		<label>Master Chief</label>
+		<description>Master Chief is a man of action and few words. He’ll generate semi-random events and send you objetives to complete regulary.</description>
 		<portraitLarge>Storytellers/CaptainChief</portraitLarge>
 		<portraitTiny>Storytellers/CaptainChiefTiny</portraitTiny>
 		<listOrder>69</listOrder>
@@ -414,7 +414,7 @@
 			</li>
 			<!-- Triggered -->
 			<li Class="StorytellerCompProperties_Triggered">
-				<incident>VSE_ManInTheCoatJoin</incident>
+				<incident>StrangerInBlackJoin</incident>
 				<delayTicks>180</delayTicks>
 			</li>
 		</comps>

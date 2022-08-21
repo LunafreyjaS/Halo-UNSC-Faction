@@ -11,7 +11,36 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs</xpath>
                     <value>
-                        <ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+                        <ThingDef Abstract="True" Name="HALO_UNSC_Bullet_LaserGeneric" ParentName="BaseBullet">
+                            <thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+                            <drawOffscreen>true</drawOffscreen>
+                            <beamGraphic>VWELBeamGraphic</beamGraphic>
+
+                            <graphicData>
+                                <graphicClass>Graphic_Single</graphicClass>
+                                <texPath>Things/Projectile/Charge_Small</texPath>
+                                <shaderType>TransparentPostLight</shaderType>
+                                <drawSize>1.5</drawSize>
+                            </graphicData>
+
+                            <explosionEffect>VWELLaserImpact</explosionEffect>
+                            <hitLivingEffect>VWELLaserLivingImpact</hitLivingEffect>
+
+                            <projectile>
+                                <damageDef>Bomb</damageDef>
+                                <speed>10000</speed>
+                            </projectile>
+
+                            <seam>0.25</seam>
+                        </ThingDef>
+                    </value>
+                </li>
+
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+                        <ThingDef ParentName="HALO_UNSC_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
                             <defName>HALO_UNSC_Bullet_SpartanLaser</defName>
                             <label>Spartan Laser shot</label>
                             <description>Spartan Laser shot</description>

@@ -146,14 +146,14 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HALO_UNSC_ODSTArmor"]/statBases/ArmorRating_Sharp</xpath>
                 <value>
-                    <ArmorRating_Sharp>19</ArmorRating_Sharp>
+                    <ArmorRating_Sharp>22</ArmorRating_Sharp>
                 </value>
             </li>
 
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HALO_UNSC_ODSTArmor"]/statBases/ArmorRating_Blunt</xpath>
                 <value>
-                    <ArmorRating_Blunt>43</ArmorRating_Blunt>
+                    <ArmorRating_Blunt>50</ArmorRating_Blunt>
                 </value>
             </li>
 
