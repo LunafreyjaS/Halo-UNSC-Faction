@@ -53,6 +53,7 @@
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
                 <li>HALO_UNSC_MjolnirHelmet</li>
+                <li>EVA</li>
             </tags>
         </apparel>
         <comps>
@@ -116,6 +117,7 @@
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
                 <li>HALO_UNSC_MjolnirArmor</li>
+                <li>EVA</li>
             </tags>
         </apparel>
         <thingClass>VFECore.Apparel_ShieldBubble</thingClass>

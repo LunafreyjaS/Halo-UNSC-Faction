@@ -56,6 +56,7 @@
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
                 <li>HALO_UNSC_ODSTHelmet</li>
+                <li>EVA</li>
             </tags>
         </apparel>
         <comps>
@@ -119,6 +120,7 @@
             <useDeflectMetalEffect>true</useDeflectMetalEffect>
             <tags>
                 <li>HALO_UNSC_ODSTArmor</li>
+                <li>EVA</li>
             </tags>
         </apparel>
         <comps>

@@ -22,7 +22,7 @@
         </tradeTags>
         <apparel>
             <tags Inherit="False">
-                <li>HALO_UNSC_Helmet</li>
+                <li>HALO_UNSC_Helmet</li>                
             </tags>
         </apparel>
     </ThingDef>
