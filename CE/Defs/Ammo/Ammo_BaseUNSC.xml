@@ -4,6 +4,7 @@
 
   <RecipeDef Name="HALO_UNSC_AmmoRecipeBase" Abstract="true">
     <researchPrerequisite>HALO_Research_UNSC_UNSCContact</researchPrerequisite>
+    <unfinishedThingDef>UnfinishedAmmo</unfinishedThingDef>
   </RecipeDef>
 
   <CombatExtended.AmmoCategoryDef>
