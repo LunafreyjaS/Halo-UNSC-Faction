@@ -20,9 +20,6 @@
         <researchViewX>0.00</researchViewX>
         <researchViewY>0.15</researchViewY>
         <tab>HALO_ResearchTab_HALO</tab>
-        <heldByFactionCategoryTags>
-            <li>HALO_UNSC_FactionTag</li>
-        </heldByFactionCategoryTags>
     </ResearchProjectDef>
 
     <!--Marine armor-->
