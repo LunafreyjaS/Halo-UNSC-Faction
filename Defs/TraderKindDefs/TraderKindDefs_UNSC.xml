@@ -35,11 +35,11 @@
         <countChances>
           <li>
             <count>3</count>
-            <chance>50</chance>
+            <chance>1</chance>
           </li>
           <li>
             <count>5</count>
-            <chance>30</chance>
+            <chance>0.5</chance>
           </li>
         </countChances>
       </li>
