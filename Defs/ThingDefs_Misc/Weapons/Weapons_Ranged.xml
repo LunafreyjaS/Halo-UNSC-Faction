@@ -792,8 +792,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
       <speed>75</speed>
       <stoppingPower>1.5</stoppingPower>
     </projectile>
@@ -824,7 +824,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HALO_UNSC_Bullet_M392_DMR</defaultProjectile>
         <warmupTime>1.5</warmupTime>
-        <range>36</range>
+        <range>40</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>HALO_UNSC_Shot_M392_DMR</soundCast>
