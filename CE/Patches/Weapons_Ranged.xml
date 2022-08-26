@@ -428,7 +428,7 @@
                     <recoilAmount>1.75</recoilAmount>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
+                    <defaultProjectile>Bullet_65x48mmUNSC_FMJ</defaultProjectile>
                     <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                     <warmupTime>0.8</warmupTime>
@@ -440,7 +440,7 @@
                 <AmmoUser>
                     <magazineSize>20</magazineSize>
                     <reloadTime>4</reloadTime>
-                    <ammoSet>AmmoSet_762x51mmUNSC</ammoSet>
+                    <ammoSet>AmmoSet_65x48mmUNSC</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aimedBurstShotCount>3</aimedBurstShotCount>
