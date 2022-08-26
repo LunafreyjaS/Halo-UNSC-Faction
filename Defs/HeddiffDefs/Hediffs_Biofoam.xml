@@ -14,11 +14,12 @@
                 <severityPerDay>-3.5</severityPerDay>
             </li>
             <li Class="HediffCompProperties_Disappears">
-                <disappearsAfterTicks>2500~3500</disappearsAfterTicks>
+                <disappearsAfterTicks>5500</disappearsAfterTicks>
             </li>
         </comps>
         <stages>
             <li>
+                <painOffset>-0.20</painOffset>
                 <naturalHealingFactor>75</naturalHealingFactor>
                 <totalBleedFactor>0.5</totalBleedFactor>
             </li>
