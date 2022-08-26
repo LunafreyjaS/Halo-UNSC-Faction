@@ -144,6 +144,19 @@
         <tag>ExoticBuilding</tag>
       </li>
 
+      <!-- Ammo -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UNSC_TradeTag_Ammo_Small</tradeTag>
+        <thingDefCountRange>5~10</thingDefCountRange>
+        <countRange>1000~5000</countRange>
+      </li>
+
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UNSC_TradeTag_Ammo_Heavy</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>100~500</countRange>
+      </li>
+
     </stockGenerators>
   </TraderKindDef>
 

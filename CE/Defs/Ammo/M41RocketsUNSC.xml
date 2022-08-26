@@ -30,6 +30,7 @@
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
 			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>UNSC_TradeTag_Ammo_Heavy</li>
 		</tradeTags>
 		<thingCategories>
 			<li>AmmoM41RocketUNSCs</li>

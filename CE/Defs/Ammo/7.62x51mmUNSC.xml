@@ -34,6 +34,7 @@
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
 			<li>CE_AutoEnableCrafting</li>
+			<li>UNSC_TradeTag_Ammo_Small</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Ammo762x51mmUNSC</li>

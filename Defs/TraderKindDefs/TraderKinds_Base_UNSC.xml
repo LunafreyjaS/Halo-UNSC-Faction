@@ -220,6 +220,19 @@
       <li Class="StockGenerator_BuyTradeTag">
         <tag>MusicalInstrument</tag>
       </li>
+
+      <!-- Ammo -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UNSC_TradeTag_Ammo_Small</tradeTag>
+        <thingDefCountRange>5~10</thingDefCountRange>
+        <countRange>10000~50000</countRange>
+      </li>
+
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UNSC_TradeTag_Ammo_Heavy</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1000~5000</countRange>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 
