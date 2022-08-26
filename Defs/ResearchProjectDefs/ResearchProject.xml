@@ -20,9 +20,6 @@
         <researchViewX>0.00</researchViewX>
         <researchViewY>0.15</researchViewY>
         <tab>HALO_ResearchTab_HALO</tab>
-        <techprintCount>1</techprintCount>
-        <techprintCommonality>3</techprintCommonality>
-        <techprintMarketValue>3000</techprintMarketValue>
         <heldByFactionCategoryTags>
             <li>HALO_UNSC_FactionTag</li>
         </heldByFactionCategoryTags>
