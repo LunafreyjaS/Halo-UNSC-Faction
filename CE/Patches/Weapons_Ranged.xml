@@ -518,6 +518,11 @@
                     <aiAimMode>AimedShot</aiAimMode>
                     <aimedBurstShotCount>5</aimedBurstShotCount>
                 </FireModes>
+                <weaponTags>
+                    <li>CE_MachineGun</li>
+                    <li>CE_AI_Suppressive</li>
+                    <li>Bipod_SAW</li>
+                </weaponTags>
             </li>
 
             <!-- HALO_UNSC_SRS99_AM -->
@@ -550,6 +555,9 @@
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>
                 </FireModes>
+                <weaponTags>
+                    <li>Bipod_ATR</li>
+                </weaponTags>
             </li>
 
             <!-- HALO_UNSC_M319_GL -->
