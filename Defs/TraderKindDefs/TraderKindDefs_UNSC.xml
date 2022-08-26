@@ -34,8 +34,12 @@
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>1</count>
-            <chance>1</chance>
+            <count>3</count>
+            <chance>50</chance>
+          </li>
+          <li>
+            <count>5</count>
+            <chance>30</chance>
           </li>
         </countChances>
       </li>
@@ -80,7 +84,7 @@
       <!-- Buildings -->
       <li Class="StockGenerator_Tag">
         <tradeTag>HALO_UNSC_ResearchTerminal</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <thingDefCountRange>2~4</thingDefCountRange>
         <countRange>1</countRange>
       </li>
 

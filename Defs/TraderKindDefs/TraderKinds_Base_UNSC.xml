@@ -109,15 +109,16 @@
       </li>
 
       <!-- Techprints -->
+      <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>2</count>
-            <chance>0.8</chance>
+            <count>3</count>
+            <chance>50</chance>
           </li>
           <li>
-            <count>3</count>
-            <chance>0.8</chance>
+            <count>5</count>
+            <chance>30</chance>
           </li>
         </countChances>
       </li>
@@ -164,6 +165,11 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Telescope</thingDef>
         <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>HALO_UNSC_ResearchTerminal</tradeTag>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
 
       <!-- Exotic -->
