@@ -739,7 +739,7 @@
         <defaultProjectile>HALO_UNSC_Bullet_VK78_DMR</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>33</range>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>HALO_UNSC_Shot_VK78_DMR</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
