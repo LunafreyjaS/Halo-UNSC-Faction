@@ -113,8 +113,8 @@
                                 <texPath>Things/Weapons/Warcasket/HALO_UNSC_M247H_Warcasket_OnFloor</texPath>
                             </graphicData>
                             <costList>
-                                <Steel>175</Steel>
-                                <Plasteel>25</Plasteel>
+                                <Steel>250</Steel>
+                                <Plasteel>30</Plasteel>
                                 <ComponentIndustrial>4</ComponentIndustrial>
                             </costList>
                             <statBases>
