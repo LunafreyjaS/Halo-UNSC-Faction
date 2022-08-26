@@ -100,9 +100,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
+      <damageAmountBase>15</damageAmountBase>
       <speed>60</speed>
-      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
       <stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
