@@ -121,6 +121,7 @@
             </tags>
         </apparel>
         <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+        <tickerType>Normal</tickerType>
         <comps>
             <li Class="CompProperties_Biocodable"/>
             <li Class="VFECore.CompProperties_ShieldBubble">
@@ -131,11 +132,12 @@
                 <showOnHostiles>true</showOnHostiles>
                 <showOnNeutralInCombat>true</showOnNeutralInCombat>
                 <shieldTexPath>Other/ShieldBubble</shieldTexPath>
-                <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+                <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
                 <EnergyShieldEnergyMax>120</EnergyShieldEnergyMax>
                 <minShieldSize>1.4</minShieldSize>
                 <maxShieldSize>1.8</maxShieldSize>
                 <disableRotation>true</disableRotation>
+                <chargeFullyWhenMade>true</chargeFullyWhenMade>
             </li>
         </comps>
     </ThingDef>
