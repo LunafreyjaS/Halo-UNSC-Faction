@@ -425,10 +425,13 @@
                     <RangedWeapon_Cooldown>0.48</RangedWeapon_Cooldown>
                 </statBases>
                 <Properties>
+                    <recoilAmount>1.75</recoilAmount>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
                     <defaultProjectile>Bullet_762x51mmUNSC_FMJ</defaultProjectile>
-                    <warmupTime>0.5</warmupTime>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                    <warmupTime>0.8</warmupTime>
                     <range>48</range>
                     <soundCast>HALO_UNSC_Shot_VK78_DMR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
@@ -440,6 +443,8 @@
                     <ammoSet>AmmoSet_762x51mmUNSC</ammoSet>
                 </AmmoUser>
                 <FireModes>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                    <aiUseBurstMode>true</aiUseBurstMode>
                     <aiAimMode>AimedShot</aiAimMode>
                 </FireModes>
             </li>
