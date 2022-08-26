@@ -107,17 +107,20 @@
         <thingDefCountRange>3~4</thingDefCountRange>
         <totalPriceRange>700~1500</totalPriceRange>
       </li>
-
-      <!-- Techprints -->
+      
       <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>3</count>
+            <count>1</count>
             <chance>1</chance>
           </li>
           <li>
-            <count>5</count>
+            <count>1</count>
+            <chance>0.75</chance>
+          </li>
+          <li>
+            <count>1</count>
             <chance>0.5</chance>
           </li>
         </countChances>
