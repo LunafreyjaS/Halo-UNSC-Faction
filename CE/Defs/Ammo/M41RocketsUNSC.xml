@@ -33,7 +33,7 @@
 			<li>UNSC_TradeTag_Ammo_Heavy</li>
 		</tradeTags>
 		<thingCategories>
-			<li>AmmoM41RocketUNSCs</li>
+			<li>AmmoM41RocketUNSC</li>
 		</thingCategories>
 		<stackLimit>25</stackLimit>
 		<cookOffFlashScale>40</cookOffFlashScale>
