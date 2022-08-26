@@ -28,7 +28,7 @@
                     <recoilPattern>Mounted</recoilPattern>
                 </Properties>
                 <AmmoUser>
-                    <magazineSize>2000</magazineSize>
+                    <magazineSize>1000</magazineSize>
                     <reloadTime>6</reloadTime>
                     <ammoSet>AmmoSet_762x51mmUNSC</ammoSet>
                 </AmmoUser>
