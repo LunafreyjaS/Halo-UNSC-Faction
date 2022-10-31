@@ -958,7 +958,7 @@
     <defName>HALO_UNSC_Bullet_SRS99_AM</defName>
     <label>SRS99 bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>i
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
