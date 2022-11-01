@@ -116,12 +116,7 @@
                                         <canTargetLocations>true</canTargetLocations>
                                     </targetParams>
                                 </li>
-                            </verbs>
-                            <comps>
-                                <li>
-                                    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-                                </li>
-                            </comps>
+                            </verbs>                            
                             <tools>
                                 <li>
                                     <label>barrel</label>
