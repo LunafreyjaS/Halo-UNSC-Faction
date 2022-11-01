@@ -33,6 +33,11 @@
                             <weaponTags>
                                 <li>HALO_UNSC_M247H_Warcasket</li>
                             </weaponTags>
+                            <costList>
+                                <Steel>250</Steel>
+                                <Plasteel>30</Plasteel>
+                                <ComponentIndustrial>4</ComponentIndustrial>
+                            </costList>
                             <equippedAngleOffset>45</equippedAngleOffset>
                             <verbs>
                                 <li>
