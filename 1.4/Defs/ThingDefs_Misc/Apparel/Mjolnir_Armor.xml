@@ -38,7 +38,7 @@
         <equippedStatOffsets>
             <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-            <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+            <ToxicEnvironmentResistance>0.90</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <apparel>
             <immuneToToxGasExposure MayRequire="Ludeon.RimWorld.Biotech">true</immuneToToxGasExposure>
@@ -98,8 +98,7 @@
         </costList>
         <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-            <ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>           
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
