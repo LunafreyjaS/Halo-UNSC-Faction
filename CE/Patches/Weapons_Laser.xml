@@ -55,10 +55,7 @@
                                 <muzzleFlashScale>9</muzzleFlashScale>
                             </li>
                         </verbs>
-                        <comps>
-                            <li>
-                                <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-                            </li>
+                        <comps>                           
                             <li Class="CombatExtended.CompProperties_FireModes">
                                 <aiUseBurstMode>FALSE</aiUseBurstMode>
                                 <aiAimMode>AimedShot</aiAimMode>
