@@ -54,8 +54,7 @@
                 <xpath>Defs/ThingDef[defName="HALO_UNSC_ODSTHelmet"]/equippedStatOffsets</xpath>
                 <value>
                     <PsychicSensitivity>-0.2</PsychicSensitivity>
-                    <AimingAccuracy>0.15</AimingAccuracy>
-                    <ToxicSensitivity>-0.50</ToxicSensitivity>
+                    <AimingAccuracy>0.15</AimingAccuracy>                   
                     <SmokeSensitivity>-1</SmokeSensitivity>
                 </value>
             </li>
@@ -162,8 +161,7 @@
                 <value>
                     <CarryWeight>90</CarryWeight>
                     <CarryBulk>20</CarryBulk>
-                    <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
-                    <ToxicSensitivity>-0.50</ToxicSensitivity>
+                    <ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>                    
                     <MeleeDodgeChance>-0.05</MeleeDodgeChance>
                 </value>
             </li>
