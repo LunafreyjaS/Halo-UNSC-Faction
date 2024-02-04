@@ -68,7 +68,7 @@
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="HALO_UNSC_Proj_M9Frag"]</xpath>
                     <value>
-                        <comps />
+                        <comps/>
                     </value>
                 </nomatch>
             </li>
@@ -116,7 +116,7 @@
                 <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="HALO_UNSC_M9Frag"]</xpath>
                     <value>
-                        <comps />
+                        <comps/>
                     </value>
                 </nomatch>
             </li>
@@ -178,4 +178,3 @@
         </operations>
     </Operation>
 </Patch>
-

@@ -139,7 +139,7 @@
       </li>
 
       <!-- Buying -->
-      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyExpensiveSimple"/>
       <li Class="StockGenerator_BuyTradeTag">
         <tag>Art</tag>
       </li>
