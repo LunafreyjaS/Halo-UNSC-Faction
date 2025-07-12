@@ -39,6 +39,7 @@
             <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
             <ToxicEnvironmentResistance>0.90</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
         </equippedStatOffsets>
         <apparel>
             <immuneToToxGasExposure MayRequire="Ludeon.RimWorld.Biotech">true</immuneToToxGasExposure>
@@ -98,7 +99,8 @@
         </costList>
         <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>           
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+			<VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>			
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -125,8 +127,8 @@
         <tickerType>Normal</tickerType>
         <comps>
             <li Class="CompProperties_Biocodable"/>
-            <li Class="VFECore.CompProperties_ShieldBubble">
-                <compClass>VFECore.CompShieldBubble</compClass>
+            <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+                <compClass>VEF.Apparels.CompShieldBubble</compClass>
                 <blockRangedAttack>true</blockRangedAttack>
                 <blockMeleeAttack>false</blockMeleeAttack>
                 <showWhenDrafted>true</showWhenDrafted>

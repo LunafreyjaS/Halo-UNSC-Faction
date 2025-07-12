@@ -42,6 +42,7 @@
         <equippedStatOffsets>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
             <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
         </equippedStatOffsets>
         <apparel>
             <immuneToToxGasExposure MayRequire="Ludeon.RimWorld.Biotech">true</immuneToToxGasExposure>
@@ -102,6 +103,7 @@
         <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
             <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+			<VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>

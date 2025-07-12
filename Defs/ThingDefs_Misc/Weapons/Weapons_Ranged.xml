@@ -84,7 +84,7 @@
       <li>HALO_UNSC_Pistol</li>
     </weaponTags>
     <modExtensions>
-      <li Class="VFECore.ThingDefExtension">
+      <li Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -174,7 +174,7 @@
       <li>HALO_UNSC_Pistol</li>
     </weaponTags>
     <modExtensions>
-      <li Class="VFECore.ThingDefExtension">
+      <li Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -264,7 +264,7 @@
       <li>HALO_UNSC_SMG</li>
     </weaponTags>
     <modExtensions>
-      <li Class="VFECore.ThingDefExtension">
+      <li Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -338,7 +338,7 @@
       <li>HALO_UNSC_SMG</li>
     </weaponTags>
     <modExtensions>
-      <li Class="VFECore.ThingDefExtension">
+      <li Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -1215,7 +1215,7 @@
       <li>HALO_UNSC_GL</li>
     </weaponTags>
     <modExtensions>
-      <li Class="VFECore.ThingDefExtension">
+      <li Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
