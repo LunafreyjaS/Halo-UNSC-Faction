@@ -12,7 +12,7 @@
                     <xpath>/Defs</xpath>
                     <value>
                         <ThingDef Abstract="True" Name="HALO_UNSC_Bullet_LaserGeneric" ParentName="BaseBullet">
-                            <thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+                            <thingClass>VEF.Weapons.LaserBeam</thingClass>
                             <drawOffscreen>true</drawOffscreen>
                             <beamGraphic>VWELBeamGraphic</beamGraphic>
 
@@ -40,7 +40,7 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs</xpath>
                     <value>
-                        <ThingDef ParentName="HALO_UNSC_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+                        <ThingDef ParentName="HALO_UNSC_Bullet_LaserGeneric" Class="VEF.Weapons.LaserBeamDef">
                             <defName>HALO_UNSC_Bullet_SpartanLaser</defName>
                             <label>Spartan Laser shot</label>
                             <description>Spartan Laser shot</description>
@@ -66,7 +66,7 @@
                     <value>
                         <ThingDef ParentName="BaseLaserGun">
                             <defName>HALO_UNSC_SpartanLaser</defName>
-                            <thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+                            <thingClass>VEF.Weapons.LaserGun</thingClass>
                             <label>Spartan Laser</label>
                             <description>The Weapon/Anti-Vehicle Model 6 Grindell/Galilean Nonlinear Rifle (W/AV M6 G/GNR), colloquially known as the Spartan Laser, is a man-portable and vehicle-mounted solid-state directed-energy anti-vehicle weapon used by the United Nations Space Command. It is one of the few directed energy weapons fielded by UNSC forces, aside from the pulse lasers used by Office of Naval Intelligence prowlers and the X23 NNEMP Cannon used by Gremlin Combat Support Vehicles.</description>
                             <graphicData>

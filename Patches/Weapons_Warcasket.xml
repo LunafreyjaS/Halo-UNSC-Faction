@@ -73,7 +73,7 @@
                                 </li>
                             </tools>
                             <modExtensions>
-                                <li Class="VFECore.FloorGraphicExtension">
+                                <li Class="VEF.Graphics.FloorGraphicExtension">
                                     <graphicData>
                                         <graphicClass>Graphic_Single</graphicClass>
                                         <texPath>Things/Weapons/Warcasket/HALO_UNSC_M247H_Warcasket_OnFloor</texPath>
