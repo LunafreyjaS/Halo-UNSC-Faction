@@ -49,8 +49,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>95.37</MarketValue>
-			<Mass>5.5</Mass>
-			<Bulk>9.45</Bulk>
+			<Mass>3.5</Mass>
+			<Bulk>4</Bulk>
 		</statBases>
 		<ammoClass>RocketHEAT</ammoClass>
 		<generateAllowChance>0.2</generateAllowChance>
@@ -66,8 +66,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>104.37</MarketValue>
-			<Mass>5.5</Mass>
-			<Bulk>9.45</Bulk>
+			<Mass>3.5</Mass>
+			<Bulk>4</Bulk>
 		</statBases>
 		<ammoClass>GrenadeHE</ammoClass>
 		<generateAllowChance>0.2</generateAllowChance>

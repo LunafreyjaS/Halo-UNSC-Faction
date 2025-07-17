@@ -8,7 +8,7 @@
                 <value>
                     <ThingDef ParentName="BaseEquipment">
                         <defName>HALO_UNSC_SpartanLaser</defName>
-                        <thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+                        <thingClass>VEF.Weapons.LaserGun</thingClass>
                         <label>Spartan Laser</label>
                         <description>The Weapon/Anti-Vehicle Model 6 Grindell/Galilean Nonlinear Rifle (W/AV M6 G/GNR), colloquially known as the Spartan Laser, is a man-portable and vehicle-mounted solid-state directed-energy anti-vehicle weapon used by the United Nations Space Command. It is one of the few directed energy weapons fielded by UNSC forces, aside from the pulse lasers used by Office of Naval Intelligence prowlers and the X23 NNEMP Cannon used by Gremlin Combat Support Vehicles.</description>
                         <graphicData>
@@ -101,12 +101,11 @@
                         <seam>2</seam>
                         <modExtensions>
                             <li Class="ProjectileImpactFX.EffectProjectileExtension">
-                                <explosionMote>true</explosionMote>
-                                <explosionMoteSize>1</explosionMoteSize>
-                                <ImpactMoteDef>Mote_SparkFlash</ImpactMoteDef>
-                                <ImpactMoteSize>1</ImpactMoteSize>
-                                <ImpactGlowMoteDef>Mote_ExplosionFlash</ImpactGlowMoteDef>
-                                <ImpactGlowMoteSize>2.5</ImpactGlowMoteSize>
+                                <explosionFleckSize>1</explosionFleckSize>
+                                <ImpactFleckDef>SparkFlash</ImpactFleckDef>
+                                <ImpactFleckSize>1</ImpactFleckSize>
+                                <ImpactGlowFleckDef>ExplosionFlash</ImpactGlowFleckDef>
+                                <ImpactGlowFleckSize>2.5</ImpactGlowFleckSize>
                             </li>
                         </modExtensions>
                     </ThingDef>
