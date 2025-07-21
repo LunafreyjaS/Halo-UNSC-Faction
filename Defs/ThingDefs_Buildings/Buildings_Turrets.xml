@@ -68,7 +68,7 @@
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>
         <passability>PassThroughOnly</passability>
         <pathCost>50</pathCost>
-        <fillPercent>0.4</fillPercent>
+        <fillPercent>0.85</fillPercent>
         <hasTooltip>true</hasTooltip>
         <costList>
             <Steel>100</Steel>
@@ -208,7 +208,7 @@
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>
         <passability>PassThroughOnly</passability>
         <pathCost>50</pathCost>
-        <fillPercent>0.4</fillPercent>
+        <fillPercent>0.85</fillPercent>
         <hasTooltip>true</hasTooltip>
         <costList>
             <Steel>150</Steel>
